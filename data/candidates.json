@@ -1,0 +1,51 @@
+[
+  {
+    "id": "216",
+    "title": "Gen3R: 3D Scene Generation Meets Feed-Forward Reconstruction",
+    "suggested_task": "Synthesis（暂定）",
+    "paper_url": "https://arxiv.org/abs/2601.04090",
+    "status": "Boundary candidate; excluded from task counts"
+  },
+  {
+    "id": "217",
+    "title": "SceneFrom3D: Geometry-Conditioned Outdoor 3D Scene Generation via View Scheduling with Object-Level Control",
+    "suggested_task": "Synthesis / Transformation（待判）",
+    "paper_url": "https://arxiv.org/abs/2607.04540",
+    "status": "Boundary candidate; excluded from task counts"
+  },
+  {
+    "id": "218",
+    "title": "InfiniVerse: Occupancy Guided Unbounded Scene Generation for Autonomous Driving",
+    "suggested_task": "Synthesis（局部/部分状态）",
+    "paper_url": "https://arxiv.org/abs/2606.31109",
+    "status": "Boundary candidate; excluded from task counts"
+  },
+  {
+    "id": "219",
+    "title": "ReconDreamer-RL: Enhancing Reinforcement Learning via Diffusion-based Scene Reconstruction",
+    "suggested_task": "Reconstruction / Bridge（暂定）",
+    "paper_url": "https://arxiv.org/abs/2508.08170",
+    "status": "Boundary candidate; excluded from task counts"
+  },
+  {
+    "id": "220",
+    "title": "SceneDirector: Bridging Explicit Geometry and Generative Priors for Unified Driving Scene Editing",
+    "suggested_task": "Transformation（题录线索）",
+    "paper_url": "https://openreview.net/forum?id=0dNGyQnDo2",
+    "status": "Boundary candidate; excluded from task counts"
+  },
+  {
+    "id": "221",
+    "title": "SceneGen: Single-Image 3D Scene Generation in One Feedforward Pass",
+    "suggested_task": "Reconstruction / Synthesis（待判）",
+    "paper_url": "https://arxiv.org/abs/2508.15769",
+    "status": "Boundary candidate; excluded from task counts"
+  },
+  {
+    "id": "222",
+    "title": "SceneLM: 3D-Aware Language Models for Editable 3D Scene Synthesis",
+    "suggested_task": "Reconstruction（建议；待全文编码）",
+    "paper_url": "https://aclanthology.org/2026.findings-acl.2116/",
+    "status": "Boundary candidate; excluded from task counts"
+  }
+]

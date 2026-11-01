@@ -1,0 +1,3532 @@
+[
+  {
+    "id": "001",
+    "title": "AirNavigation: Let UAV Navigation Tell Its Own Story",
+    "task": "Synthesis",
+    "subsection": "1.1",
+    "subsection_title": "Procedural Landscapes, Maps, and Simulation Platforms",
+    "year": 2026,
+    "publication": "AAAI Demo 2026",
+    "publication_status_from_source": "正式发表（AAAI 2026）",
+    "paper_url": "https://ojs.aaai.org/index.php/AAAI/article/view/42356",
+    "resources": {
+      "code": "https://github.com/1e12Leon/AirNavigation"
+    },
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "001"
+    }
+  },
+  {
+    "id": "002",
+    "title": "AirSim Drone Racing Lab",
+    "task": "Synthesis",
+    "subsection": "1.1",
+    "subsection_title": "Procedural Landscapes, Maps, and Simulation Platforms",
+    "year": 2020,
+    "publication": "PMLR 2020",
+    "publication_status_from_source": "正式发表（PMLR 2020）",
+    "paper_url": "https://proceedings.mlr.press/v123/madaan20a.html",
+    "resources": {
+      "code": "https://github.com/microsoft/AirSim-NeurIPS2019-Drone-Racing"
+    },
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "002"
+    }
+  },
+  {
+    "id": "003",
+    "title": "FlightForge: Advancing UAV Research Through Procedural Generation with High-Fidelity Simulation and Integrated Autonomy",
+    "task": "Synthesis",
+    "subsection": "1.1",
+    "subsection_title": "Procedural Landscapes, Maps, and Simulation Platforms",
+    "year": 2025,
+    "publication": "ICRA 2025",
+    "publication_status_from_source": "正式发表（ICRA 2025）",
+    "paper_url": "https://arxiv.org/abs/2502.05038",
+    "resources": {},
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "003"
+    }
+  },
+  {
+    "id": "004",
+    "title": "InfiniteWorld: A Unified Scalable Simulation Framework for General Visual-Language Robot Interaction",
+    "task": "Synthesis",
+    "subsection": "1.6",
+    "subsection_title": "Related Indoor and Manipulation Scene Synthesis",
+    "year": 2024,
+    "publication": "arXiv 2024",
+    "publication_status_from_source": "预印本（2024）",
+    "paper_url": "https://arxiv.org/abs/2412.05789",
+    "resources": {
+      "code": "https://github.com/pzhren/InfiniteWorld"
+    },
+    "tags": [
+      "Related indoor"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "004"
+    }
+  },
+  {
+    "id": "005",
+    "title": "LUMINOUS: Indoor Scene Generation for Embodied AI Challenges",
+    "task": "Synthesis",
+    "subsection": "1.6",
+    "subsection_title": "Related Indoor and Manipulation Scene Synthesis",
+    "year": 2021,
+    "publication": "NeurIPS Workshop 2021",
+    "publication_status_from_source": "正式发表（NeurIPS 2021 workshop）",
+    "paper_url": "https://arxiv.org/abs/2111.05527",
+    "resources": {},
+    "tags": [
+      "Related indoor"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "005"
+    }
+  },
+  {
+    "id": "006",
+    "title": "LandCraft: Designing the Structured 3D Landscapes via Text Guidance",
+    "task": "Synthesis",
+    "subsection": "1.1",
+    "subsection_title": "Procedural Landscapes, Maps, and Simulation Platforms",
+    "year": 2026,
+    "publication": "AAAI 2026",
+    "publication_status_from_source": "正式发表（AAAI 2026）",
+    "paper_url": "https://ojs.aaai.org/index.php/AAAI/article/view/37686",
+    "resources": {},
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "006"
+    }
+  },
+  {
+    "id": "007",
+    "title": "MarketGen: A Scalable Simulation Platform with Auto-Generated Embodied Supermarket Environments",
+    "task": "Synthesis",
+    "subsection": "1.6",
+    "subsection_title": "Related Indoor and Manipulation Scene Synthesis",
+    "year": 2025,
+    "publication": "arXiv 2025",
+    "publication_status_from_source": "预印本（2025）",
+    "paper_url": "https://arxiv.org/abs/2511.21161",
+    "resources": {
+      "project": "https://xuhu0529.github.io/MarketGen"
+    },
+    "tags": [
+      "Related indoor"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "007"
+    }
+  },
+  {
+    "id": "008",
+    "title": "MetaUrban: An Embodied AI Simulation Platform for Urban Micromobility",
+    "task": "Synthesis",
+    "subsection": "1.1",
+    "subsection_title": "Procedural Landscapes, Maps, and Simulation Platforms",
+    "year": 2024,
+    "publication": "Technical report 2024",
+    "publication_status_from_source": "技术报告（2024）",
+    "paper_url": "https://arxiv.org/abs/2407.08725",
+    "resources": {
+      "project": "https://metadriverse.github.io/metaurban"
+    },
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "008"
+    }
+  },
+  {
+    "id": "009",
+    "title": "MolmoSpaces: A Large-Scale Open Ecosystem for Robot Navigation and Manipulation",
+    "task": "Synthesis",
+    "subsection": "1.6",
+    "subsection_title": "Related Indoor and Manipulation Scene Synthesis",
+    "year": 2026,
+    "publication": "arXiv 2026",
+    "publication_status_from_source": "预印本（2026）",
+    "paper_url": "https://arxiv.org/abs/2602.11337",
+    "resources": {
+      "code": "https://github.com/allenai/molmospaces"
+    },
+    "tags": [
+      "Related indoor"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "009"
+    }
+  },
+  {
+    "id": "010",
+    "title": "ProcTHOR: Large-Scale Embodied AI Using Procedural Generation",
+    "task": "Synthesis",
+    "subsection": "1.6",
+    "subsection_title": "Related Indoor and Manipulation Scene Synthesis",
+    "year": 2022,
+    "publication": "NeurIPS 2022",
+    "publication_status_from_source": "正式发表（NeurIPS 2022）",
+    "paper_url": "https://arxiv.org/abs/2206.06994",
+    "resources": {},
+    "tags": [
+      "Related indoor"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "010"
+    }
+  },
+  {
+    "id": "011",
+    "title": "Procedural Generation and Rendering of Realistic, Navigable Forest Environments: An Open-Source Tool",
+    "task": "Synthesis",
+    "subsection": "1.1",
+    "subsection_title": "Procedural Landscapes, Maps, and Simulation Platforms",
+    "year": 2022,
+    "publication": "arXiv 2022",
+    "publication_status_from_source": "预印本（2022）",
+    "paper_url": "https://arxiv.org/abs/2208.01471",
+    "resources": {
+      "code": "https://github.com/callumnewlands/ForestGenerator"
+    },
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "011"
+    }
+  },
+  {
+    "id": "012",
+    "title": "Procedural Modeling of Cities",
+    "task": "Synthesis",
+    "subsection": "1.1",
+    "subsection_title": "Procedural Landscapes, Maps, and Simulation Platforms",
+    "year": 2001,
+    "publication": "SIGGRAPH 2001",
+    "publication_status_from_source": "正式发表（SIGGRAPH 2001）",
+    "paper_url": "https://doi.org/10.1145/383259.383292",
+    "resources": {},
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "012"
+    }
+  },
+  {
+    "id": "013",
+    "title": "Realistic Modeling and Rendering of Plant Ecosystems",
+    "task": "Synthesis",
+    "subsection": "1.1",
+    "subsection_title": "Procedural Landscapes, Maps, and Simulation Platforms",
+    "year": 1998,
+    "publication": "SIGGRAPH 1998",
+    "publication_status_from_source": "正式发表（SIGGRAPH 1998）",
+    "paper_url": "https://doi.org/10.1145/280814.280898",
+    "resources": {},
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "013"
+    }
+  },
+  {
+    "id": "014",
+    "title": "Terrain Generation Using Procedural Models Based on Hydrology",
+    "task": "Synthesis",
+    "subsection": "1.1",
+    "subsection_title": "Procedural Landscapes, Maps, and Simulation Platforms",
+    "year": 2013,
+    "publication": "ACM TOG 2013",
+    "publication_status_from_source": "正式发表（ACM TOG 2013）",
+    "paper_url": "https://doi.org/10.1145/2461912.2461996",
+    "resources": {},
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "014"
+    }
+  },
+  {
+    "id": "015",
+    "title": "Towards Autonomous Micromobility through Scalable Urban Simulation",
+    "task": "Synthesis",
+    "subsection": "1.1",
+    "subsection_title": "Procedural Landscapes, Maps, and Simulation Platforms",
+    "year": 2025,
+    "publication": "arXiv 2025",
+    "publication_status_from_source": "预印本（2025）",
+    "paper_url": "https://arxiv.org/abs/2505.00690",
+    "resources": {
+      "project": "https://metadriverse.github.io/urban-sim/"
+    },
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "015"
+    }
+  },
+  {
+    "id": "016",
+    "title": "3D-GPT: Procedural 3D Modeling with Large Language Models",
+    "task": "Synthesis",
+    "subsection": "1.2",
+    "subsection_title": "Language-Driven and Agentic World Construction",
+    "year": 2023,
+    "publication": "arXiv 2023",
+    "publication_status_from_source": "预印本（2023）",
+    "paper_url": "https://arxiv.org/abs/2310.12945",
+    "resources": {
+      "project": "https://chuny1.github.io/3DGPT/3dgpt.html"
+    },
+    "tags": [
+      "Indoor / outdoor"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "016"
+    }
+  },
+  {
+    "id": "017",
+    "title": "3D-GENERALIST: Vision-Language-Action Models for Crafting 3D Worlds",
+    "task": "Synthesis",
+    "subsection": "1.2",
+    "subsection_title": "Language-Driven and Agentic World Construction",
+    "year": 2025,
+    "publication": "arXiv 2025",
+    "publication_status_from_source": "预印本（2025）",
+    "paper_url": "https://arxiv.org/abs/2507.06484",
+    "resources": {},
+    "tags": [
+      "Indoor / outdoor"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "017"
+    }
+  },
+  {
+    "id": "018",
+    "title": "ArtiScene: Language-Driven Artistic 3D Scene Generation Through Image Intermediary",
+    "task": "Synthesis",
+    "subsection": "1.6",
+    "subsection_title": "Related Indoor and Manipulation Scene Synthesis",
+    "year": 2025,
+    "publication": "CVPR 2025",
+    "publication_status_from_source": "正式发表（CVPR 2025）",
+    "paper_url": "https://arxiv.org/abs/2506.00742",
+    "resources": {
+      "project": "https://research.nvidia.com/labs/dir/artiscene/"
+    },
+    "tags": [
+      "Related indoor"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "018"
+    }
+  },
+  {
+    "id": "019",
+    "title": "AutoUE: Automated Generation of 3D Games in Unreal Engine via Multi-Agent Systems",
+    "task": "Synthesis",
+    "subsection": "1.2",
+    "subsection_title": "Language-Driven and Agentic World Construction",
+    "year": 2026,
+    "publication": "Findings of ACL 2026",
+    "publication_status_from_source": "正式发表（Findings of ACL 2026，2026-07，pp.2341–2364；DOI:10.18653/v1/2026.findings-acl.111）",
+    "paper_url": "https://aclanthology.org/2026.findings-acl.111/",
+    "resources": {},
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总_增补2025-2026遗漏文献_20261011.md",
+      "record_id": "019"
+    }
+  },
+  {
+    "id": "020",
+    "title": "CityX: Controllable Procedural Content Generation for Unbounded 3D Cities",
+    "task": "Synthesis",
+    "subsection": "1.2",
+    "subsection_title": "Language-Driven and Agentic World Construction",
+    "year": 2024,
+    "publication": "arXiv 2024",
+    "publication_status_from_source": "预印本（2024）",
+    "paper_url": "https://arxiv.org/abs/2407.17572",
+    "resources": {},
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "020"
+    }
+  },
+  {
+    "id": "021",
+    "title": "HOLODECK 2.0: Vision-Language-Guided 3D World Generation with Editing",
+    "task": "Synthesis",
+    "subsection": "1.2",
+    "subsection_title": "Language-Driven and Agentic World Construction",
+    "year": 2025,
+    "publication": "arXiv 2025",
+    "publication_status_from_source": "预印本（2025）",
+    "paper_url": "https://arxiv.org/abs/2508.05899",
+    "resources": {},
+    "tags": [
+      "Indoor / outdoor"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "021"
+    }
+  },
+  {
+    "id": "022",
+    "title": "HOLODECK: Language Guided Generation of 3D Embodied AI Environments",
+    "task": "Synthesis",
+    "subsection": "1.6",
+    "subsection_title": "Related Indoor and Manipulation Scene Synthesis",
+    "year": 2024,
+    "publication": "CVPR 2024",
+    "publication_status_from_source": "正式发表（CVPR 2024）",
+    "paper_url": "https://arxiv.org/abs/2312.09067",
+    "resources": {},
+    "tags": [
+      "Related indoor"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "022"
+    }
+  },
+  {
+    "id": "023",
+    "title": "I-Design: Personalized LLM Interior Designer",
+    "task": "Synthesis",
+    "subsection": "1.6",
+    "subsection_title": "Related Indoor and Manipulation Scene Synthesis",
+    "year": 2024,
+    "publication": "arXiv 2024",
+    "publication_status_from_source": "预印本（2024）",
+    "paper_url": "https://arxiv.org/abs/2404.02838",
+    "resources": {
+      "project": "https://atcelen.github.io/I-Design/"
+    },
+    "tags": [
+      "Related indoor"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "023"
+    }
+  },
+  {
+    "id": "024",
+    "title": "Imagine a City: CityGenAgent for Procedural 3D City Generation",
+    "task": "Synthesis",
+    "subsection": "1.2",
+    "subsection_title": "Language-Driven and Agentic World Construction",
+    "year": 2026,
+    "publication": "arXiv 2026",
+    "publication_status_from_source": "预印本（2026）",
+    "paper_url": "https://arxiv.org/abs/2602.05362",
+    "resources": {},
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "024"
+    }
+  },
+  {
+    "id": "025",
+    "title": "MAGIC: Transition-Aware Generation of Navigable Multi-Scene Game Worlds with Large Language Models",
+    "task": "Synthesis",
+    "subsection": "1.2",
+    "subsection_title": "Language-Driven and Agentic World Construction",
+    "year": 2026,
+    "publication": "arXiv 2026",
+    "publication_status_from_source": "预印本（2026）",
+    "paper_url": "https://arxiv.org/abs/2607.11594",
+    "resources": {
+      "code": "https://github.com/sereneee1201/MAGIC/"
+    },
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "025"
+    }
+  },
+  {
+    "id": "026",
+    "title": "MANSION: Multi-floor lANguage-to-3D Scene generatIOn for loNg-horizon Tasks",
+    "task": "Synthesis",
+    "subsection": "1.6",
+    "subsection_title": "Related Indoor and Manipulation Scene Synthesis",
+    "year": 2026,
+    "publication": "arXiv 2026",
+    "publication_status_from_source": "预印本（2026）",
+    "paper_url": "https://arxiv.org/abs/2603.11554",
+    "resources": {},
+    "tags": [
+      "Related indoor"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "026"
+    }
+  },
+  {
+    "id": "027",
+    "title": "MajutsuCity: Language-Driven Aesthetic-Adaptive City Generation with Controllable 3D Assets and Layouts",
+    "task": "Synthesis",
+    "subsection": "1.2",
+    "subsection_title": "Language-Driven and Agentic World Construction",
+    "year": 2025,
+    "publication": "arXiv 2025",
+    "publication_status_from_source": "预印本（2025）",
+    "paper_url": "https://arxiv.org/abs/2511.20415",
+    "resources": {
+      "project": "https://longhz140516.github.io/MajutsuCity/"
+    },
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "027"
+    }
+  },
+  {
+    "id": "028",
+    "title": "SceneCode: Executable World Programs for Editable Indoor Scenes with Articulated Objects",
+    "task": "Synthesis",
+    "subsection": "1.6",
+    "subsection_title": "Related Indoor and Manipulation Scene Synthesis",
+    "year": 2026,
+    "publication": "arXiv 2026",
+    "publication_status_from_source": "预印本（2026）",
+    "paper_url": "https://arxiv.org/abs/2605.19587",
+    "resources": {
+      "project": "https://scene-code.github.io/"
+    },
+    "tags": [
+      "Related indoor"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "028"
+    }
+  },
+  {
+    "id": "029",
+    "title": "SceneCraft: An LLM Agent for Synthesizing 3D Scene as Blender Code",
+    "task": "Synthesis",
+    "subsection": "1.6",
+    "subsection_title": "Related Indoor and Manipulation Scene Synthesis",
+    "year": 2024,
+    "publication": "arXiv 2024",
+    "publication_status_from_source": "预印本（2024）",
+    "paper_url": "https://arxiv.org/abs/2403.01248",
+    "resources": {},
+    "tags": [
+      "Related indoor"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "029"
+    }
+  },
+  {
+    "id": "030",
+    "title": "SceneSmith: Agentic Generation of Simulation-Ready Indoor Scenes",
+    "task": "Synthesis",
+    "subsection": "1.6",
+    "subsection_title": "Related Indoor and Manipulation Scene Synthesis",
+    "year": 2026,
+    "publication": "ICML 2026",
+    "publication_status_from_source": "正式发表（ICML 2026）",
+    "paper_url": "https://arxiv.org/abs/2602.09153",
+    "resources": {
+      "project": "https://scenesmith.github.io/"
+    },
+    "tags": [
+      "Related indoor"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "030"
+    }
+  },
+  {
+    "id": "031",
+    "title": "SceneX: Procedural Controllable Large-Scale Scene Generation",
+    "task": "Synthesis",
+    "subsection": "1.2",
+    "subsection_title": "Language-Driven and Agentic World Construction",
+    "year": 2025,
+    "publication": "AAAI 2025",
+    "publication_status_from_source": "正式发表（AAAI 2025）",
+    "paper_url": "https://arxiv.org/abs/2403.15698",
+    "resources": {
+      "project": "https://zhouzq1.github.io/SceneX/"
+    },
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "031"
+    }
+  },
+  {
+    "id": "032",
+    "title": "Scenethesis: Combining Language and Visual Priors for 3D Scene Generation",
+    "task": "Synthesis",
+    "subsection": "1.2",
+    "subsection_title": "Language-Driven and Agentic World Construction",
+    "year": 2026,
+    "publication": "ICLR 2026",
+    "publication_status_from_source": "正式发表（ICLR 2026；作者项目页题录已核）；旧题名/2025预印本保留于本轮修订记录",
+    "paper_url": "https://openreview.net/forum?id=SzhezVoaNB",
+    "resources": {
+      "project": "https://research.nvidia.com/labs/dir/scenethesis/"
+    },
+    "tags": [
+      "Indoor / outdoor"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总_增补2025-2026遗漏文献_20261011.md",
+      "record_id": "032"
+    }
+  },
+  {
+    "id": "033",
+    "title": "WorldCraft: Photo-Realistic 3D World Creation and Customization via LLM Agents",
+    "task": "Synthesis",
+    "subsection": "1.2",
+    "subsection_title": "Language-Driven and Agentic World Construction",
+    "year": 2025,
+    "publication": "arXiv 2025",
+    "publication_status_from_source": "预印本（2025）",
+    "paper_url": "https://arxiv.org/abs/2502.15601",
+    "resources": {},
+    "tags": [
+      "Indoor / outdoor"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "033"
+    }
+  },
+  {
+    "id": "034",
+    "title": "Yo’City: Personalized and Boundless 3D Realistic City Scene Generation via Self-Critic Expansion",
+    "task": "Synthesis",
+    "subsection": "1.2",
+    "subsection_title": "Language-Driven and Agentic World Construction",
+    "year": 2025,
+    "publication": "arXiv 2025",
+    "publication_status_from_source": "预印本（2025）",
+    "paper_url": "https://arxiv.org/abs/2511.18734",
+    "resources": {},
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "034"
+    }
+  },
+  {
+    "id": "035",
+    "title": "EmbodiedScene: Towards Automated Generation of Diverse and Realistic Scenes for Embodied AI",
+    "task": "Synthesis",
+    "subsection": "1.6",
+    "subsection_title": "Related Indoor and Manipulation Scene Synthesis",
+    "year": 2025,
+    "publication": "Manuscript 2025",
+    "publication_status_from_source": "在审（ICML 2025）",
+    "paper_url": null,
+    "resources": {
+      "project": "https://embodiedscene1.github.io/embodied.scene/"
+    },
+    "tags": [
+      "Related indoor"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "035"
+    }
+  },
+  {
+    "id": "036",
+    "title": "AeroScene: Progressive Scene Synthesis for Aerial Robotics",
+    "task": "Synthesis",
+    "subsection": "1.3",
+    "subsection_title": "Learned Outdoor and Driving World Generation",
+    "year": 2026,
+    "publication": "arXiv 2026",
+    "publication_status_from_source": "预印本（2026）",
+    "paper_url": "https://arxiv.org/abs/2603.23224",
+    "resources": {},
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "036"
+    }
+  },
+  {
+    "id": "037",
+    "title": "ARCHITECT: Generating Vivid and Interactive 3D Scenes with Hierarchical 2D Inpainting",
+    "task": "Transformation",
+    "subsection": "3.1",
+    "subsection_title": "Scene Completion, Inpainting, and Geometric Refinement",
+    "year": 2024,
+    "publication": "NeurIPS 2024",
+    "publication_status_from_source": "正式发表（NeurIPS 2024）",
+    "paper_url": "https://arxiv.org/abs/2411.09823",
+    "resources": {
+      "project": "https://wangyian-me.github.io/Architect/"
+    },
+    "tags": [
+      "Related indoor"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "037"
+    }
+  },
+  {
+    "id": "038",
+    "title": "Generative Gaussian Splatting for Unbounded 3D City Generation",
+    "task": "Synthesis",
+    "subsection": "1.3",
+    "subsection_title": "Learned Outdoor and Driving World Generation",
+    "year": 2025,
+    "publication": "CVPR 2025",
+    "publication_status_from_source": "正式发表（CVPR 2025）",
+    "paper_url": "https://arxiv.org/abs/2406.06526",
+    "resources": {
+      "project": "https://haozhexie.com/project/gaussian-city"
+    },
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "038"
+    }
+  },
+  {
+    "id": "039",
+    "title": "HiScene: Creating Hierarchical 3D Scenes with Isometric View Generation",
+    "task": "Synthesis",
+    "subsection": "1.3",
+    "subsection_title": "Learned Outdoor and Driving World Generation",
+    "year": 2025,
+    "publication": "arXiv 2025",
+    "publication_status_from_source": "预印本（2025）",
+    "paper_url": "https://arxiv.org/abs/2504.13072",
+    "resources": {
+      "project": "https://zju3dv.github.io/hiscene/"
+    },
+    "tags": [
+      "Related indoor"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "039"
+    }
+  },
+  {
+    "id": "040",
+    "title": "HunyuanWorld 1.0: Generating Immersive, Explorable, and Interactive 3D Worlds from Words or Pixels",
+    "task": "Synthesis",
+    "subsection": "1.3",
+    "subsection_title": "Learned Outdoor and Driving World Generation",
+    "year": 2025,
+    "publication": "arXiv 2025",
+    "publication_status_from_source": "预印本（2025）",
+    "paper_url": "https://arxiv.org/abs/2507.21809",
+    "resources": {
+      "code": "https://github.com/Tencent-Hunyuan/HunyuanWorld-1.0"
+    },
+    "tags": [
+      "Indoor / outdoor"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "040"
+    }
+  },
+  {
+    "id": "041",
+    "title": "Large Scene Generation with Cube-Absorb Discrete Diffusion",
+    "task": "Synthesis",
+    "subsection": "1.3",
+    "subsection_title": "Learned Outdoor and Driving World Generation",
+    "year": 2025,
+    "publication": "ICCV 2025",
+    "publication_status_from_source": "正式发表（ICCV 2025）",
+    "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Hu_Large_Scene_Generation_with_Cube-Absorb_Discrete_Diffusion_ICCV_2025_paper.html",
+    "resources": {},
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "041"
+    }
+  },
+  {
+    "id": "042",
+    "title": "Meta-Sim2: Unsupervised Learning of Scene Structure for Synthetic Data Generation",
+    "task": "Synthesis",
+    "subsection": "1.4",
+    "subsection_title": "Traffic Scenarios, Synthetic Data, and Task Generation",
+    "year": 2020,
+    "publication": "ECCV 2020",
+    "publication_status_from_source": "正式发表（ECCV 2020）",
+    "paper_url": "https://arxiv.org/abs/2008.09092",
+    "resources": {
+      "project": "https://nv-tlabs.github.io/meta-sim-structure/"
+    },
+    "tags": [
+      "Scenario / data"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "042"
+    }
+  },
+  {
+    "id": "043",
+    "title": "Meta-Sim: Learning to Generate Synthetic Datasets",
+    "task": "Synthesis",
+    "subsection": "1.4",
+    "subsection_title": "Traffic Scenarios, Synthetic Data, and Task Generation",
+    "year": 2019,
+    "publication": "CVPR 2019",
+    "publication_status_from_source": "正式发表（CVPR 2019）",
+    "paper_url": "https://arxiv.org/abs/1904.11621",
+    "resources": {},
+    "tags": [
+      "Scenario / data"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "043"
+    }
+  },
+  {
+    "id": "044",
+    "title": "PHYSCENE: Physically Interactable 3D Scene Synthesis for Embodied AI",
+    "task": "Synthesis",
+    "subsection": "1.6",
+    "subsection_title": "Related Indoor and Manipulation Scene Synthesis",
+    "year": 2024,
+    "publication": "arXiv 2024",
+    "publication_status_from_source": "预印本（2024）",
+    "paper_url": "https://arxiv.org/abs/2404.09465",
+    "resources": {
+      "project": "https://physcene.github.io"
+    },
+    "tags": [
+      "Related indoor"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "044"
+    }
+  },
+  {
+    "id": "045",
+    "title": "SCENEFOUNDRY: Generating Interactive Infinite 3D Worlds",
+    "task": "Synthesis",
+    "subsection": "1.3",
+    "subsection_title": "Learned Outdoor and Driving World Generation",
+    "year": 2026,
+    "publication": "arXiv 2026",
+    "publication_status_from_source": "预印本（2026）",
+    "paper_url": "https://arxiv.org/abs/2601.05810",
+    "resources": {},
+    "tags": [
+      "Related indoor"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "045"
+    }
+  },
+  {
+    "id": "046",
+    "title": "Steerable Scene Generation with Post Training and Inference-Time Search",
+    "task": "Synthesis",
+    "subsection": "1.3",
+    "subsection_title": "Learned Outdoor and Driving World Generation",
+    "year": 2025,
+    "publication": "arXiv 2025",
+    "publication_status_from_source": "预印本（2025）",
+    "paper_url": "https://arxiv.org/abs/2505.04831",
+    "resources": {
+      "project": "https://steerable-scene-generation.github.io/"
+    },
+    "tags": [
+      "Related indoor"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "046"
+    }
+  },
+  {
+    "id": "047",
+    "title": "TabletopGen: Tabletop Scene Generation and Interactive Simulation for Robotic Manipulation",
+    "task": "Synthesis",
+    "subsection": "1.6",
+    "subsection_title": "Related Indoor and Manipulation Scene Synthesis",
+    "year": 2025,
+    "publication": "arXiv 2025",
+    "publication_status_from_source": "预印本（2025）",
+    "paper_url": "https://arxiv.org/abs/2512.01204",
+    "resources": {
+      "project": "https://d-robotics-ai-lab.github.io/TabletopGen.project/"
+    },
+    "tags": [
+      "Related indoor"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "047"
+    }
+  },
+  {
+    "id": "048",
+    "title": "WonderWorld: Interactive 3D Scene Generation from a Single Image",
+    "task": "Synthesis",
+    "subsection": "1.3",
+    "subsection_title": "Learned Outdoor and Driving World Generation",
+    "year": 2025,
+    "publication": "CVPR 2025",
+    "publication_status_from_source": "正式发表（CVPR 2025）",
+    "paper_url": "https://arxiv.org/abs/2406.09394",
+    "resources": {
+      "project": "https://kovenyu.com/WonderWorld/"
+    },
+    "tags": [
+      "Indoor / outdoor"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "048"
+    }
+  },
+  {
+    "id": "049",
+    "title": "WorldFlow3D: Flowing Through 3D Distributions for Unbounded World Generation",
+    "task": "Synthesis",
+    "subsection": "1.3",
+    "subsection_title": "Learned Outdoor and Driving World Generation",
+    "year": 2026,
+    "publication": "arXiv 2026",
+    "publication_status_from_source": "预印本（2026）",
+    "paper_url": "https://arxiv.org/abs/2603.29089",
+    "resources": {
+      "project": "https://light.princeton.edu/worldflow3d"
+    },
+    "tags": [
+      "Indoor / outdoor"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "049"
+    }
+  },
+  {
+    "id": "050",
+    "title": "WorldGen: From Text to Traversable and Interactive 3D Worlds",
+    "task": "Synthesis",
+    "subsection": "1.3",
+    "subsection_title": "Learned Outdoor and Driving World Generation",
+    "year": 2025,
+    "publication": "Technical report 2025",
+    "publication_status_from_source": "技术报告（2025）",
+    "paper_url": "https://arxiv.org/abs/2511.16825",
+    "resources": {},
+    "tags": [
+      "Indoor / outdoor"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "050"
+    }
+  },
+  {
+    "id": "051",
+    "title": "Cam2Sim: Neural Scenario Reconstruction for Closed-Loop Autonomous Driving Simulation",
+    "task": "Reconstruction",
+    "subsection": "2.1",
+    "subsection_title": "Driving Scene Reconstruction and Neural Simulation",
+    "year": 2026,
+    "publication": "ASE 2026",
+    "publication_status_from_source": "正式发表（ASE 2026）",
+    "paper_url": "https://arxiv.org/abs/2607.04770",
+    "resources": {},
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "051"
+    }
+  },
+  {
+    "id": "052",
+    "title": "DRIVEARENA: A Closed-Loop Generative Simulation Platform for Autonomous Driving",
+    "task": "Synthesis",
+    "subsection": "1.3",
+    "subsection_title": "Learned Outdoor and Driving World Generation",
+    "year": 2025,
+    "publication": "ICCV 2025",
+    "publication_status_from_source": "正式发表（ICCV 2025）",
+    "paper_url": "https://arxiv.org/abs/2408.00415",
+    "resources": {
+      "project": "https://pjlab-adg.github.io/DriveArena/"
+    },
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "052"
+    }
+  },
+  {
+    "id": "053",
+    "title": "DrivingSphere: Building a High-Fidelity 4D World for Closed-Loop Simulation",
+    "task": "Reconstruction",
+    "subsection": "2.1",
+    "subsection_title": "Driving Scene Reconstruction and Neural Simulation",
+    "year": 2025,
+    "publication": "CVPR 2025",
+    "publication_status_from_source": "正式发表（CVPR 2025）",
+    "paper_url": "https://arxiv.org/abs/2411.11252",
+    "resources": {},
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "053"
+    }
+  },
+  {
+    "id": "054",
+    "title": "EA3D: Online Open-World 3D Object Extraction from Streaming Videos",
+    "task": "Reconstruction",
+    "subsection": "2.4",
+    "subsection_title": "Related Indoor, Asset, and Navigability Reconstruction",
+    "year": 2025,
+    "publication": "NeurIPS 2025",
+    "publication_status_from_source": "正式发表（NeurIPS 2025）",
+    "paper_url": "https://arxiv.org/abs/2510.25146",
+    "resources": {
+      "code": "https://github.com/VDIGPKU/EA3D"
+    },
+    "tags": [
+      "Related indoor",
+      "Asset"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "054"
+    }
+  },
+  {
+    "id": "055",
+    "title": "EmbodiedGen: Towards a Generative 3D World Engine for Embodied Intelligence",
+    "task": "Synthesis",
+    "subsection": "1.3",
+    "subsection_title": "Learned Outdoor and Driving World Generation",
+    "year": 2025,
+    "publication": "arXiv 2025",
+    "publication_status_from_source": "预印本（2025）",
+    "paper_url": "https://arxiv.org/abs/2506.10600",
+    "resources": {},
+    "tags": [
+      "Related indoor",
+      "Asset"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "055"
+    }
+  },
+  {
+    "id": "056",
+    "title": "MetaScenes: Automated Replica Creation for Real-World 3D Scans",
+    "task": "Reconstruction",
+    "subsection": "2.4",
+    "subsection_title": "Related Indoor, Asset, and Navigability Reconstruction",
+    "year": 2025,
+    "publication": "arXiv 2025",
+    "publication_status_from_source": "预印本（2025）",
+    "paper_url": "https://arxiv.org/abs/2505.02388",
+    "resources": {
+      "project": "https://meta-scenes.github.io/"
+    },
+    "tags": [
+      "Related indoor"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "056"
+    }
+  },
+  {
+    "id": "057",
+    "title": "Open-Source vs. Commercial Photogrammetry: Comparing Accuracy and Efficiency of OpenDroneMap and Agisoft Metashape",
+    "task": "Reconstruction",
+    "subsection": "2.3",
+    "subsection_title": "Geospatial, Facility, and Environmental State Reconstruction",
+    "year": 2025,
+    "publication": "arXiv 2025",
+    "publication_status_from_source": "预印本（2025）",
+    "paper_url": "https://doi.org/10.5194/isprs-archives-XLVIII-1-W4-2025-65-2025",
+    "resources": {},
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "057"
+    }
+  },
+  {
+    "id": "058",
+    "title": "RoboTwin: Dual-Arm Robot Benchmark with Generative Digital Twins",
+    "task": "Reconstruction",
+    "subsection": "2.4",
+    "subsection_title": "Related Indoor, Asset, and Navigability Reconstruction",
+    "year": 2025,
+    "publication": "arXiv 2025",
+    "publication_status_from_source": "预印本（2025）",
+    "paper_url": "https://arxiv.org/abs/2504.13059",
+    "resources": {
+      "project": "https://robotwin-benchmark.github.io"
+    },
+    "tags": [
+      "Related indoor",
+      "Asset"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "058"
+    }
+  },
+  {
+    "id": "059",
+    "title": "Sat3DGen: Comprehensive Street-Level 3D Scene Generation from Single Satellite Image",
+    "task": "Reconstruction",
+    "subsection": "2.3",
+    "subsection_title": "Geospatial, Facility, and Environmental State Reconstruction",
+    "year": 2026,
+    "publication": "ICLR 2026",
+    "publication_status_from_source": "正式发表（ICLR 2026）",
+    "paper_url": "https://arxiv.org/abs/2605.14984",
+    "resources": {
+      "code": "https://github.com/qianmingduowan/Sat3DGen"
+    },
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "059"
+    }
+  },
+  {
+    "id": "060",
+    "title": "SimFoundry: Modular and Automated Scene Generation for Policy Learning and Evaluation",
+    "task": "Reconstruction",
+    "subsection": "2.4",
+    "subsection_title": "Related Indoor, Asset, and Navigability Reconstruction",
+    "year": 2026,
+    "publication": "arXiv 2026",
+    "publication_status_from_source": "预印本（2026）",
+    "paper_url": "https://arxiv.org/abs/2606.28276",
+    "resources": {
+      "project": "https://research.nvidia.com/labs/gear/simfoundry/"
+    },
+    "tags": [
+      "Related indoor"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "060"
+    }
+  },
+  {
+    "id": "061",
+    "title": "Urban-GS: A Unified 3D Gaussian Splatting Framework for Compact and High-Fidelity Aerial-to-Street Reconstruction",
+    "task": "Reconstruction",
+    "subsection": "2.1",
+    "subsection_title": "Driving Scene Reconstruction and Neural Simulation",
+    "year": 2026,
+    "publication": "CVPR 2026",
+    "publication_status_from_source": "正式发表（CVPR 2026）",
+    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Wang_Urban-GS_A_Unified_3D_Gaussian_Splatting_Framework_for_Compact_and_CVPR_2026_paper.pdf",
+    "resources": {},
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "061"
+    }
+  },
+  {
+    "id": "063",
+    "title": "ChatSUMO: Large Language Model for Automating Traffic Scenario Generation in Simulation of Urban MObility",
+    "task": "Synthesis",
+    "subsection": "1.4",
+    "subsection_title": "Traffic Scenarios, Synthetic Data, and Task Generation",
+    "year": 2024,
+    "publication": "arXiv 2024",
+    "publication_status_from_source": "预印本（2024）",
+    "paper_url": "https://arxiv.org/abs/2409.09040",
+    "resources": {},
+    "tags": [
+      "Scenario / data"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "063"
+    }
+  },
+  {
+    "id": "064",
+    "title": "ChatScene: Knowledge-Enabled Safety-Critical Scenario Generation for Autonomous Vehicles",
+    "task": "Synthesis",
+    "subsection": "1.4",
+    "subsection_title": "Traffic Scenarios, Synthetic Data, and Task Generation",
+    "year": 2024,
+    "publication": "CVPR 2024",
+    "publication_status_from_source": "正式发表（CVPR 2024）",
+    "paper_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_ChatScene_Knowledge-Enabled_Safety-Critical_Scenario_Generation_for_Autonomous_Vehicles_CVPR_2024_paper.html",
+    "resources": {
+      "code": "https://github.com/javyduck/ChatScene"
+    },
+    "tags": [
+      "Scenario / data"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "064"
+    }
+  },
+  {
+    "id": "065",
+    "title": "DriveGen: Towards Infinite Diverse Traffic Scenarios with Large Models",
+    "task": "Synthesis",
+    "subsection": "1.4",
+    "subsection_title": "Traffic Scenarios, Synthetic Data, and Task Generation",
+    "year": 2025,
+    "publication": "arXiv 2025",
+    "publication_status_from_source": "预印本（2025）",
+    "paper_url": "https://arxiv.org/abs/2503.05808",
+    "resources": {},
+    "tags": [
+      "Scenario / data"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "065"
+    }
+  },
+  {
+    "id": "066",
+    "title": "DynScene: Scalable Generation of Dynamic Robotic Manipulation Scenes for Embodied AI",
+    "task": "Synthesis",
+    "subsection": "1.6",
+    "subsection_title": "Related Indoor and Manipulation Scene Synthesis",
+    "year": 2025,
+    "publication": "CVPR 2025",
+    "publication_status_from_source": "正式发表（CVPR 2025）",
+    "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Lee_DynScene_Scalable_Generation_of_Dynamic_Robotic_Manipulation_Scenes_for_Embodied_CVPR_2025_paper.html",
+    "resources": {},
+    "tags": [
+      "Related indoor"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "066"
+    }
+  },
+  {
+    "id": "067",
+    "title": "Environment Curriculum Generation via Large Language Models",
+    "task": "Synthesis",
+    "subsection": "1.4",
+    "subsection_title": "Traffic Scenarios, Synthetic Data, and Task Generation",
+    "year": 2024,
+    "publication": "arXiv 2024",
+    "publication_status_from_source": "预印本（2024）",
+    "paper_url": "https://arxiv.org/abs/2411.01775",
+    "resources": {
+      "project": "https://eureka-research.github.io/eurekaverse/"
+    },
+    "tags": [
+      "Scenario / data"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "067"
+    }
+  },
+  {
+    "id": "068",
+    "title": "Gen2Sim: Scaling up Robot Learning in Simulation with Generative Models",
+    "task": "Synthesis",
+    "subsection": "1.6",
+    "subsection_title": "Related Indoor and Manipulation Scene Synthesis",
+    "year": 2024,
+    "publication": "ICRA 2024",
+    "publication_status_from_source": "正式发表（ICRA 2024）",
+    "paper_url": "https://arxiv.org/abs/2310.18308",
+    "resources": {
+      "project": "https://gen2sim.github.io/"
+    },
+    "tags": [
+      "Related indoor"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "068"
+    }
+  },
+  {
+    "id": "069",
+    "title": "GenSim2: Scaling Robot Data Generation with Multi-modal and Reasoning LLMs",
+    "task": "Synthesis",
+    "subsection": "1.6",
+    "subsection_title": "Related Indoor and Manipulation Scene Synthesis",
+    "year": 2024,
+    "publication": "arXiv 2024",
+    "publication_status_from_source": "预印本（2024）",
+    "paper_url": "https://arxiv.org/abs/2410.03645",
+    "resources": {
+      "project": "https://gensim2.github.io/"
+    },
+    "tags": [
+      "Related indoor"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "069"
+    }
+  },
+  {
+    "id": "070",
+    "title": "Generating Out-Of-Distribution Scenarios Using Language Models",
+    "task": "Synthesis",
+    "subsection": "1.4",
+    "subsection_title": "Traffic Scenarios, Synthetic Data, and Task Generation",
+    "year": 2024,
+    "publication": "arXiv 2024",
+    "publication_status_from_source": "预印本（2024）",
+    "paper_url": "https://arxiv.org/abs/2411.16554",
+    "resources": {},
+    "tags": [
+      "Scenario / data"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "070"
+    }
+  },
+  {
+    "id": "071",
+    "title": "Generating Traffic Scenarios via In-Context Learning to Learn Better Motion Planner",
+    "task": "Synthesis",
+    "subsection": "1.4",
+    "subsection_title": "Traffic Scenarios, Synthetic Data, and Task Generation",
+    "year": 2025,
+    "publication": "AAAI 2025",
+    "publication_status_from_source": "正式发表（AAAI 2025）",
+    "paper_url": "https://arxiv.org/abs/2412.18086",
+    "resources": {
+      "project": "https://ezharjan.github.io/AutoSceneGen"
+    },
+    "tags": [
+      "Scenario / data"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "071"
+    }
+  },
+  {
+    "id": "072",
+    "title": "LMM-Enhanced Safety-Critical Scenario Generation for Autonomous Driving System Testing from Non-Accident Traffic Videos",
+    "task": "Synthesis",
+    "subsection": "1.4",
+    "subsection_title": "Traffic Scenarios, Synthetic Data, and Task Generation",
+    "year": 2025,
+    "publication": "arXiv 2025",
+    "publication_status_from_source": "预印本（2025）",
+    "paper_url": "https://arxiv.org/abs/2406.10857",
+    "resources": {},
+    "tags": [
+      "Scenario / data"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "072"
+    }
+  },
+  {
+    "id": "073",
+    "title": "Language Conditioned Traffic Generation",
+    "task": "Synthesis",
+    "subsection": "1.4",
+    "subsection_title": "Traffic Scenarios, Synthetic Data, and Task Generation",
+    "year": 2023,
+    "publication": "arXiv 2023",
+    "publication_status_from_source": "预印本（2023）",
+    "paper_url": "https://arxiv.org/abs/2307.07947",
+    "resources": {
+      "project": "https://ariostgx.github.io/lctgen"
+    },
+    "tags": [
+      "Scenario / data"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "073"
+    }
+  },
+  {
+    "id": "074",
+    "title": "LeGEND: A Top-Down Approach to Scenario Generation of Autonomous Driving Systems Assisted by Large Language Models",
+    "task": "Synthesis",
+    "subsection": "1.4",
+    "subsection_title": "Traffic Scenarios, Synthetic Data, and Task Generation",
+    "year": 2024,
+    "publication": "arXiv 2024",
+    "publication_status_from_source": "预印本（2024）",
+    "paper_url": "https://arxiv.org/abs/2409.10066",
+    "resources": {},
+    "tags": [
+      "Scenario / data"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "074"
+    }
+  },
+  {
+    "id": "075",
+    "title": "MesaTask: Towards Task-Driven Tabletop Scene Generation via 3D Spatial Reasoning",
+    "task": "Synthesis",
+    "subsection": "1.6",
+    "subsection_title": "Related Indoor and Manipulation Scene Synthesis",
+    "year": 2025,
+    "publication": "arXiv 2025",
+    "publication_status_from_source": "预印本（2025）",
+    "paper_url": "https://arxiv.org/abs/2509.22281",
+    "resources": {},
+    "tags": [
+      "Related indoor"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "075"
+    }
+  },
+  {
+    "id": "077",
+    "title": "Promptable Closed-Loop Traffic Simulation",
+    "task": "Transformation",
+    "subsection": "3.5",
+    "subsection_title": "Related Actor, Interaction, and Road Graph Transformation",
+    "year": 2024,
+    "publication": "arXiv 2024",
+    "publication_status_from_source": "预印本（2024）",
+    "paper_url": "https://arxiv.org/abs/2409.05863",
+    "resources": {},
+    "tags": [
+      "Scenario / data"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "077"
+    }
+  },
+  {
+    "id": "078",
+    "title": "Realistic Corner Case Generation for Autonomous Vehicles with Multimodal Large Language Model",
+    "task": "Synthesis",
+    "subsection": "1.4",
+    "subsection_title": "Traffic Scenarios, Synthetic Data, and Task Generation",
+    "year": 2024,
+    "publication": "arXiv 2024",
+    "publication_status_from_source": "预印本（2024）",
+    "paper_url": "https://arxiv.org/abs/2412.00243",
+    "resources": {},
+    "tags": [
+      "Scenario / data"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "078"
+    }
+  },
+  {
+    "id": "079",
+    "title": "RoboGen: Towards Unleashing Infinite Data for Automated Robot Learning via Generative Simulation",
+    "task": "Synthesis",
+    "subsection": "1.6",
+    "subsection_title": "Related Indoor and Manipulation Scene Synthesis",
+    "year": 2024,
+    "publication": "ICML 2024",
+    "publication_status_from_source": "正式发表（ICML 2024）",
+    "paper_url": "https://arxiv.org/abs/2311.01455",
+    "resources": {
+      "project": "https://robogen-ai.github.io/"
+    },
+    "tags": [
+      "Related indoor"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "079"
+    }
+  },
+  {
+    "id": "080",
+    "title": "RoboTwin 2.0: A Scalable Data Generator and Benchmark with Strong Domain Randomization for Robust Bimanual Robotic Manipulation",
+    "task": "Transformation",
+    "subsection": "3.5",
+    "subsection_title": "Related Actor, Interaction, and Road Graph Transformation",
+    "year": 2025,
+    "publication": "arXiv 2025",
+    "publication_status_from_source": "预印本（2025）",
+    "paper_url": "https://arxiv.org/abs/2506.18088",
+    "resources": {
+      "project": "https://robotwin-platform.github.io"
+    },
+    "tags": [
+      "Related indoor"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "080"
+    }
+  },
+  {
+    "id": "081",
+    "title": "SIMS: Simulating Stylized Human-Scene Interactions with Retrieval-Augmented Script Generation",
+    "task": "Transformation",
+    "subsection": "3.5",
+    "subsection_title": "Related Actor, Interaction, and Road Graph Transformation",
+    "year": 2025,
+    "publication": "ICCV 2025",
+    "publication_status_from_source": "正式发表（ICCV 2025）",
+    "paper_url": "https://arxiv.org/abs/2411.19921",
+    "resources": {
+      "project": "https://wenjiawang0312.github.io/projects/sims/"
+    },
+    "tags": [
+      "Related indoor",
+      "Scenario / data"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "081"
+    }
+  },
+  {
+    "id": "082",
+    "title": "SceneDiffuser: Efficient and Controllable Driving Simulation Initialization and Rollout",
+    "task": "Synthesis",
+    "subsection": "1.4",
+    "subsection_title": "Traffic Scenarios, Synthetic Data, and Task Generation",
+    "year": 2024,
+    "publication": "NeurIPS 2024",
+    "publication_status_from_source": "正式发表（NeurIPS 2024）",
+    "paper_url": "https://arxiv.org/abs/2412.12129",
+    "resources": {},
+    "tags": [
+      "Scenario / data"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "082"
+    }
+  },
+  {
+    "id": "083",
+    "title": "SoVAR: Building Generalizable Scenarios from Accident Reports for Autonomous Driving Testing",
+    "task": "Synthesis",
+    "subsection": "1.4",
+    "subsection_title": "Traffic Scenarios, Synthetic Data, and Task Generation",
+    "year": 2024,
+    "publication": "ASE 2024",
+    "publication_status_from_source": "正式发表（ASE 2024）",
+    "paper_url": "https://arxiv.org/abs/2409.08081",
+    "resources": {
+      "code": "https://github.com/meng2180/SoVAR"
+    },
+    "tags": [
+      "Scenario / data"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "083"
+    }
+  },
+  {
+    "id": "084",
+    "title": "TARGET: Traffic Rule-Based Test Generation for Autonomous Driving via Validated LLM-Guided Knowledge Extraction",
+    "task": "Synthesis",
+    "subsection": "1.4",
+    "subsection_title": "Traffic Scenarios, Synthetic Data, and Task Generation",
+    "year": 2023,
+    "publication": "arXiv 2023",
+    "publication_status_from_source": "预印本（2023）",
+    "paper_url": "https://arxiv.org/abs/2305.06018",
+    "resources": {},
+    "tags": [
+      "Scenario / data"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "084"
+    }
+  },
+  {
+    "id": "085",
+    "title": "Text2Scenario: Text-Driven Scenario Generation for Autonomous Driving Test",
+    "task": "Synthesis",
+    "subsection": "1.4",
+    "subsection_title": "Traffic Scenarios, Synthetic Data, and Task Generation",
+    "year": 2025,
+    "publication": "arXiv 2025",
+    "publication_status_from_source": "预印本（2025）",
+    "paper_url": "https://arxiv.org/abs/2503.02911",
+    "resources": {
+      "project": "https://caixxuan.github.io/Text2Scenario.GitHub.io/"
+    },
+    "tags": [
+      "Scenario / data"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "085"
+    }
+  },
+  {
+    "id": "086",
+    "title": "Traffic Scene Generation from Natural Language Description for Autonomous Vehicles with Large Language Model",
+    "task": "Synthesis",
+    "subsection": "1.4",
+    "subsection_title": "Traffic Scenarios, Synthetic Data, and Task Generation",
+    "year": 2024,
+    "publication": "arXiv 2024",
+    "publication_status_from_source": "预印本（2024）",
+    "paper_url": "https://arxiv.org/abs/2409.09575",
+    "resources": {
+      "project": "https://basiclab.github.io/TTSG"
+    },
+    "tags": [
+      "Scenario / data"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "086"
+    }
+  },
+  {
+    "id": "087",
+    "title": "PAT3D: Physics-Augmented Text-to-3D Scene Generation",
+    "task": "Synthesis",
+    "subsection": "1.6",
+    "subsection_title": "Related Indoor and Manipulation Scene Synthesis",
+    "year": 2025,
+    "publication": "arXiv 2025",
+    "publication_status_from_source": "预印本（2025）",
+    "paper_url": "https://arxiv.org/abs/2511.21978",
+    "resources": {},
+    "tags": [
+      "Related indoor"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "087"
+    }
+  },
+  {
+    "id": "088",
+    "title": "PhyScensis: Physics-Augmented LLM Agents for Complex Physical Scene Arrangement",
+    "task": "Synthesis",
+    "subsection": "1.2",
+    "subsection_title": "Language-Driven and Agentic World Construction",
+    "year": 2026,
+    "publication": "arXiv 2026",
+    "publication_status_from_source": "预印本（2026）",
+    "paper_url": "https://arxiv.org/abs/2602.14968",
+    "resources": {},
+    "tags": [
+      "Related indoor"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "088"
+    }
+  },
+  {
+    "id": "089",
+    "title": "SAGE: Scalable Agentic 3D Scene Generation for Embodied AI",
+    "task": "Synthesis",
+    "subsection": "1.6",
+    "subsection_title": "Related Indoor and Manipulation Scene Synthesis",
+    "year": 2026,
+    "publication": "arXiv 2026",
+    "publication_status_from_source": "预印本（2026）",
+    "paper_url": "https://arxiv.org/abs/2602.10116",
+    "resources": {},
+    "tags": [
+      "Related indoor"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "089"
+    }
+  },
+  {
+    "id": "090",
+    "title": "SCENEWEAVER: All-in-One 3D Scene Synthesis with an Extensible and Self-Reflective Agent",
+    "task": "Synthesis",
+    "subsection": "1.2",
+    "subsection_title": "Language-Driven and Agentic World Construction",
+    "year": 2025,
+    "publication": "NeurIPS 2025",
+    "publication_status_from_source": "正式发表（NeurIPS 2025）",
+    "paper_url": "https://arxiv.org/abs/2509.20414",
+    "resources": {
+      "project": "https://scene-weaver.github.io/"
+    },
+    "tags": [
+      "Related indoor"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "090"
+    }
+  },
+  {
+    "id": "091",
+    "title": "SIMWORLD STUDIO: Automatic Environment Generation with Evolving Coding Agent for Embodied Agent Learning",
+    "task": "Synthesis",
+    "subsection": "1.2",
+    "subsection_title": "Language-Driven and Agentic World Construction",
+    "year": 2026,
+    "publication": "arXiv 2026",
+    "publication_status_from_source": "预印本（2026）",
+    "paper_url": "https://arxiv.org/abs/2605.09423",
+    "resources": {
+      "project": "https://simworld.org/simworld-studio/"
+    },
+    "tags": [
+      "Related indoor"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "091"
+    }
+  },
+  {
+    "id": "095",
+    "title": "DecoupleGS: Interactive 3D Gaussian Splatting for End-to-End Autonomous Driving Testing",
+    "task": "Transformation",
+    "subsection": "3.2",
+    "subsection_title": "Object Editing, Agentic Authoring, and Editable Simulation",
+    "year": 2026,
+    "publication": "arXiv 2026",
+    "publication_status_from_source": "预印本（2026）",
+    "paper_url": "https://arxiv.org/abs/2608.01761",
+    "resources": {},
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "095"
+    }
+  },
+  {
+    "id": "096",
+    "title": "SIMSplat: Language-Aligned 4D Gaussian Splatting for Driving Scenario Generation",
+    "task": "Transformation",
+    "subsection": "3.2",
+    "subsection_title": "Object Editing, Agentic Authoring, and Editable Simulation",
+    "year": 2026,
+    "publication": "arXiv 2026",
+    "publication_status_from_source": "预印本（2026）",
+    "paper_url": "https://arxiv.org/abs/2510.02469",
+    "resources": {},
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "096"
+    }
+  },
+  {
+    "id": "097",
+    "title": "WILDFIREGS: Physics-Based Wildfire Simulation in Large-Scale Semantics-Enriched Gaussian Splatting Forest Scenes",
+    "task": "Transformation",
+    "subsection": "3.3",
+    "subsection_title": "Weather, Lighting, and Environmental Appearance Editing",
+    "year": 2026,
+    "publication": "arXiv 2026",
+    "publication_status_from_source": "预印本（2026）",
+    "paper_url": "https://arxiv.org/abs/2608.11100",
+    "resources": {},
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "097"
+    }
+  },
+  {
+    "id": "098",
+    "title": "When Digital Twins Meet Large Language Models: Realistic, Interactive, and Editable Simulation for Autonomous Driving",
+    "task": "Transformation",
+    "subsection": "3.2",
+    "subsection_title": "Object Editing, Agentic Authoring, and Editable Simulation",
+    "year": 2026,
+    "publication": "arXiv 2026",
+    "publication_status_from_source": "预印本（2026）",
+    "paper_url": "https://arxiv.org/abs/2507.00319",
+    "resources": {
+      "project": "https://autodrive-ecosystem.github.io"
+    },
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "098"
+    }
+  },
+  {
+    "id": "099",
+    "title": "Zero-Shot UAV Navigation in Forests via Relightable 3D Gaussian Splatting",
+    "task": "Transformation",
+    "subsection": "3.3",
+    "subsection_title": "Weather, Lighting, and Environmental Appearance Editing",
+    "year": 2026,
+    "publication": "arXiv 2026",
+    "publication_status_from_source": "预印本（2026）",
+    "paper_url": "https://arxiv.org/abs/2602.07101",
+    "resources": {},
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "099"
+    }
+  },
+  {
+    "id": "100",
+    "title": "muSync-GS: Physics-Synchronized Driving Video Synthesis for Weather and Geometric Road Hazards",
+    "task": "Transformation",
+    "subsection": "3.3",
+    "subsection_title": "Weather, Lighting, and Environmental Appearance Editing",
+    "year": 2026,
+    "publication": "arXiv 2026",
+    "publication_status_from_source": "预印本（2026）",
+    "paper_url": "https://arxiv.org/abs/2608.04412",
+    "resources": {},
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "100"
+    }
+  },
+  {
+    "id": "101",
+    "title": "CARLA-GS: Decoupling Representation, Reasoning, and Physics Simulation for Autonomous Driving Corner-Case Synthesis",
+    "task": "Transformation",
+    "subsection": "3.2",
+    "subsection_title": "Object Editing, Agentic Authoring, and Editable Simulation",
+    "year": 2026,
+    "publication": "arXiv 2026",
+    "publication_status_from_source": "预印本（2026）",
+    "paper_url": "https://arxiv.org/abs/2607.07601",
+    "resources": {},
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "101"
+    }
+  },
+  {
+    "id": "102",
+    "title": "Elevation Aware 2D/3D Co-simulation Framework for Large-scale Traffic Flow and High-fidelity Vehicle Dynamics",
+    "task": "Reconstruction",
+    "subsection": "2.3",
+    "subsection_title": "Geospatial, Facility, and Environmental State Reconstruction",
+    "year": 2025,
+    "publication": "arXiv 2025",
+    "publication_status_from_source": "预印本（2025）",
+    "paper_url": "https://arxiv.org/abs/2512.11249",
+    "resources": {},
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "102"
+    }
+  },
+  {
+    "id": "103",
+    "title": "HUGSIM: A Real-Time, Photo-Realistic and Closed-Loop Simulator for Autonomous Driving",
+    "task": "Reconstruction",
+    "subsection": "2.1",
+    "subsection_title": "Driving Scene Reconstruction and Neural Simulation",
+    "year": 2024,
+    "publication": "arXiv 2024",
+    "publication_status_from_source": "预印本（2024）",
+    "paper_url": "https://arxiv.org/abs/2412.01718",
+    "resources": {
+      "project": "https://xdimlab.github.io/HUGSIM"
+    },
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "103"
+    }
+  },
+  {
+    "id": "104",
+    "title": "Instant NuRec: Feed-Forward 3D Gaussian Reconstruction for Driving Scene Simulation",
+    "task": "Reconstruction",
+    "subsection": "2.1",
+    "subsection_title": "Driving Scene Reconstruction and Neural Simulation",
+    "year": 2026,
+    "publication": "arXiv 2026",
+    "publication_status_from_source": "预印本（2026）",
+    "paper_url": "https://arxiv.org/abs/2607.14203",
+    "resources": {
+      "project": "https://research.nvidia.com/labs/sil/projects/instant-nurec",
+      "code": "https://github.com/nvidia/instant-nurec"
+    },
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "104"
+    }
+  },
+  {
+    "id": "105",
+    "title": "NavGSim: High-Fidelity Gaussian Splatting Simulator for Large-Scale Navigation",
+    "task": "Reconstruction",
+    "subsection": "2.2",
+    "subsection_title": "Real-to-Sim for Navigation, Locomotion, and Flight",
+    "year": 2026,
+    "publication": "arXiv 2026",
+    "publication_status_from_source": "预印本（2026）",
+    "paper_url": "https://arxiv.org/abs/2603.15186",
+    "resources": {
+      "code": "https://github.com/2003jiahang/NavGSim"
+    },
+    "tags": [
+      "Related indoor"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "105"
+    }
+  },
+  {
+    "id": "106",
+    "title": "RealEngine: Simulating Autonomous Driving in Realistic Context",
+    "task": "Reconstruction",
+    "subsection": "2.1",
+    "subsection_title": "Driving Scene Reconstruction and Neural Simulation",
+    "year": 2025,
+    "publication": "arXiv 2025",
+    "publication_status_from_source": "预印本（2025）",
+    "paper_url": "https://arxiv.org/abs/2505.16902",
+    "resources": {
+      "code": "https://github.com/fudan-zvg/RealEngine"
+    },
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "106"
+    }
+  },
+  {
+    "id": "107",
+    "title": "Vid2Sim: Realistic and Interactive Simulation from Video for Urban Navigation",
+    "task": "Reconstruction",
+    "subsection": "2.2",
+    "subsection_title": "Real-to-Sim for Navigation, Locomotion, and Flight",
+    "year": 2025,
+    "publication": "arXiv 2025",
+    "publication_status_from_source": "预印本（2025）",
+    "paper_url": "https://arxiv.org/abs/2501.06693",
+    "resources": {
+      "project": "https://metadriverse.github.io/vid2sim/"
+    },
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "107"
+    }
+  },
+  {
+    "id": "115",
+    "title": "Zero-shot Inexact CAD Model Alignment from a Single Image",
+    "task": "Reconstruction",
+    "subsection": "2.4",
+    "subsection_title": "Related Indoor, Asset, and Navigability Reconstruction",
+    "year": 2025,
+    "publication": "ICCV 2025",
+    "publication_status_from_source": "正式发表（ICCV 2025）",
+    "paper_url": "https://arxiv.org/abs/2507.03292",
+    "resources": {
+      "project": "https://zerocad9d.github.io/",
+      "code": "https://github.com/pattaramaneea/ZeroCAD"
+    },
+    "tags": [
+      "Related indoor",
+      "Asset"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "115"
+    }
+  },
+  {
+    "id": "121",
+    "title": "Procedural Modeling of Buildings",
+    "task": "Synthesis",
+    "subsection": "1.1",
+    "subsection_title": "Procedural Landscapes, Maps, and Simulation Platforms",
+    "year": 2006,
+    "publication": "SIGGRAPH 2006",
+    "publication_status_from_source": "正式发表（SIGGRAPH 2006）",
+    "paper_url": "https://doi.org/10.1145/1179352.1141931",
+    "resources": {},
+    "tags": [
+      "Asset"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "121"
+    }
+  },
+  {
+    "id": "122",
+    "title": "DrivingGaussian++: Towards Realistic Reconstruction and Editable Simulation for Surrounding Dynamic Driving Scenes",
+    "task": "Transformation",
+    "subsection": "3.2",
+    "subsection_title": "Object Editing, Agentic Authoring, and Editable Simulation",
+    "year": 2025,
+    "publication": "arXiv 2025",
+    "publication_status_from_source": "预印本（arXiv:2508.20965，2025）",
+    "paper_url": "https://arxiv.org/abs/2508.20965",
+    "resources": {
+      "project": "https://xiong-creator.github.io/DrivingGaussian_plus.github.io"
+    },
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "122"
+    }
+  },
+  {
+    "id": "123",
+    "title": "Performance-Guided Refinement for Visual Aerial Navigation using Editable Gaussian Splatting in FalconGym 2.0",
+    "task": "Transformation",
+    "subsection": "3.2",
+    "subsection_title": "Object Editing, Agentic Authoring, and Editable Simulation",
+    "year": 2025,
+    "publication": "arXiv 2025",
+    "publication_status_from_source": "预印本（arXiv:2510.02248，2025）",
+    "paper_url": "https://arxiv.org/abs/2510.02248",
+    "resources": {},
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "123"
+    }
+  },
+  {
+    "id": "124",
+    "title": "GS-RoadPatching: Inpainting Gaussians via 3D Searching and Placing for Driving Scenes",
+    "task": "Transformation",
+    "subsection": "3.1",
+    "subsection_title": "Scene Completion, Inpainting, and Geometric Refinement",
+    "year": 2025,
+    "publication": "ACM SAP 2025",
+    "publication_status_from_source": "正式发表（ACM SAP 2025）",
+    "paper_url": "https://arxiv.org/abs/2509.19937",
+    "resources": {
+      "project": "https://shanzhaguoo.github.io/GS-RoadPatching/"
+    },
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "124"
+    }
+  },
+  {
+    "id": "125",
+    "title": "GSRAIN: Physically Calibrated High-/Low-Frequency Rainfall Synthesis for 3D Gaussian Driving Scenes",
+    "task": "Transformation",
+    "subsection": "3.3",
+    "subsection_title": "Weather, Lighting, and Environmental Appearance Editing",
+    "year": 2026,
+    "publication": "arXiv 2026",
+    "publication_status_from_source": "预印本（arXiv:2608.02177，2026）",
+    "paper_url": "https://arxiv.org/abs/2608.02177",
+    "resources": {},
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "125"
+    }
+  },
+  {
+    "id": "126",
+    "title": "Physics-Aware 3D Gaussian Editing for Driving Scene Generation",
+    "task": "Transformation",
+    "subsection": "3.2",
+    "subsection_title": "Object Editing, Agentic Authoring, and Editable Simulation",
+    "year": 2026,
+    "publication": "arXiv 2026",
+    "publication_status_from_source": "预印本（arXiv:2605.25373，2026）",
+    "paper_url": "https://arxiv.org/abs/2605.25373",
+    "resources": {},
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "126"
+    }
+  },
+  {
+    "id": "127",
+    "title": "WeatherCity: Urban Scene Reconstruction with Controllable Multi-Weather Transformation",
+    "task": "Transformation",
+    "subsection": "3.3",
+    "subsection_title": "Weather, Lighting, and Environmental Appearance Editing",
+    "year": 2026,
+    "publication": "arXiv 2026",
+    "publication_status_from_source": "预印本（arXiv:2602.22096，2026）",
+    "paper_url": "https://arxiv.org/abs/2602.22096",
+    "resources": {},
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "127"
+    }
+  },
+  {
+    "id": "128",
+    "title": "ClimateNeRF: Extreme Weather Synthesis in Neural Radiance Field",
+    "task": "Transformation",
+    "subsection": "3.3",
+    "subsection_title": "Weather, Lighting, and Environmental Appearance Editing",
+    "year": 2023,
+    "publication": "ICCV 2023",
+    "publication_status_from_source": "正式发表（ICCV 2023）",
+    "paper_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Li_ClimateNeRF_Extreme_Weather_Synthesis_in_Neural_Radiance_Field_ICCV_2023_paper.html",
+    "resources": {},
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "128"
+    }
+  },
+  {
+    "id": "129",
+    "title": "Language-Driven Physics-Based Scene Synthesis and Editing via Feature Splatting",
+    "task": "Transformation",
+    "subsection": "3.2",
+    "subsection_title": "Object Editing, Agentic Authoring, and Editable Simulation",
+    "year": 2024,
+    "publication": "ECCV 2024",
+    "publication_status_from_source": "技术报告（2024）",
+    "paper_url": "https://arxiv.org/abs/2404.01223",
+    "resources": {
+      "project": "https://feature-splatting.github.io/",
+      "code": "https://github.com/vuer-ai/feature-splatting-inria"
+    },
+    "tags": [
+      "Related indoor"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "129"
+    }
+  },
+  {
+    "id": "130",
+    "title": "GSCompleter: A Distillation-Free Plugin for Metric-Aware 3D Gaussian Splatting Completion in Seconds",
+    "task": "Transformation",
+    "subsection": "3.1",
+    "subsection_title": "Scene Completion, Inpainting, and Geometric Refinement",
+    "year": 2026,
+    "publication": "arXiv 2026",
+    "publication_status_from_source": "预印本（arXiv:2604.20155，2026）",
+    "paper_url": "https://arxiv.org/abs/2604.20155",
+    "resources": {
+      "project": "https://yuhuoo.github.io/projects/gscompleter/"
+    },
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "130"
+    }
+  },
+  {
+    "id": "131",
+    "title": "HybridWorldSim: A Scalable and Controllable High-fidelity Simulator for Autonomous Driving",
+    "task": "Reconstruction",
+    "subsection": "2.1",
+    "subsection_title": "Driving Scene Reconstruction and Neural Simulation",
+    "year": 2026,
+    "publication": "ACM MM 2026",
+    "publication_status_from_source": "正式发表（ACM MM 2026）",
+    "paper_url": "https://arxiv.org/abs/2511.22187",
+    "resources": {},
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "131"
+    }
+  },
+  {
+    "id": "132",
+    "title": "MUSE: Agentic 3D Scene Authoring via Memory-Grounded Incremental Requirement Satisfaction",
+    "task": "Transformation",
+    "subsection": "3.2",
+    "subsection_title": "Object Editing, Agentic Authoring, and Editable Simulation",
+    "year": 2026,
+    "publication": "arXiv 2026",
+    "publication_status_from_source": "预印本（arXiv:2606.14168，2026）",
+    "paper_url": "https://arxiv.org/abs/2606.14168",
+    "resources": {
+      "project": "https://xujay111.github.io/muse_githubio/"
+    },
+    "tags": [
+      "Related indoor"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "132"
+    }
+  },
+  {
+    "id": "133",
+    "title": "RainyGS: Efficient Rain Synthesis with Physically-Based Gaussian Splatting",
+    "task": "Transformation",
+    "subsection": "3.3",
+    "subsection_title": "Weather, Lighting, and Environmental Appearance Editing",
+    "year": 2025,
+    "publication": "CVPR 2025",
+    "publication_status_from_source": "正式发表（CVPR 2025）",
+    "paper_url": "https://arxiv.org/abs/2503.21442",
+    "resources": {},
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "133"
+    }
+  },
+  {
+    "id": "134",
+    "title": "SE(2) Navigation Mesh",
+    "task": "Reconstruction",
+    "subsection": "2.4",
+    "subsection_title": "Related Indoor, Asset, and Navigability Reconstruction",
+    "year": 2026,
+    "publication": "arXiv 2026",
+    "publication_status_from_source": "预印本（arXiv:2607.01454，2026）",
+    "paper_url": "https://arxiv.org/abs/2607.01454",
+    "resources": {},
+    "tags": [
+      "Related indoor"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "134"
+    }
+  },
+  {
+    "id": "135",
+    "title": "3D StreetUnveiler with Semantic-Aware 2DGS - A Simple Baseline",
+    "task": "Reconstruction",
+    "subsection": "2.1",
+    "subsection_title": "Driving Scene Reconstruction and Neural Simulation",
+    "year": 2025,
+    "publication": "ICLR 2025",
+    "publication_status_from_source": "正式发表（ICLR 2025）",
+    "paper_url": "https://arxiv.org/abs/2405.18416",
+    "resources": {
+      "project": "https://streetunveiler.github.io"
+    },
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "135"
+    }
+  },
+  {
+    "id": "136",
+    "title": "WeatherEdit: Controllable Weather Editing with 4D Gaussian Field",
+    "task": "Transformation",
+    "subsection": "3.3",
+    "subsection_title": "Weather, Lighting, and Environmental Appearance Editing",
+    "year": 2026,
+    "publication": "AAAI 2026",
+    "publication_status_from_source": "正式发表（AAAI 2026，40(10):8511–8519；在线2026-03-14；DOI:10.1609/aaai.v40i10.37802）；首版仍为2025",
+    "paper_url": "https://doi.org/10.1609/aaai.v40i10.37802",
+    "resources": {
+      "project": "https://jumponthemoon.github.io/w-edit/"
+    },
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总_增补2025-2026遗漏文献_20261011.md",
+      "record_id": "136"
+    }
+  },
+  {
+    "id": "137",
+    "title": "Editable Scene Simulation for Autonomous Driving via Collaborative LLM-Agents",
+    "task": "Transformation",
+    "subsection": "3.2",
+    "subsection_title": "Object Editing, Agentic Authoring, and Editable Simulation",
+    "year": 2024,
+    "publication": "arXiv 2024",
+    "publication_status_from_source": "预印本（arXiv:2402.05746，2024）",
+    "paper_url": "https://arxiv.org/abs/2402.05746",
+    "resources": {
+      "code": "https://github.com/yifanlu0227/ChatSim"
+    },
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "137"
+    }
+  },
+  {
+    "id": "138",
+    "title": "R3D2: Realistic 3D Asset Insertion via Diffusion for Autonomous Driving Simulation",
+    "task": "Transformation",
+    "subsection": "3.2",
+    "subsection_title": "Object Editing, Agentic Authoring, and Editable Simulation",
+    "year": 2025,
+    "publication": "arXiv 2025",
+    "publication_status_from_source": "预印本 arXiv:2506.07826；v1 2025-06-09；v2 2026-04-19；不将版本年当首发年",
+    "paper_url": "https://arxiv.org/abs/2506.07826",
+    "resources": {},
+    "tags": [
+      "Asset"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总_增补2025-2026遗漏文献_20261011.md",
+      "record_id": "138"
+    }
+  },
+  {
+    "id": "139",
+    "title": "Real2Sim: A Physics-driven and Editable Gaussian Splatting Framework for Autonomous Driving Scenes",
+    "task": "Transformation",
+    "subsection": "3.2",
+    "subsection_title": "Object Editing, Agentic Authoring, and Editable Simulation",
+    "year": 2026,
+    "publication": "arXiv 2026",
+    "publication_status_from_source": "预印本（arXiv:2605.13591，2026）",
+    "paper_url": "https://arxiv.org/abs/2605.13591",
+    "resources": {},
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "139"
+    }
+  },
+  {
+    "id": "140",
+    "title": "HY-World 2.0: A Multi-Modal World Model for Reconstructing, Generating, and Simulating 3D Worlds",
+    "task": "Synthesis",
+    "subsection": "1.3",
+    "subsection_title": "Learned Outdoor and Driving World Generation",
+    "year": 2026,
+    "publication": "arXiv 2026",
+    "publication_status_from_source": "预印本（arXiv:2604.14268，2026）",
+    "paper_url": "https://arxiv.org/abs/2604.14268",
+    "resources": {
+      "code": "https://github.com/Tencent-Hunyuan/HY-World-2.0"
+    },
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "140"
+    }
+  },
+  {
+    "id": "141",
+    "title": "InfiniCube: Unbounded and Controllable Dynamic 3D Driving Scene Generation with World-Guided Video Models",
+    "task": "Synthesis",
+    "subsection": "1.3",
+    "subsection_title": "Learned Outdoor and Driving World Generation",
+    "year": 2025,
+    "publication": "arXiv 2025",
+    "publication_status_from_source": "预印本（2025）",
+    "paper_url": "https://arxiv.org/abs/2412.03934",
+    "resources": {
+      "project": "https://research.nvidia.com/labs/toronto-ai/infinicube/"
+    },
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "141"
+    }
+  },
+  {
+    "id": "142",
+    "title": "RoadWeaver: Large-Scale Lane-Level HD Map Generation from Scratch for Autonomous Driving Simulation",
+    "task": "Synthesis",
+    "subsection": "1.1",
+    "subsection_title": "Procedural Landscapes, Maps, and Simulation Platforms",
+    "year": 2026,
+    "publication": "arXiv 2026",
+    "publication_status_from_source": "预印本（arXiv:2608.11580，2026）",
+    "paper_url": "https://arxiv.org/abs/2608.11580",
+    "resources": {},
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "142"
+    }
+  },
+  {
+    "id": "143",
+    "title": "An Efficient Simulation Scene Generation Method Based on Extracted Road Network Topology and Large Language Models",
+    "task": "Synthesis",
+    "subsection": "1.1",
+    "subsection_title": "Procedural Landscapes, Maps, and Simulation Platforms",
+    "year": 2026,
+    "publication": "Future Transportation 2026",
+    "publication_status_from_source": "正式发表（Future Transportation 2026）",
+    "paper_url": "https://doi.org/10.3390/futuretransp6020081",
+    "resources": {},
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "143"
+    }
+  },
+  {
+    "id": "144",
+    "title": "AutoWeather4D: Autonomous Driving Video Weather Conversion via G-Buffer Dual-Pass Editing",
+    "task": "Transformation",
+    "subsection": "3.3",
+    "subsection_title": "Weather, Lighting, and Environmental Appearance Editing",
+    "year": 2026,
+    "publication": "arXiv 2026",
+    "publication_status_from_source": "预印本（arXiv:2603.26546，2026）",
+    "paper_url": "https://arxiv.org/abs/2603.26546",
+    "resources": {
+      "project": "https://lty2226262.github.io/autoweather4d"
+    },
+    "tags": [
+      "Video output"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "144"
+    }
+  },
+  {
+    "id": "145",
+    "title": "Let it Snow! Animating 3D Gaussian Scenes with Dynamic Weather Effects via Physics-Guided Score Distillation",
+    "task": "Transformation",
+    "subsection": "3.3",
+    "subsection_title": "Weather, Lighting, and Environmental Appearance Editing",
+    "year": 2026,
+    "publication": "CVPR 2026",
+    "publication_status_from_source": "正式发表（CVPR 2026）",
+    "paper_url": "https://arxiv.org/abs/2504.05296",
+    "resources": {
+      "project": "https://galfiebelman.github.io/let-it-snow/",
+      "code": "https://github.com/galfiebelman/let-it-snow"
+    },
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "145"
+    }
+  },
+  {
+    "id": "146",
+    "title": "Perceptual 3D Simulation With Physical World Modeling",
+    "task": "Transformation",
+    "subsection": "3.5",
+    "subsection_title": "Related Actor, Interaction, and Road Graph Transformation",
+    "year": 2026,
+    "publication": "CVPR 2026",
+    "publication_status_from_source": "正式发表（CVPR 2026）",
+    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Lee_Perceptual_3D_Simulation_With_Physical_World_Modeling_CVPR_2026_paper.html",
+    "resources": {},
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "146"
+    }
+  },
+  {
+    "id": "147",
+    "title": "RealityBridge: Bridging Editable 3D Gaussian Splatting Driving Simulations and Real-World Videos",
+    "task": "Transformation",
+    "subsection": "3.3",
+    "subsection_title": "Weather, Lighting, and Environmental Appearance Editing",
+    "year": 2026,
+    "publication": "arXiv 2026",
+    "publication_status_from_source": "预印本（arXiv:2606.16278，2026）",
+    "paper_url": "https://arxiv.org/abs/2606.16278",
+    "resources": {},
+    "tags": [
+      "Video output"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "147"
+    }
+  },
+  {
+    "id": "148",
+    "title": "TraSculptor: Visual Analytics for Enhanced Decision-Making in Road Traffic Planning",
+    "task": "Transformation",
+    "subsection": "3.5",
+    "subsection_title": "Related Actor, Interaction, and Road Graph Transformation",
+    "year": 2025,
+    "publication": "IEEE TVCG 2025",
+    "publication_status_from_source": "正式发表（IEEE TVCG 2025）",
+    "paper_url": "https://doi.org/10.1109/TVCG.2025.3532498",
+    "resources": {
+      "code": "https://github.com/akihaisland/TraSculptor"
+    },
+    "tags": [
+      "Road graph"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "148"
+    }
+  },
+  {
+    "id": "149",
+    "title": "UniSim: A Neural Closed-Loop Sensor Simulator",
+    "task": "Transformation",
+    "subsection": "3.2",
+    "subsection_title": "Object Editing, Agentic Authoring, and Editable Simulation",
+    "year": 2023,
+    "publication": "CVPR 2023",
+    "publication_status_from_source": "正式发表（CVPR 2023）",
+    "paper_url": "https://www.datocms-assets.com/163962/1755204775-unisim-paper.pdf",
+    "resources": {
+      "project": "https://waabi.ai/research/unisim/"
+    },
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "149"
+    }
+  },
+  {
+    "id": "150",
+    "title": "LiDARsim: Realistic LiDAR Simulation by Leveraging the Real World",
+    "task": "Reconstruction",
+    "subsection": "2.1",
+    "subsection_title": "Driving Scene Reconstruction and Neural Simulation",
+    "year": 2020,
+    "publication": "arXiv 2020",
+    "publication_status_from_source": "预印本（arXiv:2006.09348，2020）",
+    "paper_url": "https://arxiv.org/abs/2006.09348",
+    "resources": {},
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "150"
+    }
+  },
+  {
+    "id": "151",
+    "title": "ReSimAD: Zero-Shot 3D Domain Transfer for Autonomous Driving with Source Reconstruction and Target Simulation",
+    "task": "Reconstruction",
+    "subsection": "2.1",
+    "subsection_title": "Driving Scene Reconstruction and Neural Simulation",
+    "year": 2024,
+    "publication": "arXiv 2024",
+    "publication_status_from_source": "预印本（arXiv:2309.05527，2024）",
+    "paper_url": "https://arxiv.org/abs/2309.05527",
+    "resources": {
+      "code": "https://github.com/PJLab-ADG/3DTrans"
+    },
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "151"
+    }
+  },
+  {
+    "id": "152",
+    "title": "GaussGym: An Open-Source Real-to-Sim Framework for Learning Locomotion from Pixels",
+    "task": "Reconstruction",
+    "subsection": "2.2",
+    "subsection_title": "Real-to-Sim for Navigation, Locomotion, and Flight",
+    "year": 2025,
+    "publication": "arXiv 2025",
+    "publication_status_from_source": "预印本（arXiv:2510.15352，2025）",
+    "paper_url": "https://arxiv.org/abs/2510.15352",
+    "resources": {
+      "project": "https://escontrela.me/gauss_gym/"
+    },
+    "tags": [
+      "Related indoor"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "152"
+    }
+  },
+  {
+    "id": "153",
+    "title": "Semi-Automated Generation of Realistic Simulation Environments from Geospatial Data for Agricultural Robot Navigation",
+    "task": "Reconstruction",
+    "subsection": "2.3",
+    "subsection_title": "Geospatial, Facility, and Environmental State Reconstruction",
+    "year": 2026,
+    "publication": "Computer Modeling in Engineering 2026",
+    "publication_status_from_source": "正式发表（Computer Modeling in Engineering & Sciences 2026）",
+    "paper_url": "https://doi.org/10.32604/cmes.2026.080739",
+    "resources": {},
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "153"
+    }
+  },
+  {
+    "id": "154",
+    "title": "A Simulation Environment for UAV-based Real-time Condition Monitoring of Solar Tower Power Plants",
+    "task": "Reconstruction",
+    "subsection": "2.3",
+    "subsection_title": "Geospatial, Facility, and Environmental State Reconstruction",
+    "year": 2025,
+    "publication": "Solar Energy 2025",
+    "publication_status_from_source": "正式发表（Solar Energy 2025）",
+    "paper_url": "https://doi.org/10.1016/j.solener.2025.113803",
+    "resources": {},
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "154"
+    }
+  },
+  {
+    "id": "155",
+    "title": "SOUS VIDE: Cooking Visual Drone Navigation Policies in a Gaussian Splatting Vacuum",
+    "task": "Reconstruction",
+    "subsection": "2.2",
+    "subsection_title": "Real-to-Sim for Navigation, Locomotion, and Flight",
+    "year": 2025,
+    "publication": "IEEE RA-L 2025",
+    "publication_status_from_source": "正式发表/录用（IEEE RA-L，2025）",
+    "paper_url": "https://arxiv.org/abs/2412.16346",
+    "resources": {
+      "project": "https://stanfordmsl.github.io/SousVide/"
+    },
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "155"
+    }
+  },
+  {
+    "id": "156",
+    "title": "Gaussian Splatting to Real World Flight Navigation Transfer with Liquid Networks",
+    "task": "Reconstruction",
+    "subsection": "2.2",
+    "subsection_title": "Real-to-Sim for Navigation, Locomotion, and Flight",
+    "year": 2024,
+    "publication": "arXiv 2024",
+    "publication_status_from_source": "预印本（arXiv:2406.15149，2024）",
+    "paper_url": "https://arxiv.org/abs/2406.15149",
+    "resources": {},
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "156"
+    }
+  },
+  {
+    "id": "157",
+    "title": "VR-Robo: A Real-to-Sim-to-Real Framework for Visual Robot Navigation and Locomotion",
+    "task": "Reconstruction",
+    "subsection": "2.2",
+    "subsection_title": "Real-to-Sim for Navigation, Locomotion, and Flight",
+    "year": 2025,
+    "publication": "arXiv 2025",
+    "publication_status_from_source": "预印本（arXiv:2502.01536，2025）",
+    "paper_url": "https://arxiv.org/abs/2502.01536",
+    "resources": {},
+    "tags": [
+      "Related indoor"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "157"
+    }
+  },
+  {
+    "id": "179",
+    "title": "Digital-PV: A digital twin-based platform for autonomous aerial monitoring of large-scale photovoltaic power plants",
+    "task": "Synthesis",
+    "subsection": "1.1",
+    "subsection_title": "Procedural Landscapes, Maps, and Simulation Platforms",
+    "year": 2024,
+    "publication": "Energy Conversion and Management 2024",
+    "publication_status_from_source": "正式发表（Energy Conversion and Management 2024）",
+    "paper_url": "https://doi.org/10.1016/j.enconman.2024.118963",
+    "resources": {},
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "179"
+    }
+  },
+  {
+    "id": "180",
+    "title": "LiT: Unifying LiDAR “Languages” with LiDAR Translator",
+    "task": "Transformation",
+    "subsection": "3.4",
+    "subsection_title": "Wind Field Adaptation and Sensor Domain Transformation",
+    "year": 2024,
+    "publication": "NeurIPS 2024",
+    "publication_status_from_source": "正式发表（NeurIPS 2024）",
+    "paper_url": "https://yxlao.github.io/lit/lit_paper.pdf",
+    "resources": {
+      "project": "https://yxlao.github.io/lit/",
+      "code": "https://github.com/yxlao/lit"
+    },
+    "tags": [
+      "Sensor"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "180"
+    }
+  },
+  {
+    "id": "181",
+    "title": "NeuRAD: Neural Rendering for Autonomous Driving",
+    "task": "Reconstruction",
+    "subsection": "2.1",
+    "subsection_title": "Driving Scene Reconstruction and Neural Simulation",
+    "year": 2023,
+    "publication": "arXiv 2023",
+    "publication_status_from_source": "预印本（arXiv:2311.15260，2023）",
+    "paper_url": "https://arxiv.org/abs/2311.15260",
+    "resources": {},
+    "tags": [],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "181"
+    }
+  },
+  {
+    "id": "182",
+    "title": "Urban Wind Field Effects on the Flight Dynamics of Fixed-Wing Drones",
+    "task": "Synthesis",
+    "subsection": "1.5",
+    "subsection_title": "Synthetic Wind Fields and Aerial Simulation",
+    "year": 2025,
+    "publication": "Drones 2025",
+    "publication_status_from_source": "正式发表（Drones 2025, 9, 362）",
+    "paper_url": "https://doi.org/10.3390/drones9050362",
+    "resources": {},
+    "tags": [
+      "Wind"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "182"
+    }
+  },
+  {
+    "id": "183",
+    "title": "Quad-rotor Flight Simulation in Realistic Atmospheric Conditions",
+    "task": "Synthesis",
+    "subsection": "1.5",
+    "subsection_title": "Synthetic Wind Fields and Aerial Simulation",
+    "year": 2019,
+    "publication": "arXiv 2019",
+    "publication_status_from_source": "预印本（arXiv:1902.01465，2019；文中为 AIAA Journal 投稿稿）",
+    "paper_url": "https://arxiv.org/abs/1902.01465",
+    "resources": {},
+    "tags": [
+      "Wind"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "183"
+    }
+  },
+  {
+    "id": "184",
+    "title": "Efficient Coupling of Urban Wind Fields and Drone Flight Dynamics Using Convolutional Autoencoders",
+    "task": "Transformation",
+    "subsection": "3.4",
+    "subsection_title": "Wind Field Adaptation and Sensor Domain Transformation",
+    "year": 2025,
+    "publication": "Drones 2025",
+    "publication_status_from_source": "正式发表（Drones 2025, 9, 802）",
+    "paper_url": "https://doi.org/10.3390/drones9110802",
+    "resources": {},
+    "tags": [
+      "Wind"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "184"
+    }
+  },
+  {
+    "id": "185",
+    "title": "Physics Informed Reconstruction of Four-Dimensional Atmospheric Wind Fields Using Multi-UAS Swarm Observations in a Synthetic Turbulent Environment",
+    "task": "Synthesis",
+    "subsection": "1.5",
+    "subsection_title": "Synthetic Wind Fields and Aerial Simulation",
+    "year": 2026,
+    "publication": "arXiv 2026",
+    "publication_status_from_source": "预印本（arXiv:2601.22111，2026）",
+    "paper_url": "https://arxiv.org/abs/2601.22111",
+    "resources": {},
+    "tags": [
+      "Wind"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "185"
+    }
+  },
+  {
+    "id": "186",
+    "title": "A Simulation Platform for Flapping-Wing Vehicles",
+    "task": "Synthesis",
+    "subsection": "1.5",
+    "subsection_title": "Synthetic Wind Fields and Aerial Simulation",
+    "year": 2026,
+    "publication": "Manuscript 2026",
+    "publication_status_from_source": "未注明出版状态（PDF 稿件，2026）",
+    "paper_url": "https://arxiv.org/abs/2606.02370",
+    "resources": {},
+    "tags": [
+      "Wind"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "186"
+    }
+  },
+  {
+    "id": "187",
+    "title": "WindSeer: real-time volumetric wind prediction over complex terrain aboard a small uncrewed aerial vehicle",
+    "task": "Reconstruction",
+    "subsection": "2.3",
+    "subsection_title": "Geospatial, Facility, and Environmental State Reconstruction",
+    "year": 2024,
+    "publication": "Nature Communications 2024",
+    "publication_status_from_source": "正式发表（Nature Communications 2024, 15:3507）",
+    "paper_url": "https://doi.org/10.1038/s41467-024-47778-4",
+    "resources": {},
+    "tags": [
+      "Wind"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "187"
+    }
+  },
+  {
+    "id": "188",
+    "title": "WindINR: Latent-State INR for Fast Local Wind Query and Correction in Complex Terrain",
+    "task": "Transformation",
+    "subsection": "3.4",
+    "subsection_title": "Wind Field Adaptation and Sensor Domain Transformation",
+    "year": 2026,
+    "publication": "arXiv 2026",
+    "publication_status_from_source": "预印本（arXiv:2605.09511，2026）",
+    "paper_url": "https://arxiv.org/abs/2605.09511",
+    "resources": {},
+    "tags": [
+      "Wind"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "188"
+    }
+  },
+  {
+    "id": "189",
+    "title": "Integrating Fourier Neural Operators into High-Fidelity Helicopter Flight Simulation for Real-Time Urban Wind Prediction",
+    "task": "Transformation",
+    "subsection": "3.4",
+    "subsection_title": "Wind Field Adaptation and Sensor Domain Transformation",
+    "year": 2026,
+    "publication": "AAAI / IAAI 2026",
+    "publication_status_from_source": "正式发表/会议论文（AAAI-26，2026）",
+    "paper_url": "https://ojs.aaai.org/index.php/AAAI/article/view/41461",
+    "resources": {},
+    "tags": [
+      "Wind"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "189"
+    }
+  },
+  {
+    "id": "190",
+    "title": "DroneWiS: Automated Simulation Testing of small Unmanned Aerial Systems in Realistic Windy Conditions",
+    "task": "Transformation",
+    "subsection": "3.4",
+    "subsection_title": "Wind Field Adaptation and Sensor Domain Transformation",
+    "year": 2024,
+    "publication": "ASE 2024",
+    "publication_status_from_source": "正式发表（ASE 2024；PDF DOI 为占位符，另标注 arXiv:2408.16559）",
+    "paper_url": "https://arxiv.org/abs/2408.16559",
+    "resources": {},
+    "tags": [
+      "Wind"
+    ],
+    "provisional": false,
+    "source": {
+      "document": "论文三分类汇总.md",
+      "record_id": "190"
+    }
+  },
+  {
+    "id": "191",
+    "title": "UnrealLLM: Towards Highly Controllable and Interactable 3D Scene Generation by LLM-powered Procedural Content Generation",
+    "task": "Synthesis",
+    "subsection": "1.2",
+    "subsection_title": "Language-Driven and Agentic World Construction",
+    "year": 2025,
+    "publication": "Findings of ACL 2025",
+    "publication_status_from_source": "Findings of ACL 2025（非ACL主会长文）〔来源工作簿陈述；本轮未独立核发表〕",
+    "paper_url": "https://aclanthology.org/2025.findings-acl.994/",
+    "resources": {},
+    "tags": [],
+    "provisional": true,
+    "source": {
+      "document": "论文三分类汇总_增补2025-2026遗漏文献_20261011.md",
+      "record_id": "191"
+    }
+  },
+  {
+    "id": "192",
+    "title": "NuiScene: Exploring Efficient Generation of Unbounded Outdoor Scenes",
+    "task": "Synthesis",
+    "subsection": "1.3",
+    "subsection_title": "Learned Outdoor and Driving World Generation",
+    "year": 2025,
+    "publication": "ICCV 2025",
+    "publication_status_from_source": "ICCV 2025〔来源工作簿陈述；本轮未独立核发表〕",
+    "paper_url": "https://arxiv.org/abs/2503.16375",
+    "resources": {
+      "dataset": "https://github.com/3dlg-hcvc/NuiScene43-Dataset"
+    },
+    "tags": [],
+    "provisional": true,
+    "source": {
+      "document": "论文三分类汇总_增补2025-2026遗漏文献_20261011.md",
+      "record_id": "192"
+    }
+  },
+  {
+    "id": "193",
+    "title": "Controllable 3D Outdoor Scene Generation via Scene Graphs",
+    "task": "Synthesis",
+    "subsection": "1.3",
+    "subsection_title": "Learned Outdoor and Driving World Generation",
+    "year": 2025,
+    "publication": "ICCV 2025",
+    "publication_status_from_source": "ICCV 2025〔来源工作簿陈述；本轮未独立核发表〕",
+    "paper_url": "https://arxiv.org/abs/2503.07152",
+    "resources": {
+      "code": "https://github.com/yuhengliu02/control-3d-scene"
+    },
+    "tags": [],
+    "provisional": true,
+    "source": {
+      "document": "论文三分类汇总_增补2025-2026遗漏文献_20261011.md",
+      "record_id": "193"
+    }
+  },
+  {
+    "id": "194",
+    "title": "X-Scene: Large-Scale Driving Scene Generation with High Fidelity and Flexible Controllability",
+    "task": "Synthesis",
+    "subsection": "1.3",
+    "subsection_title": "Learned Outdoor and Driving World Generation",
+    "year": 2025,
+    "publication": "NeurIPS 2025",
+    "publication_status_from_source": "NeurIPS 2025〔来源工作簿陈述；本轮未独立核发表〕",
+    "paper_url": "https://arxiv.org/abs/2506.13558",
+    "resources": {},
+    "tags": [],
+    "provisional": true,
+    "source": {
+      "document": "论文三分类汇总_增补2025-2026遗漏文献_20261011.md",
+      "record_id": "194"
+    }
+  },
+  {
+    "id": "195",
+    "title": "UniScene: Unified Occupancy-centric Driving Scene Generation",
+    "task": "Synthesis",
+    "subsection": "1.3",
+    "subsection_title": "Learned Outdoor and Driving World Generation",
+    "year": 2025,
+    "publication": "CVPR 2025",
+    "publication_status_from_source": "CVPR 2025〔来源工作簿陈述；本轮未独立核发表〕",
+    "paper_url": "https://arxiv.org/abs/2412.05435",
+    "resources": {},
+    "tags": [],
+    "provisional": true,
+    "source": {
+      "document": "论文三分类汇总_增补2025-2026遗漏文献_20261011.md",
+      "record_id": "195"
+    }
+  },
+  {
+    "id": "196",
+    "title": "MESA: Text-Driven Terrain Generation Using Latent Diffusion and Global Copernicus Data",
+    "task": "Synthesis",
+    "subsection": "1.1",
+    "subsection_title": "Procedural Landscapes, Maps, and Simulation Platforms",
+    "year": 2025,
+    "publication": "CVPR MORSE Workshop 2025",
+    "publication_status_from_source": "CVPR 2025 MORSE Workshop（非主会）〔来源工作簿陈述；本轮未独立核发表〕",
+    "paper_url": "https://arxiv.org/abs/2504.07210",
+    "resources": {
+      "code": "https://github.com/PaulBorneP/MESA"
+    },
+    "tags": [],
+    "provisional": true,
+    "source": {
+      "document": "论文三分类汇总_增补2025-2026遗漏文献_20261011.md",
+      "record_id": "196"
+    }
+  },
+  {
+    "id": "197",
+    "title": "InfiniteDiffusion: Bridging Learned Fidelity and Procedural Utility for Open-World Terrain Generation",
+    "task": "Synthesis",
+    "subsection": "1.1",
+    "subsection_title": "Procedural Landscapes, Maps, and Simulation Platforms",
+    "year": 2025,
+    "publication": "arXiv 2025",
+    "publication_status_from_source": "预印本；未核实正式发表〔来源工作簿陈述；本轮未独立核发表〕",
+    "paper_url": "https://arxiv.org/abs/2512.08309",
+    "resources": {},
+    "tags": [],
+    "provisional": true,
+    "source": {
+      "document": "论文三分类汇总_增补2025-2026遗漏文献_20261011.md",
+      "record_id": "197"
+    }
+  },
+  {
+    "id": "198",
+    "title": "WorldClaw: Agentic 3D Open-World Generation at Scale",
+    "task": "Synthesis",
+    "subsection": "1.2",
+    "subsection_title": "Language-Driven and Agentic World Construction",
+    "year": 2026,
+    "publication": "arXiv 2026",
+    "publication_status_from_source": "预印本；未核实正式发表〔来源工作簿陈述；本轮未独立核发表〕",
+    "paper_url": "https://arxiv.org/abs/2608.05248",
+    "resources": {
+      "project": "https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw"
+    },
+    "tags": [],
+    "provisional": true,
+    "source": {
+      "document": "论文三分类汇总_增补2025-2026遗漏文献_20261011.md",
+      "record_id": "198"
+    }
+  },
+  {
+    "id": "199",
+    "title": "LLM-Driven 3D Scene Generation of Agricultural Simulation Environments",
+    "task": "Synthesis",
+    "subsection": "1.1",
+    "subsection_title": "Procedural Landscapes, Maps, and Simulation Platforms",
+    "year": 2026,
+    "publication": "arXiv 2026",
+    "publication_status_from_source": "预印本；本轮未核实正式会议信息〔来源工作簿陈述；本轮未独立核发表〕",
+    "paper_url": "https://arxiv.org/abs/2602.11706",
+    "resources": {},
+    "tags": [],
+    "provisional": true,
+    "source": {
+      "document": "论文三分类汇总_增补2025-2026遗漏文献_20261011.md",
+      "record_id": "199"
+    }
+  },
+  {
+    "id": "200",
+    "title": "3D Environment Generation from Sparse Inputs for Automated Driving Function Development",
+    "task": "Synthesis",
+    "subsection": "1.1",
+    "subsection_title": "Procedural Landscapes, Maps, and Simulation Platforms",
+    "year": 2026,
+    "publication": "Vehicles 2026",
+    "publication_status_from_source": "Vehicles 2026, 8(3), 47〔来源工作簿陈述；本轮未独立核发表〕",
+    "paper_url": "https://www.preprints.org/manuscript/202601.0011",
+    "resources": {},
+    "tags": [],
+    "provisional": true,
+    "source": {
+      "document": "论文三分类汇总_增补2025-2026遗漏文献_20261011.md",
+      "record_id": "200"
+    }
+  },
+  {
+    "id": "201",
+    "title": "LatticeWorld: A Multimodal Large Language Model-Empowered Framework for Interactive Complex World Generation",
+    "task": "Synthesis",
+    "subsection": "1.2",
+    "subsection_title": "Language-Driven and Agentic World Construction",
+    "year": 2025,
+    "publication": "arXiv 2025",
+    "publication_status_from_source": "预印本；未核实正式发表〔来源工作簿陈述；本轮未独立核发表〕",
+    "paper_url": "https://arxiv.org/abs/2509.05263",
+    "resources": {},
+    "tags": [],
+    "provisional": true,
+    "source": {
+      "document": "论文三分类汇总_增补2025-2026遗漏文献_20261011.md",
+      "record_id": "201"
+    }
+  },
+  {
+    "id": "202",
+    "title": "SplatAD: Real-Time Lidar and Camera Rendering with 3D Gaussian Splatting for Autonomous Driving",
+    "task": "Reconstruction",
+    "subsection": "2.1",
+    "subsection_title": "Driving Scene Reconstruction and Neural Simulation",
+    "year": 2025,
+    "publication": "CVPR 2025",
+    "publication_status_from_source": "CVPR 2025〔来源工作簿陈述；本轮未独立核发表〕",
+    "paper_url": "https://arxiv.org/abs/2411.16816",
+    "resources": {
+      "code": "https://github.com/carlinds/splatad"
+    },
+    "tags": [],
+    "provisional": true,
+    "source": {
+      "document": "论文三分类汇总_增补2025-2026遗漏文献_20261011.md",
+      "record_id": "202"
+    }
+  },
+  {
+    "id": "203",
+    "title": "DrivingRecon: Large 4D Gaussian Reconstruction Model For Autonomous Driving",
+    "task": "Reconstruction",
+    "subsection": "2.1",
+    "subsection_title": "Driving Scene Reconstruction and Neural Simulation",
+    "year": 2025,
+    "publication": "NeurIPS 2025",
+    "publication_status_from_source": "NeurIPS 2025〔来源工作簿陈述；本轮未独立核发表〕",
+    "paper_url": "https://arxiv.org/abs/2412.09043",
+    "resources": {
+      "code": "https://github.com/EnVision-Research/DriveRecon"
+    },
+    "tags": [],
+    "provisional": true,
+    "source": {
+      "document": "论文三分类汇总_增补2025-2026遗漏文献_20261011.md",
+      "record_id": "203"
+    }
+  },
+  {
+    "id": "204",
+    "title": "ReconDreamer: Crafting World Models for Driving Scene Reconstruction via Online Restoration",
+    "task": "Reconstruction",
+    "subsection": "2.1",
+    "subsection_title": "Driving Scene Reconstruction and Neural Simulation",
+    "year": 2025,
+    "publication": "CVPR 2025",
+    "publication_status_from_source": "CVPR 2025〔来源工作簿陈述；本轮未独立核发表〕",
+    "paper_url": "https://arxiv.org/abs/2411.19548",
+    "resources": {},
+    "tags": [],
+    "provisional": true,
+    "source": {
+      "document": "论文三分类汇总_增补2025-2026遗漏文献_20261011.md",
+      "record_id": "204"
+    }
+  },
+  {
+    "id": "205",
+    "title": "ReconDreamer++: Harmonizing Generative and Reconstructive Models for Driving Scene Representation",
+    "task": "Reconstruction",
+    "subsection": "2.1",
+    "subsection_title": "Driving Scene Reconstruction and Neural Simulation",
+    "year": 2025,
+    "publication": "arXiv 2025",
+    "publication_status_from_source": "预印本；未核实正式发表〔来源工作簿陈述；本轮未独立核发表〕",
+    "paper_url": "https://arxiv.org/abs/2503.18438",
+    "resources": {},
+    "tags": [],
+    "provisional": true,
+    "source": {
+      "document": "论文三分类汇总_增补2025-2026遗漏文献_20261011.md",
+      "record_id": "205"
+    }
+  },
+  {
+    "id": "206",
+    "title": "ReconDrive: Fast Feed-Forward 4D Gaussian Splatting for Autonomous Driving Scene Reconstruction",
+    "task": "Reconstruction",
+    "subsection": "2.1",
+    "subsection_title": "Driving Scene Reconstruction and Neural Simulation",
+    "year": 2026,
+    "publication": "arXiv 2026",
+    "publication_status_from_source": "预印本；未核实正式发表〔来源工作簿陈述；本轮未独立核发表〕",
+    "paper_url": "https://arxiv.org/abs/2603.07552",
+    "resources": {},
+    "tags": [],
+    "provisional": true,
+    "source": {
+      "document": "论文三分类汇总_增补2025-2026遗漏文献_20261011.md",
+      "record_id": "206"
+    }
+  },
+  {
+    "id": "207",
+    "title": "UniGaussian: Driving Scene Reconstruction from Multiple Camera Models via Unified Gaussian Representations",
+    "task": "Reconstruction",
+    "subsection": "2.1",
+    "subsection_title": "Driving Scene Reconstruction and Neural Simulation",
+    "year": 2026,
+    "publication": "3DV 2026",
+    "publication_status_from_source": "3DV 2026〔来源工作簿陈述；本轮未独立核发表〕",
+    "paper_url": "https://arxiv.org/abs/2411.15355",
+    "resources": {},
+    "tags": [],
+    "provisional": true,
+    "source": {
+      "document": "论文三分类汇总_增补2025-2026遗漏文献_20261011.md",
+      "record_id": "207"
+    }
+  },
+  {
+    "id": "208",
+    "title": "WeatherGS: 3D Scene Reconstruction in Adverse Weather Conditions via Gaussian Splatting",
+    "task": "Reconstruction",
+    "subsection": "2.1",
+    "subsection_title": "Driving Scene Reconstruction and Neural Simulation",
+    "year": 2025,
+    "publication": "ICRA 2025",
+    "publication_status_from_source": "ICRA 2025〔来源工作簿陈述；本轮未独立核发表〕",
+    "paper_url": "https://arxiv.org/abs/2412.18862",
+    "resources": {
+      "code": "https://github.com/Jumponthemoon/WeatherGS"
+    },
+    "tags": [],
+    "provisional": true,
+    "source": {
+      "document": "论文三分类汇总_增补2025-2026遗漏文献_20261011.md",
+      "record_id": "208"
+    }
+  },
+  {
+    "id": "209",
+    "title": "Nighttime Autonomous Driving Scene Reconstruction with Physically-Based Gaussian Splatting",
+    "task": "Reconstruction",
+    "subsection": "2.1",
+    "subsection_title": "Driving Scene Reconstruction and Neural Simulation",
+    "year": 2026,
+    "publication": "ICRA 2026",
+    "publication_status_from_source": "ICRA 2026〔来源工作簿陈述；本轮未独立核发表〕",
+    "paper_url": "https://arxiv.org/abs/2602.13549",
+    "resources": {},
+    "tags": [],
+    "provisional": true,
+    "source": {
+      "document": "论文三分类汇总_增补2025-2026遗漏文献_20261011.md",
+      "record_id": "209"
+    }
+  },
+  {
+    "id": "210",
+    "title": "NimbusGS: Unified 3D Scene Reconstruction under Hybrid Weather",
+    "task": "Reconstruction",
+    "subsection": "2.1",
+    "subsection_title": "Driving Scene Reconstruction and Neural Simulation",
+    "year": 2026,
+    "publication": "CVPR 2026",
+    "publication_status_from_source": "CVPR 2026〔来源工作簿陈述；本轮未独立核发表〕",
+    "paper_url": "https://arxiv.org/abs/2603.27228",
+    "resources": {},
+    "tags": [],
+    "provisional": true,
+    "source": {
+      "document": "论文三分类汇总_增补2025-2026遗漏文献_20261011.md",
+      "record_id": "210"
+    }
+  },
+  {
+    "id": "211",
+    "title": "AuraFusion360: Augmented Unseen Region Alignment for Reference-based 360° Unbounded Scene Inpainting",
+    "task": "Transformation",
+    "subsection": "3.1",
+    "subsection_title": "Scene Completion, Inpainting, and Geometric Refinement",
+    "year": 2025,
+    "publication": "CVPR 2025",
+    "publication_status_from_source": "CVPR 2025〔来源工作簿陈述；本轮未独立核发表〕",
+    "paper_url": "https://arxiv.org/abs/2502.05176",
+    "resources": {},
+    "tags": [],
+    "provisional": true,
+    "source": {
+      "document": "论文三分类汇总_增补2025-2026遗漏文献_20261011.md",
+      "record_id": "211"
+    }
+  },
+  {
+    "id": "212",
+    "title": "InstaInpaint: Instant 3D-Scene Inpainting with Masked Large Reconstruction Model",
+    "task": "Transformation",
+    "subsection": "3.1",
+    "subsection_title": "Scene Completion, Inpainting, and Geometric Refinement",
+    "year": 2025,
+    "publication": "NeurIPS 2025",
+    "publication_status_from_source": "NeurIPS 2025〔来源工作簿陈述；本轮未独立核发表〕",
+    "paper_url": "https://arxiv.org/abs/2506.10980",
+    "resources": {},
+    "tags": [],
+    "provisional": true,
+    "source": {
+      "document": "论文三分类汇总_增补2025-2026遗漏文献_20261011.md",
+      "record_id": "212"
+    }
+  },
+  {
+    "id": "213",
+    "title": "HorizonForge: Driving Scene Editing with Any Trajectories and Any Vehicles",
+    "task": "Transformation",
+    "subsection": "3.2",
+    "subsection_title": "Object Editing, Agentic Authoring, and Editable Simulation",
+    "year": 2026,
+    "publication": "CVPR 2026",
+    "publication_status_from_source": "CVPR 2026〔来源工作簿陈述；本轮未独立核发表〕",
+    "paper_url": "https://arxiv.org/abs/2602.21333",
+    "resources": {
+      "project": "https://horizonforge.github.io/"
+    },
+    "tags": [],
+    "provisional": true,
+    "source": {
+      "document": "论文三分类汇总_增补2025-2026遗漏文献_20261011.md",
+      "record_id": "213"
+    }
+  },
+  {
+    "id": "214",
+    "title": "SplatFill: 3D Scene Inpainting via Depth-Guided Gaussian Splatting",
+    "task": "Transformation",
+    "subsection": "3.1",
+    "subsection_title": "Scene Completion, Inpainting, and Geometric Refinement",
+    "year": 2025,
+    "publication": "arXiv 2025",
+    "publication_status_from_source": "预印本；未核实正式发表〔来源工作簿陈述；本轮未独立核发表〕",
+    "paper_url": "https://arxiv.org/abs/2509.07809",
+    "resources": {},
+    "tags": [],
+    "provisional": true,
+    "source": {
+      "document": "论文三分类汇总_增补2025-2026遗漏文献_20261011.md",
+      "record_id": "214"
+    }
+  },
+  {
+    "id": "215",
+    "title": "IMFine: 3D Inpainting via Geometry-guided Multi-view Refinement",
+    "task": "Transformation",
+    "subsection": "3.1",
+    "subsection_title": "Scene Completion, Inpainting, and Geometric Refinement",
+    "year": 2025,
+    "publication": "CVPR 2025",
+    "publication_status_from_source": "CVPR 2025〔来源工作簿陈述；本轮未独立核发表〕",
+    "paper_url": "https://arxiv.org/abs/2503.04501",
+    "resources": {
+      "project": "https://xinxinzuo2353.github.io/imfine/"
+    },
+    "tags": [],
+    "provisional": true,
+    "source": {
+      "document": "论文三分类汇总_增补2025-2026遗漏文献_20261011.md",
+      "record_id": "215"
+    }
+  }
+]
