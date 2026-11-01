@@ -1,0 +1,150 @@
+[
+  {
+    "name": "CARLA",
+    "kind": "platform",
+    "role": "Scenario execution, synchronization, and replay",
+    "links": {
+      "documentation": "https://carla.readthedocs.io/en/latest/"
+    },
+    "survey_reference": "Section 4.3",
+    "citation_keys": [
+      "carla2026executiondocs"
+    ]
+  },
+  {
+    "name": "MetaDrive",
+    "kind": "platform",
+    "role": "Procedural driving environments and repeatable scenario configuration",
+    "links": {
+      "documentation": "https://metadrive-simulator.readthedocs.io/en/latest/"
+    },
+    "survey_reference": "Sections 4–5; Table 4",
+    "citation_keys": [
+      "li2023metadrive",
+      "metadrive2026docs"
+    ]
+  },
+  {
+    "name": "MetaUrban",
+    "kind": "platform",
+    "role": "Interactive urban environments for navigation evaluation",
+    "links": {
+      "project": "https://metadriverse.github.io/metaurban"
+    },
+    "survey_reference": "Sections 4–5; Table 4",
+    "citation_keys": [
+      "wu2025metaurban"
+    ]
+  },
+  {
+    "name": "GoogleEarth views",
+    "kind": "scene-data",
+    "role": "Rendered city views used to evaluate visual quality and cross-view consistency",
+    "links": {
+      "project": "https://haozhexie.com/project/gaussian-city"
+    },
+    "survey_reference": "Table 4; Section 5.2",
+    "citation_keys": [
+      "xie2025gaussiancity"
+    ]
+  },
+  {
+    "name": "Waymo Open Dataset",
+    "kind": "scene-data",
+    "role": "Driving observations for reconstruction, editing, and transfer experiments",
+    "links": {
+      "dataset": "https://waymo.com/open/"
+    },
+    "survey_reference": "Table 4; Section 5",
+    "citation_keys": [
+      "zhang2024resimad",
+      "xu2025streetunveiler",
+      "park2026simsplatv2"
+    ]
+  },
+  {
+    "name": "PandaSet",
+    "kind": "scene-data",
+    "role": "Camera and LiDAR observations for sensor fidelity and transfer evaluation",
+    "links": {
+      "devkit": "https://github.com/scaleapi/pandaset-devkit"
+    },
+    "survey_reference": "Table 4; Section 5",
+    "citation_keys": [
+      "tonderski2024neurad",
+      "yang2023unisim"
+    ]
+  },
+  {
+    "name": "KITTI",
+    "kind": "scene-data",
+    "role": "Real observations and labels for detection transfer evaluation",
+    "links": {
+      "dataset": "https://www.cvlibs.net/datasets/kitti/"
+    },
+    "survey_reference": "Table 4; Section 5.3",
+    "citation_keys": [
+      "zhang2024resimad"
+    ]
+  },
+  {
+    "name": "DL3DV",
+    "kind": "scene-data",
+    "role": "Multiview scene observations for completion and preservation evaluation",
+    "links": {
+      "dataset": "https://huggingface.co/DL3DV"
+    },
+    "survey_reference": "Table 4; Section 5.2",
+    "citation_keys": [
+      "gao2026gscompleterv2"
+    ]
+  },
+  {
+    "name": "Vid2Sim videos",
+    "kind": "scene-data",
+    "role": "Monocular urban video inputs for reconstruction and navigation experiments",
+    "links": {
+      "project": "https://metadriverse.github.io/vid2sim/"
+    },
+    "survey_reference": "Table 4; Section 5",
+    "citation_keys": [
+      "xie2025vid2sim"
+    ]
+  },
+  {
+    "name": "LiDARsim assets",
+    "kind": "assets",
+    "role": "Reconstructed objects and CAD vehicles compared in perception experiments",
+    "links": {
+      "paper": "https://arxiv.org/abs/2006.09348"
+    },
+    "survey_reference": "Table 4; Section 5.3",
+    "citation_keys": [
+      "manivasagam2020lidarsim"
+    ]
+  },
+  {
+    "name": "WindSeer measurements",
+    "kind": "response-reference",
+    "role": "Field measurements used to assess wind prediction",
+    "links": {
+      "paper": "https://doi.org/10.1038/s41467-024-47778-4"
+    },
+    "survey_reference": "Table 4; Section 5.3",
+    "citation_keys": [
+      "achermann2024windseer"
+    ]
+  },
+  {
+    "name": "CarSim",
+    "kind": "response-reference",
+    "role": "Vehicle-response reference; the reviewed muSync-GS experiments use CarSim 2022.1",
+    "links": {
+      "product": "https://www.carsim.com/products/carsim/"
+    },
+    "survey_reference": "Table 4; Section 5.3",
+    "citation_keys": [
+      "chen2026musyncv1"
+    ]
+  }
+]

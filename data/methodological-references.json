@@ -1,0 +1,93 @@
+[
+  {
+    "citation_key": "shi2026se2",
+    "title": "SE(2) Navigation Mesh",
+    "year": 2026,
+    "publication": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2607.01454v1",
+    "resources": {},
+    "topic": "2.4",
+    "survey_section": "3.2.4",
+    "cited_in": [
+      "Recovering Simulation-Relevant Structures and Properties"
+    ],
+    "inventory_id": "134",
+    "selection_basis": "Explicit methodological reference in manuscript Chapter 3",
+    "scope": "Navigation structure",
+    "reason": "Recovers orientation-dependent traversability for legged robotics. The survey uses it to explain how embodiment affects recovered navigation structure, rather than as a complete outdoor environment construction pipeline."
+  },
+  {
+    "citation_key": "deng2025trasculptor",
+    "title": "TraSculptor: Visual Analytics for Enhanced Decision-Making in Road Traffic Planning",
+    "year": 2025,
+    "publication": "IEEE TVCG 2025",
+    "paper_url": "https://doi.org/10.1109/TVCG.2025.3532498",
+    "resources": {
+      "code": "https://github.com/akihaisland/TraSculptor"
+    },
+    "topic": "3.2",
+    "survey_section": "3.3.2",
+    "cited_in": [
+      "Object, Semantic, and Topological Editing"
+    ],
+    "inventory_id": "148",
+    "selection_basis": "Explicit methodological reference in manuscript Chapter 3",
+    "scope": "Abstract road graph",
+    "reason": "Edits road-network structure and attributes for traffic planning. It operates at the graph layer; corresponding 3D road surfaces require separate instantiation."
+  },
+  {
+    "citation_key": "xu2026musev1",
+    "title": "MUSE: Agentic 3D Scene Authoring via Memory-Grounded Incremental Requirement Satisfaction",
+    "year": 2026,
+    "publication": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2606.14168v1",
+    "resources": {
+      "project": "https://xujay111.github.io/muse_githubio/"
+    },
+    "topic": "4.1",
+    "survey_section": "3.4",
+    "cited_in": [
+      "Hybrid Construction and Automated Orchestration"
+    ],
+    "inventory_id": "132",
+    "selection_basis": "Explicit methodological reference in manuscript Chapter 3",
+    "scope": "Indoor scene authoring",
+    "reason": "Provides a methodological example of persistent requirements, scene state, and preservation checks across successive edits."
+  },
+  {
+    "citation_key": "fan2026magicv1",
+    "title": "MAGIC: Transition-Aware Generation of Navigable Multi-Scene Game Worlds with Large Language Models",
+    "year": 2026,
+    "publication": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2607.11594v1",
+    "resources": {
+      "code": "https://github.com/sereneee1201/MAGIC/"
+    },
+    "topic": "4.1",
+    "survey_section": "3.4",
+    "cited_in": [
+      "Hybrid Construction and Automated Orchestration"
+    ],
+    "inventory_id": "025",
+    "selection_basis": "Explicit methodological reference in manuscript Chapter 3",
+    "scope": "Multi-scene game worlds",
+    "reason": "Provides a methodological example of portal-connectivity verification and feedback-driven placement repair."
+  },
+  {
+    "citation_key": "wang2026physcensisv1",
+    "title": "PhyScensis: Physics-Augmented LLM Agents for Complex Physical Scene Arrangement",
+    "year": 2026,
+    "publication": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2602.14968v1",
+    "resources": {},
+    "topic": "4.1",
+    "survey_section": "3.4",
+    "cited_in": [
+      "Hybrid Construction and Automated Orchestration"
+    ],
+    "inventory_id": "088",
+    "selection_basis": "Explicit methodological reference in manuscript Chapter 3",
+    "scope": "Indoor physical arrangement",
+    "reason": "Provides a methodological example of solver feedback for revising spatial and physical predicates."
+  }
+]

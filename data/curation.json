@@ -1,0 +1,1018 @@
+{
+  "basis": "The manuscript chapter on environment construction, with methodological references separated by their stated scope",
+  "source_documents": [
+    {
+      "file": "sections/chapter03.tex",
+      "sha256": "8c49d89eafb6ea028e911320c0508926fedc3fff3886fe2f9102c1cca82d9f64"
+    },
+    {
+      "file": "sections/chapter04.tex",
+      "sha256": "333fd0a4ddcb10c75ac272ebd59a127f10d7fc1f424aa1c1fd11a6a33d4b5a59"
+    },
+    {
+      "file": "sections/chapter05.tex",
+      "sha256": "bb55d569bc00a0c6ecf1060c7db99888268cffccc075bb107004bc4cb6920d9d"
+    },
+    {
+      "file": "tables/table4.tex",
+      "sha256": "4e0dccfcf7f4f3792101e3df144a7837038cc4310ebd3ccd1e245dc7bf856593"
+    },
+    {
+      "file": "references.bib",
+      "sha256": "cf0c8111bcb7a866a5422b4163411f40e9131ca5cdc1b0eeb1452b9841b0806f"
+    }
+  ],
+  "topics": [
+    {
+      "id": "1.1",
+      "survey_section": "3.1.1",
+      "icon": "🌳",
+      "title": "Rule- and Constraint-Driven Procedural Generation",
+      "anchor": "synthesis-procedural",
+      "description": "Rules and intermediate structures control roads, buildings, terrain, and natural environments."
+    },
+    {
+      "id": "1.2",
+      "survey_section": "3.1.2",
+      "icon": "🧩",
+      "title": "Asset Retrieval and Compositional Environment Assembly",
+      "anchor": "synthesis-assembly",
+      "description": "Spatial units and object assets are assembled under layout, connection, and placement constraints."
+    },
+    {
+      "id": "1.3",
+      "survey_section": "3.1.3",
+      "icon": "🌐",
+      "title": "Learning-Based Generation of 3D Structures and Scene Representations",
+      "anchor": "synthesis-learning",
+      "description": "Learned distributions generate scene parameters, layouts, voxels, neural fields, or Gaussian representations."
+    },
+    {
+      "id": "1.4",
+      "survey_section": "3.1.4",
+      "icon": "🎨",
+      "title": "3D Environment Generation with Image and Video Priors",
+      "anchor": "synthesis-visual-priors",
+      "description": "Images, panoramas, and videos supply visual priors that are lifted or fused into spatial environments."
+    },
+    {
+      "id": "2.1",
+      "survey_section": "3.2.1",
+      "icon": "🗺️",
+      "title": "Geospatial Data- and Map-Driven Structured Reconstruction",
+      "anchor": "reconstruction-geospatial",
+      "description": "Georeferenced maps and elevation data establish the structure of a specific site."
+    },
+    {
+      "id": "2.2",
+      "survey_section": "3.2.2",
+      "icon": "📡",
+      "title": "Explicit Geometry Recovery and Multisensor Fusion",
+      "anchor": "reconstruction-geometry",
+      "description": "Calibrated observations and sensor fusion recover explicit samples, surfaces, and object geometry."
+    },
+    {
+      "id": "2.3",
+      "survey_section": "3.2.3",
+      "icon": "🚗",
+      "title": "Scene Reconstruction with Neural Fields and Gaussian Representations",
+      "anchor": "reconstruction-neural",
+      "description": "Neural fields and Gaussian representations recover captured outdoor scenes, appearance, and dynamics."
+    },
+    {
+      "id": "2.4",
+      "survey_section": "3.2.4",
+      "icon": "🌬️",
+      "title": "Recovering Simulation-Relevant Structures and Properties",
+      "anchor": "reconstruction-properties",
+      "description": "Recovery extends to persistent surfaces, calibrated facility behavior, and environmental fields."
+    },
+    {
+      "id": "3.1",
+      "survey_section": "3.3.1",
+      "icon": "🧱",
+      "title": "Geometric Completion, Local Repair, and Spatial Expansion",
+      "anchor": "transformation-completion",
+      "description": "Missing regions are completed while preserving alignment with the surrounding environment."
+    },
+    {
+      "id": "3.2",
+      "survey_section": "3.3.2",
+      "icon": "✏️",
+      "title": "Object, Semantic, and Topological Editing",
+      "anchor": "transformation-editing",
+      "description": "Structured scene representations expose object edits, semantic selection, and contextual integration."
+    },
+    {
+      "id": "3.3",
+      "survey_section": "3.3.3",
+      "icon": "🌦️",
+      "title": "Transformations of Appearance, Physics, and Environmental Properties",
+      "anchor": "transformation-properties",
+      "description": "Scene variants change illumination, weather, physical properties, or geometry-dependent environmental fields."
+    },
+    {
+      "id": "4.1",
+      "survey_section": "3.4",
+      "icon": "🤖",
+      "title": "Hybrid Construction and Automated Orchestration",
+      "anchor": "hybrid-methods",
+      "description": "Construction stages are connected through executable tools, intermediate states, and feedback."
+    }
+  ],
+  "inventory_dispositions": [
+    {
+      "inventory_id": "001",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "002",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "003",
+      "destination": "homepage",
+      "reason": "Directly discussed construction method in manuscript Chapter 3"
+    },
+    {
+      "inventory_id": "004",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "005",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "006",
+      "destination": "homepage",
+      "reason": "Directly discussed construction method in manuscript Chapter 3"
+    },
+    {
+      "inventory_id": "007",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "008",
+      "destination": "homepage",
+      "reason": "Directly discussed construction method in manuscript Chapter 3"
+    },
+    {
+      "inventory_id": "009",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "010",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "011",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "012",
+      "destination": "homepage",
+      "reason": "Directly discussed construction method in manuscript Chapter 3"
+    },
+    {
+      "inventory_id": "013",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "014",
+      "destination": "homepage",
+      "reason": "Directly discussed construction method in manuscript Chapter 3"
+    },
+    {
+      "inventory_id": "015",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "016",
+      "destination": "homepage",
+      "reason": "Directly discussed construction method in manuscript Chapter 3"
+    },
+    {
+      "inventory_id": "017",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "018",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "019",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "020",
+      "destination": "homepage",
+      "reason": "Directly discussed construction method in manuscript Chapter 3"
+    },
+    {
+      "inventory_id": "021",
+      "destination": "homepage",
+      "reason": "Directly discussed construction method in manuscript Chapter 3"
+    },
+    {
+      "inventory_id": "022",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "023",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "024",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "025",
+      "destination": "methodological-references",
+      "reason": "Explicit methodological reference with a scope distinct from the main outdoor construction list"
+    },
+    {
+      "inventory_id": "026",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "027",
+      "destination": "homepage",
+      "reason": "Directly discussed construction method in manuscript Chapter 3"
+    },
+    {
+      "inventory_id": "028",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "029",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "030",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "031",
+      "destination": "homepage",
+      "reason": "Directly discussed construction method in manuscript Chapter 3"
+    },
+    {
+      "inventory_id": "032",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "033",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "034",
+      "destination": "homepage",
+      "reason": "Directly discussed construction method in manuscript Chapter 3"
+    },
+    {
+      "inventory_id": "035",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "036",
+      "destination": "homepage",
+      "reason": "Directly discussed construction method in manuscript Chapter 3"
+    },
+    {
+      "inventory_id": "037",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "038",
+      "destination": "homepage",
+      "reason": "Directly discussed construction method in manuscript Chapter 3"
+    },
+    {
+      "inventory_id": "039",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "040",
+      "destination": "homepage",
+      "reason": "Directly discussed construction method in manuscript Chapter 3"
+    },
+    {
+      "inventory_id": "041",
+      "destination": "homepage",
+      "reason": "Directly discussed construction method in manuscript Chapter 3"
+    },
+    {
+      "inventory_id": "042",
+      "destination": "homepage",
+      "reason": "Directly discussed construction method in manuscript Chapter 3"
+    },
+    {
+      "inventory_id": "043",
+      "destination": "homepage",
+      "reason": "Directly discussed construction method in manuscript Chapter 3"
+    },
+    {
+      "inventory_id": "044",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "045",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "046",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "047",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "048",
+      "destination": "homepage",
+      "reason": "Directly discussed construction method in manuscript Chapter 3"
+    },
+    {
+      "inventory_id": "049",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "050",
+      "destination": "homepage",
+      "reason": "Directly discussed construction method in manuscript Chapter 3"
+    },
+    {
+      "inventory_id": "051",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "052",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "053",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "054",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "055",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "056",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "057",
+      "destination": "homepage",
+      "reason": "Directly discussed construction method in manuscript Chapter 3"
+    },
+    {
+      "inventory_id": "058",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "059",
+      "destination": "homepage",
+      "reason": "Directly discussed construction method in manuscript Chapter 3"
+    },
+    {
+      "inventory_id": "060",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "061",
+      "destination": "homepage",
+      "reason": "Directly discussed construction method in manuscript Chapter 3"
+    },
+    {
+      "inventory_id": "063",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "064",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "065",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "066",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "067",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "068",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "069",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "070",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "071",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "072",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "073",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "074",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "075",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "077",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "078",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "079",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "080",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "081",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "082",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "083",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "084",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "085",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "086",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "087",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "088",
+      "destination": "methodological-references",
+      "reason": "Explicit methodological reference with a scope distinct from the main outdoor construction list"
+    },
+    {
+      "inventory_id": "089",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "090",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "091",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "095",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "096",
+      "destination": "homepage",
+      "reason": "Directly discussed construction method in manuscript Chapter 3"
+    },
+    {
+      "inventory_id": "097",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "098",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "099",
+      "destination": "homepage",
+      "reason": "Directly discussed construction method in manuscript Chapter 3"
+    },
+    {
+      "inventory_id": "100",
+      "destination": "homepage",
+      "reason": "Directly discussed construction method in manuscript Chapter 3"
+    },
+    {
+      "inventory_id": "101",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "102",
+      "destination": "homepage",
+      "reason": "Directly discussed construction method in manuscript Chapter 3"
+    },
+    {
+      "inventory_id": "103",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "104",
+      "destination": "homepage",
+      "reason": "Directly discussed construction method in manuscript Chapter 3"
+    },
+    {
+      "inventory_id": "105",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "106",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "107",
+      "destination": "homepage",
+      "reason": "Directly discussed construction method in manuscript Chapter 3"
+    },
+    {
+      "inventory_id": "115",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "121",
+      "destination": "homepage",
+      "reason": "Directly discussed construction method in manuscript Chapter 3"
+    },
+    {
+      "inventory_id": "122",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "123",
+      "destination": "homepage",
+      "reason": "Directly discussed construction method in manuscript Chapter 3"
+    },
+    {
+      "inventory_id": "124",
+      "destination": "homepage",
+      "reason": "Directly discussed construction method in manuscript Chapter 3"
+    },
+    {
+      "inventory_id": "125",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "126",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "127",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "128",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "129",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "130",
+      "destination": "homepage",
+      "reason": "Directly discussed construction method in manuscript Chapter 3"
+    },
+    {
+      "inventory_id": "131",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "132",
+      "destination": "methodological-references",
+      "reason": "Explicit methodological reference with a scope distinct from the main outdoor construction list"
+    },
+    {
+      "inventory_id": "133",
+      "destination": "homepage",
+      "reason": "Directly discussed construction method in manuscript Chapter 3"
+    },
+    {
+      "inventory_id": "134",
+      "destination": "methodological-references",
+      "reason": "Explicit methodological reference with a scope distinct from the main outdoor construction list"
+    },
+    {
+      "inventory_id": "135",
+      "destination": "homepage",
+      "reason": "Directly discussed construction method in manuscript Chapter 3"
+    },
+    {
+      "inventory_id": "136",
+      "destination": "homepage",
+      "reason": "Directly discussed construction method in manuscript Chapter 3"
+    },
+    {
+      "inventory_id": "137",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "138",
+      "destination": "homepage",
+      "reason": "Directly discussed construction method in manuscript Chapter 3"
+    },
+    {
+      "inventory_id": "139",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "140",
+      "destination": "homepage",
+      "reason": "Directly discussed construction method in manuscript Chapter 3"
+    },
+    {
+      "inventory_id": "141",
+      "destination": "homepage",
+      "reason": "Directly discussed construction method in manuscript Chapter 3"
+    },
+    {
+      "inventory_id": "142",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "143",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "144",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "145",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "146",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "147",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "148",
+      "destination": "methodological-references",
+      "reason": "Explicit methodological reference with a scope distinct from the main outdoor construction list"
+    },
+    {
+      "inventory_id": "149",
+      "destination": "homepage",
+      "reason": "Directly discussed construction method in manuscript Chapter 3"
+    },
+    {
+      "inventory_id": "150",
+      "destination": "homepage",
+      "reason": "Directly discussed construction method in manuscript Chapter 3"
+    },
+    {
+      "inventory_id": "151",
+      "destination": "homepage",
+      "reason": "Directly discussed construction method in manuscript Chapter 3"
+    },
+    {
+      "inventory_id": "152",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "153",
+      "destination": "homepage",
+      "reason": "Directly discussed construction method in manuscript Chapter 3"
+    },
+    {
+      "inventory_id": "154",
+      "destination": "homepage",
+      "reason": "Directly discussed construction method in manuscript Chapter 3"
+    },
+    {
+      "inventory_id": "155",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "156",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "157",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "179",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "180",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "181",
+      "destination": "homepage",
+      "reason": "Directly discussed construction method in manuscript Chapter 3"
+    },
+    {
+      "inventory_id": "182",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "183",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "184",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "185",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "186",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "187",
+      "destination": "homepage",
+      "reason": "Directly discussed construction method in manuscript Chapter 3"
+    },
+    {
+      "inventory_id": "188",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "189",
+      "destination": "extended-reading",
+      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "190",
+      "destination": "homepage",
+      "reason": "Directly discussed construction method in manuscript Chapter 3"
+    },
+    {
+      "inventory_id": "191",
+      "destination": "extended-reading",
+      "reason": "Provisional supplement entry; not promoted to the manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "192",
+      "destination": "extended-reading",
+      "reason": "Provisional supplement entry; not promoted to the manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "193",
+      "destination": "extended-reading",
+      "reason": "Provisional supplement entry; not promoted to the manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "194",
+      "destination": "extended-reading",
+      "reason": "Provisional supplement entry; not promoted to the manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "195",
+      "destination": "extended-reading",
+      "reason": "Provisional supplement entry; not promoted to the manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "196",
+      "destination": "extended-reading",
+      "reason": "Provisional supplement entry; not promoted to the manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "197",
+      "destination": "extended-reading",
+      "reason": "Provisional supplement entry; not promoted to the manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "198",
+      "destination": "extended-reading",
+      "reason": "Provisional supplement entry; not promoted to the manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "199",
+      "destination": "extended-reading",
+      "reason": "Provisional supplement entry; not promoted to the manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "200",
+      "destination": "extended-reading",
+      "reason": "Provisional supplement entry; not promoted to the manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "201",
+      "destination": "extended-reading",
+      "reason": "Provisional supplement entry; not promoted to the manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "202",
+      "destination": "extended-reading",
+      "reason": "Provisional supplement entry; not promoted to the manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "203",
+      "destination": "extended-reading",
+      "reason": "Provisional supplement entry; not promoted to the manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "204",
+      "destination": "extended-reading",
+      "reason": "Provisional supplement entry; not promoted to the manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "205",
+      "destination": "extended-reading",
+      "reason": "Provisional supplement entry; not promoted to the manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "206",
+      "destination": "extended-reading",
+      "reason": "Provisional supplement entry; not promoted to the manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "207",
+      "destination": "extended-reading",
+      "reason": "Provisional supplement entry; not promoted to the manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "208",
+      "destination": "extended-reading",
+      "reason": "Provisional supplement entry; not promoted to the manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "209",
+      "destination": "extended-reading",
+      "reason": "Provisional supplement entry; not promoted to the manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "210",
+      "destination": "extended-reading",
+      "reason": "Provisional supplement entry; not promoted to the manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "211",
+      "destination": "extended-reading",
+      "reason": "Provisional supplement entry; not promoted to the manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "212",
+      "destination": "extended-reading",
+      "reason": "Provisional supplement entry; not promoted to the manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "213",
+      "destination": "extended-reading",
+      "reason": "Provisional supplement entry; not promoted to the manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "214",
+      "destination": "extended-reading",
+      "reason": "Provisional supplement entry; not promoted to the manuscript-aligned homepage"
+    },
+    {
+      "inventory_id": "215",
+      "destination": "extended-reading",
+      "reason": "Provisional supplement entry; not promoted to the manuscript-aligned homepage"
+    }
+  ],
+  "counts": {
+    "homepage_methods": 53,
+    "methodological_references": 5,
+    "original_inventory": 177,
+    "provisional_in_original_inventory": 25,
+    "added_from_manuscript": 7,
+    "resource_entries": 12
+  }
+}
