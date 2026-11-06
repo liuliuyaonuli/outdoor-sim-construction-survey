@@ -28,11 +28,11 @@
 
 ---
 
-A reading guide to the environment construction methods directly discussed in the survey. The technical topics follow **Sections 3.1–3.4** of the manuscript; simulation platforms, data, and response references are listed separately under [Supporting resources](#resources).
+A curated collection of research on automatically constructing outdoor 3D simulation environments. Explore environment synthesis, reconstruction, transformation, and hybrid pipelines, together with [simulation platforms, datasets, and evaluation resources](#resources).
 
-本页精选综述正文直接讨论的构建方法，按“生成、重建、变换及混合编排”的技术路线组织。方法借鉴、完整文献台账和待核验候选可在[补充阅读](#further-reading)中查阅。
+面向室外自主系统的三维仿真环境构建论文与资源，按“生成、重建、变换及混合编排”组织，提供论文、代码、项目与数据集链接。
 
-**Updated 2026-11-06.** [📝 Latest changes](docs/updates.md)
+**Updated 2026-11-06.**
 
 <table>
 <tr>
@@ -82,12 +82,11 @@ A reading guide to the environment construction methods directly discussed in th
   - [3.3 Transformations of Appearance, Physics, and Environmental Properties](#transformation-properties)
 - [🤖 **4. Hybrid Construction and Automated Orchestration**](#hybrid)
 - [🧰 **5. Supporting Resources**](#resources)
-- [📚 Further Reading](#further-reading)
 - [🤝 Contributing](#contributing)
 
 **Resource key:** 📄 Paper · 💻 Code · 🌐 Project · 📘 Documentation · 🗃️ Dataset
 
-Methods appear once in the guide, under their principal technical discussion. Publication labels follow the manuscript bibliography; entries within each topic are ordered by year, newest first. A paper link identifies a research source, while the other links identify available supporting resources.
+Papers are grouped by technical approach and ordered by year, newest first within each topic.
 
 
 ---
@@ -502,8 +501,6 @@ Recovery extends to persistent surfaces, calibrated facility behavior, and envir
 - <a id="paper-achermann2024windseer"></a>**WindSeer: real-time volumetric wind prediction over complex terrain aboard a small uncrewed aerial vehicle**\
   <sub>Nature Communications 2024</sub> · [📄 Paper](https://doi.org/10.1038/s41467-024-47778-4)
 
-The navigation-structure example **SE(2) Navigation Mesh** is discussed separately in [Methodological references](docs/methodological-references.md#navigation-structure).
-
 [↑ Back to contents](#contents)
 
 
@@ -602,8 +599,6 @@ Scene variants change illumination, weather, physical properties, or geometry-de
 - <a id="paper-rudnev2022nerfosr"></a>**NeRF for Outdoor Scene Relighting**\
   <sub>ECCV 2022</sub> · [📄 Paper](https://doi.org/10.1007/978-3-031-19787-1_35)
 
-The abstract road-network example **TraSculptor** is discussed separately in [Methodological references](docs/methodological-references.md#abstract-road-graph).
-
 [↑ Back to contents](#contents)
 
 
@@ -613,7 +608,7 @@ The abstract road-network example **TraSculptor** is discussed separately in [Me
 
 ## 🤖 4. Hybrid Construction and Automated Orchestration
 
-Hybrid pipelines connect different construction operations. Orchestration selects and executes tools, maintains construction state, and uses feedback to revise intermediate results. This section follows Section 3.4 of the survey.
+Hybrid pipelines connect different construction operations. Orchestration selects and executes tools, maintains construction state, and uses feedback to revise intermediate results.
 
 - <a id="paper-kang2026simworldstudiov2"></a>**SimWorld Studio: Automatic Environment Generation with Evolving Coding Agent for Embodied Agent Learning**\
   <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2605.09423v2) · [🌐 Project](https://simworld.org/simworld-studio/)
@@ -628,7 +623,7 @@ Hybrid pipelines connect different construction operations. Orchestration select
   <sub>AAAI 2025</sub> · [📄 Paper](https://doi.org/10.1609/aaai.v39i10.33174) · [🌐 Project](https://zhouzq1.github.io/SceneX/)
 
 
-Related examples already listed above include [3D-GPT](#paper-sun2023gpt3dv1) and [CityX](#paper-zhang2024cityxv1) for language-to-tool orchestration, and [DroneWiS](#paper-zhang2024dronewisv1) for geometry-dependent wind augmentation. Indoor and game-world examples—**MUSE**, **MAGIC**, and **PhyScensis**—are explained in [Methodological references](docs/methodological-references.md).
+Related examples include [3D-GPT](#paper-sun2023gpt3dv1) and [CityX](#paper-zhang2024cityxv1) for language-to-tool orchestration, and [DroneWiS](#paper-zhang2024dronewisv1) for geometry-dependent wind augmentation.
 
 [↑ Back to contents](#contents)
 
@@ -638,14 +633,14 @@ Related examples already listed above include [3D-GPT](#paper-sun2023gpt3dv1) an
 
 ## 🧰 5. Supporting Resources
 
-These resources support the simulation uses and evaluation settings discussed in Sections 4–5 and Table 4. They are separate from the selected-method count above.
+Platforms, scene data, assets, and benchmarks for constructing and evaluating simulation environments.
 
 
 ### 🏗️ Simulation Platforms
 
 Environment execution, configurable scenes, and repeatable trials.
 
-| Resource | Role in the reviewed experiments | Links |
+| Resource | Purpose | Links |
 | :--- | :--- | :--- |
 | **CARLA** | Scenario execution, synchronization, and replay | [📘 Documentation](https://carla.readthedocs.io/en/latest/) |
 | **MetaDrive** | Procedural driving environments and repeatable scenario configuration | [📘 Documentation](https://metadrive-simulator.readthedocs.io/en/latest/) |
@@ -655,7 +650,7 @@ Environment execution, configurable scenes, and repeatable trials.
 
 Observations and scene inputs used in the reviewed experiments.
 
-| Resource | Role in the reviewed experiments | Links |
+| Resource | Purpose | Links |
 | :--- | :--- | :--- |
 | **GoogleEarth views** | Rendered city views used to evaluate visual quality and cross-view consistency | [🌐 Project](https://haozhexie.com/project/gaussian-city) |
 | **Waymo Open Dataset** | Driving observations for reconstruction, editing, and transfer experiments | [🗃️ Dataset](https://waymo.com/open/) · [📄 Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Sun_Scalability_in_Perception_for_Autonomous_Driving_Waymo_Open_Dataset_CVPR_2020_paper.html) |
@@ -674,7 +669,7 @@ Observations and scene inputs used in the reviewed experiments.
 
 Object resources compared within construction and perception pipelines.
 
-| Resource | Role in the reviewed experiments | Links |
+| Resource | Purpose | Links |
 | :--- | :--- | :--- |
 | **LiDARsim assets** | Reconstructed objects and CAD vehicles compared in perception experiments | [📄 Paper](https://arxiv.org/abs/2006.09348) |
 | **Objaverse** | Annotated reusable 3D objects for retrieval and assembly | [📄 Paper](https://openaccess.thecvf.com/content/CVPR2023/html/Deitke_Objaverse_A_Universe_of_Annotated_3D_Objects_CVPR_2023_paper.html) |
@@ -684,7 +679,7 @@ Object resources compared within construction and perception pipelines.
 
 Methods that connect construction outputs to rendering, sensor operators, and simulator state.
 
-| Resource | Role in the reviewed experiments | Links |
+| Resource | Purpose | Links |
 | :--- | :--- | :--- |
 | **UE4-NeRF** | Neural scene conversion to engine rasterization with rendering proxies and level-of-detail management | [📄 Paper](https://proceedings.neurips.cc/paper_files/paper/2023/hash/b94d8b035e2183e47afef9e2f299ba47-Abstract-Conference.html) |
 | **AlignMiF** | Cross-modal geometry alignment with modality-specific details | [📄 Paper](https://openaccess.thecvf.com/content/CVPR2024/html/Tao_AlignMiF_Geometry-Aligned_Multimodal_Implicit_Field_for_LiDAR-Camera_Joint_Synthesis_CVPR_2024_paper.html) |
@@ -695,7 +690,7 @@ Methods that connect construction outputs to rendering, sensor operators, and si
 
 View extrapolation, world-generation control, policy learning, and scenario-based safety evaluation.
 
-| Resource | Role in the reviewed experiments | Links |
+| Resource | Purpose | Links |
 | :--- | :--- | :--- |
 | **EUVS** | Separate interpolation from translation, rotation, and combined viewpoint extrapolation | [📄 Paper](https://openaccess.thecvf.com/content/ICCV2025/html/Han_Extrapolated_Urban_View_Synthesis_Benchmark_ICCV_2025_paper.html) |
 | **WorldScore** | Controllability, quality, and dynamics under standardized camera trajectories and semantic controls | [📄 Paper](https://openaccess.thecvf.com/content/ICCV2025/html/Duan_WorldScore_A_Unified_Evaluation_Benchmark_for_World_Generation_ICCV_2025_paper.html) |
@@ -706,7 +701,7 @@ View extrapolation, world-generation control, policy learning, and scenario-base
 
 Measurements or external model outputs used to assess environmental and vehicle responses.
 
-| Resource | Role in the reviewed experiments | Links |
+| Resource | Purpose | Links |
 | :--- | :--- | :--- |
 | **WindSeer measurements** | Field measurements used to assess wind prediction | [📄 Paper](https://doi.org/10.1038/s41467-024-47778-4) |
 | **CarSim** | Vehicle-response reference; the reviewed muSync-GS experiments use CarSim 2022.1 | [🔗 Product](https://www.carsim.com/products/carsim/) |
@@ -714,37 +709,18 @@ Measurements or external model outputs used to assess environmental and vehicle 
 
 ---
 
-<a id="further-reading"></a>
-
-## 📚 Further Reading
-
-| Collection | What it contains |
-| :--- | :--- |
-| [🧭 Methodological references](docs/methodological-references.md) | 10 scoped examples from indoor construction, general physical-world verification, game worlds, legged navigation, and road graphs. |
-| [📘 Supporting literature](docs/supporting-literature.md) | 10 background, asset/map, and survey references discussed in Chapter 3. |
-| [📚 Extended reading and full inventory](docs/extended-reading.md) | The original 177 records, plus 74 manuscript references outside that inventory. |
-| [🔎 Candidate review queue](docs/candidates.md) | 6 unresolved boundary candidates; resolved entries are linked to their current placement. |
-| [📝 Selection and source notes](docs/selection-notes.md) | Inclusion rationale, manuscript correspondence, and a record of where the original entries are displayed. |
-| [🗓️ Update record](docs/updates.md) | Newly included methods, publication corrections, and resolved classifications. |
-
-The historical supplement contained 25 provisional entries. The current manuscript now discusses 7 of them as selected methods; the remaining 18 stay in extended reading. Selection follows the updated technical discussion.
-
 <a id="contributing"></a>
 
 ## 🤝 Contributing
 
-Suggestions and corrections are welcome through [Issues](https://github.com/liuliuyaonuli/outdoor-sim-construction-survey/issues) or pull requests. For a new paper, provide its full title, venue or preprint status, a stable paper URL, and its proposed technical topic. Explain the connection to outdoor environment construction and identify any limits in the output or evaluation scope.
-
-<a id="acknowledgments"></a>
-
-## 💐 Acknowledgments
-
-The presentation is inspired by [Awesome-Self-Evolving-Agents](https://github.com/ANative-Lab/Awesome-Self-Evolving-Agents). The selection and technical organization follow this survey's manuscript. Credit for the linked research and software belongs to the respective authors.
+Suggestions and corrections are welcome through [Issues](https://github.com/liuliuyaonuli/outdoor-sim-construction-survey/issues) or pull requests. To suggest a paper, include its title, paper link, and relevant topic.
 
 <div align="center">
 
 🌱 **Create** &nbsp; · &nbsp; 🧭 **Recover** &nbsp; · &nbsp; 🛠️ **Transform**
 
 [↑ Back to top](#top)
+
+<sub>Layout inspired by <a href="https://github.com/ANative-Lab/Awesome-Self-Evolving-Agents">Awesome-Self-Evolving-Agents</a>.</sub>
 
 </div>

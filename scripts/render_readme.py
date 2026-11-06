@@ -91,11 +91,11 @@ def main():
 
 ---
 
-A reading guide to the environment construction methods directly discussed in the survey. The technical topics follow **Sections 3.1–3.4** of the manuscript; simulation platforms, data, and response references are listed separately under [Supporting resources](#resources).
+A curated collection of research on automatically constructing outdoor 3D simulation environments. Explore environment synthesis, reconstruction, transformation, and hybrid pipelines, together with [simulation platforms, datasets, and evaluation resources](#resources).
 
-本页精选综述正文直接讨论的构建方法，按“生成、重建、变换及混合编排”的技术路线组织。方法借鉴、完整文献台账和待核验候选可在[补充阅读](#further-reading)中查阅。
+面向室外自主系统的三维仿真环境构建论文与资源，按“生成、重建、变换及混合编排”组织，提供论文、代码、项目与数据集链接。
 
-**Updated {curation['last_synced']}.** [📝 Latest changes](docs/updates.md)
+**Updated {curation['last_synced']}.**
 
 <table>
 <tr>
@@ -135,12 +135,11 @@ A reading guide to the environment construction methods directly discussed in th
                    for topic in topics if topic['id'].startswith(number + '.'))
     out.extend(['- [🤖 **4. Hybrid Construction and Automated Orchestration**](#hybrid)',
                 '- [🧰 **5. Supporting Resources**](#resources)',
-                '- [📚 Further Reading](#further-reading)',
                 '- [🤝 Contributing](#contributing)',
                 '''
 **Resource key:** 📄 Paper · 💻 Code · 🌐 Project · 📘 Documentation · 🗃️ Dataset
 
-Methods appear once in the guide, under their principal technical discussion. Publication labels follow the manuscript bibliography; entries within each topic are ordered by year, newest first. A paper link identifies a research source, while the other links identify available supporting resources.
+Papers are grouped by technical approach and ordered by year, newest first within each topic.
 '''])
 
     for number, (icon, title, anchor, description) in sections.items():
@@ -158,10 +157,6 @@ Methods appear once in the guide, under their principal technical discussion. Pu
                     out.extend(entry(p, anchor=True) for p in members if p['citation_key'] in group['citation_keys'])
             else:
                 out.extend(entry(p, anchor=True) for p in members)
-        if number == '2':
-            out.append('The navigation-structure example **SE(2) Navigation Mesh** is discussed separately in [Methodological references](docs/methodological-references.md#navigation-structure).\n')
-        if number == '3':
-            out.append('The abstract road-network example **TraSculptor** is discussed separately in [Methodological references](docs/methodological-references.md#abstract-road-graph).\n')
         out.append('[↑ Back to contents](#contents)\n')
 
     out.append('''
@@ -171,11 +166,11 @@ Methods appear once in the guide, under their principal technical discussion. Pu
 
 ## 🤖 4. Hybrid Construction and Automated Orchestration
 
-Hybrid pipelines connect different construction operations. Orchestration selects and executes tools, maintains construction state, and uses feedback to revise intermediate results. This section follows Section 3.4 of the survey.
+Hybrid pipelines connect different construction operations. Orchestration selects and executes tools, maintains construction state, and uses feedback to revise intermediate results.
 ''')
     out.extend(entry(p, anchor=True) for p in sorted((p for p in featured if p['topic'].startswith('4.')), key=lambda p: (-p['year'], p['title'].casefold())))
     out.append('''
-Related examples already listed above include [3D-GPT](#paper-sun2023gpt3dv1) and [CityX](#paper-zhang2024cityxv1) for language-to-tool orchestration, and [DroneWiS](#paper-zhang2024dronewisv1) for geometry-dependent wind augmentation. Indoor and game-world examples—**MUSE**, **MAGIC**, and **PhyScensis**—are explained in [Methodological references](docs/methodological-references.md).
+Related examples include [3D-GPT](#paper-sun2023gpt3dv1) and [CityX](#paper-zhang2024cityxv1) for language-to-tool orchestration, and [DroneWiS](#paper-zhang2024dronewisv1) for geometry-dependent wind augmentation.
 
 [↑ Back to contents](#contents)
 
@@ -185,7 +180,7 @@ Related examples already listed above include [3D-GPT](#paper-sun2023gpt3dv1) an
 
 ## 🧰 5. Supporting Resources
 
-These resources support the simulation uses and evaluation settings discussed in Sections 4–5 and Table 4. They are separate from the selected-method count above.
+Platforms, scene data, assets, and benchmarks for constructing and evaluating simulation environments.
 ''')
     resource_groups = [
         ('platform', '🏗️ Simulation Platforms', 'Environment execution, configurable scenes, and repeatable trials.'),
@@ -196,45 +191,26 @@ These resources support the simulation uses and evaluation settings discussed in
         ('response-reference', '📏 Response References', 'Measurements or external model outputs used to assess environmental and vehicle responses.'),
     ]
     for kind, title, description in resource_groups:
-        out.append(f'\n### {title}\n\n{description}\n\n| Resource | Role in the reviewed experiments | Links |\n| :--- | :--- | :--- |')
+        out.append(f'\n### {title}\n\n{description}\n\n| Resource | Purpose | Links |\n| :--- | :--- | :--- |')
         out.extend(f'| **{r["name"]}** | {r["role"]} | {links(r["links"])} |' for r in resources if r['kind'] == kind)
 
-    out.append(f'''
+    out.append('''
 
 ---
-
-<a id="further-reading"></a>
-
-## 📚 Further Reading
-
-| Collection | What it contains |
-| :--- | :--- |
-| [🧭 Methodological references](docs/methodological-references.md) | {len(related)} scoped examples from indoor construction, general physical-world verification, game worlds, legged navigation, and road graphs. |
-| [📘 Supporting literature](docs/supporting-literature.md) | {len(supporting)} background, asset/map, and survey references discussed in Chapter 3. |
-| [📚 Extended reading and full inventory](docs/extended-reading.md) | The original {len(inventory)} records, plus {len(additional)} manuscript references outside that inventory. |
-| [🔎 Candidate review queue](docs/candidates.md) | {len(active_candidates)} unresolved boundary candidates; resolved entries are linked to their current placement. |
-| [📝 Selection and source notes](docs/selection-notes.md) | Inclusion rationale, manuscript correspondence, and a record of where the original entries are displayed. |
-| [🗓️ Update record](docs/updates.md) | Newly included methods, publication corrections, and resolved classifications. |
-
-The historical supplement contained {sum(p['provisional'] for p in inventory)} provisional entries. The current manuscript now discusses {len(selected_ids & {p['id'] for p in inventory if p['provisional']})} of them as selected methods; the remaining {len(pending_provisional)} stay in extended reading. Selection follows the updated technical discussion.
 
 <a id="contributing"></a>
 
 ## 🤝 Contributing
 
-Suggestions and corrections are welcome through [Issues](https://github.com/liuliuyaonuli/outdoor-sim-construction-survey/issues) or pull requests. For a new paper, provide its full title, venue or preprint status, a stable paper URL, and its proposed technical topic. Explain the connection to outdoor environment construction and identify any limits in the output or evaluation scope.
-
-<a id="acknowledgments"></a>
-
-## 💐 Acknowledgments
-
-The presentation is inspired by [Awesome-Self-Evolving-Agents](https://github.com/ANative-Lab/Awesome-Self-Evolving-Agents). The selection and technical organization follow this survey's manuscript. Credit for the linked research and software belongs to the respective authors.
+Suggestions and corrections are welcome through [Issues](https://github.com/liuliuyaonuli/outdoor-sim-construction-survey/issues) or pull requests. To suggest a paper, include its title, paper link, and relevant topic.
 
 <div align="center">
 
 🌱 **Create** &nbsp; · &nbsp; 🧭 **Recover** &nbsp; · &nbsp; 🛠️ **Transform**
 
 [↑ Back to top](#top)
+
+<sub>Layout inspired by <a href="https://github.com/ANative-Lab/Awesome-Self-Evolving-Agents">Awesome-Self-Evolving-Agents</a>.</sub>
 
 </div>
 ''')
