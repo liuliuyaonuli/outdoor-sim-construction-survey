@@ -1,5 +1,43 @@
 [
   {
+    "citation_key": "deitke2022procthor",
+    "title": "ProcTHOR: Large-Scale Embodied AI Using Procedural Generation",
+    "year": 2022,
+    "publication": "NeurIPS 2022",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/27c546ab1e4f1d7d638e6a8dfbad9a07-Paper-Conference.pdf",
+    "resources": {},
+    "topic": "1.1",
+    "survey_section": "3.1.1",
+    "cited_in": [
+      "Rule- and Constraint-Driven Procedural Generation"
+    ],
+    "inventory_id": "010",
+    "selection_basis": "Directly discussed in manuscript Chapter 3",
+    "scope": "Indoor procedural environments",
+    "reason": "Room-layout and interactive-asset generation for houses; a transferable procedural example rather than outdoor construction.",
+    "anchor": "deitke2022procthor"
+  },
+  {
+    "citation_key": "yang2024physcene",
+    "title": "PhyScene: Physically Interactable 3D Scene Synthesis for Embodied AI",
+    "year": 2024,
+    "publication": "CVPR 2024",
+    "paper_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Yang_PhyScene_Physically_Interactable_3D_Scene_Synthesis_for_Embodied_AI_CVPR_2024_paper.html",
+    "resources": {
+      "project": "https://physcene.github.io"
+    },
+    "topic": "1.3",
+    "survey_section": "3.1.3",
+    "cited_in": [
+      "Learning-Based Generation of 3D Structures and Scene Representations"
+    ],
+    "inventory_id": "044",
+    "selection_basis": "Directly discussed in manuscript Chapter 3",
+    "scope": "Indoor constrained layout synthesis",
+    "reason": "Collision, layout, and reachability guidance for indoor embodied scenes; explicitly introduced as a methodological reference.",
+    "anchor": "yang2024physcene"
+  },
+  {
     "citation_key": "shi2026se2",
     "title": "SE(2) Navigation Mesh",
     "year": 2026,
@@ -12,9 +50,10 @@
       "Recovering Simulation-Relevant Structures and Properties"
     ],
     "inventory_id": "134",
-    "selection_basis": "Explicit methodological reference in manuscript Chapter 3",
+    "selection_basis": "Directly discussed in manuscript Chapter 3",
     "scope": "Navigation structure",
-    "reason": "Recovers orientation-dependent traversability for legged robotics. The survey uses it to explain how embodiment affects recovered navigation structure, rather than as a complete outdoor environment construction pipeline."
+    "reason": "Recovers orientation-dependent traversability for legged robotics. The survey uses it to explain how embodiment affects recovered navigation structure, rather than as a complete outdoor environment construction pipeline.",
+    "anchor": "navigation-structure"
   },
   {
     "citation_key": "deng2025trasculptor",
@@ -31,9 +70,10 @@
       "Object, Semantic, and Topological Editing"
     ],
     "inventory_id": "148",
-    "selection_basis": "Explicit methodological reference in manuscript Chapter 3",
+    "selection_basis": "Directly discussed in manuscript Chapter 3",
     "scope": "Abstract road graph",
-    "reason": "Edits road-network structure and attributes for traffic planning. It operates at the graph layer; corresponding 3D road surfaces require separate instantiation."
+    "reason": "Edits road-network structure and attributes for traffic planning. It operates at the graph layer; corresponding 3D road surfaces require separate instantiation.",
+    "anchor": "abstract-road-graph"
   },
   {
     "citation_key": "xu2026musev1",
@@ -50,9 +90,10 @@
       "Hybrid Construction and Automated Orchestration"
     ],
     "inventory_id": "132",
-    "selection_basis": "Explicit methodological reference in manuscript Chapter 3",
+    "selection_basis": "Directly discussed in manuscript Chapter 3",
     "scope": "Indoor scene authoring",
-    "reason": "Provides a methodological example of persistent requirements, scene state, and preservation checks across successive edits."
+    "reason": "Provides a methodological example of persistent requirements, scene state, and preservation checks across successive edits.",
+    "anchor": "indoor-scene-authoring"
   },
   {
     "citation_key": "fan2026magicv1",
@@ -69,9 +110,10 @@
       "Hybrid Construction and Automated Orchestration"
     ],
     "inventory_id": "025",
-    "selection_basis": "Explicit methodological reference in manuscript Chapter 3",
+    "selection_basis": "Directly discussed in manuscript Chapter 3",
     "scope": "Multi-scene game worlds",
-    "reason": "Provides a methodological example of portal-connectivity verification and feedback-driven placement repair."
+    "reason": "Provides a methodological example of portal-connectivity verification and feedback-driven placement repair.",
+    "anchor": "multi-scene-game-worlds"
   },
   {
     "citation_key": "wang2026physcensisv1",
@@ -86,8 +128,63 @@
       "Hybrid Construction and Automated Orchestration"
     ],
     "inventory_id": "088",
-    "selection_basis": "Explicit methodological reference in manuscript Chapter 3",
+    "selection_basis": "Directly discussed in manuscript Chapter 3",
     "scope": "Indoor physical arrangement",
-    "reason": "Provides a methodological example of solver feedback for revising spatial and physical predicates."
+    "reason": "Provides a methodological example of solver feedback for revising spatial and physical predicates.",
+    "anchor": "indoor-physical-arrangement"
+  },
+  {
+    "citation_key": "xia2026sage",
+    "title": "SAGE: Scalable Agentic 3D Scene Generation for Embodied AI",
+    "year": 2026,
+    "publication": "CVPR 2026",
+    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Xia_SAGE_Scalable_Agentic_3D_Scene_Generation_for_Embodied_AI_CVPR_2026_paper.html",
+    "resources": {},
+    "topic": "4.1",
+    "survey_section": "3.4",
+    "cited_in": [
+      "Hybrid Construction and Automated Orchestration"
+    ],
+    "inventory_id": "089",
+    "selection_basis": "Directly discussed in manuscript Chapter 3",
+    "scope": "Indoor agentic verification",
+    "reason": "Tool use and semantic, visual, and stability critics for indoor scene generation; outdoor checks require additional task-specific design.",
+    "anchor": "xia2026sage"
+  },
+  {
+    "citation_key": "wang2026worldagentv1",
+    "title": "WorldAgent: Verification-Guided Agentic Physical World Construction",
+    "year": 2026,
+    "publication": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2609.33208v1",
+    "resources": {},
+    "topic": "4.1",
+    "survey_section": "3.4",
+    "cited_in": [
+      "Hybrid Construction and Automated Orchestration"
+    ],
+    "inventory_id": null,
+    "selection_basis": "Directly discussed in manuscript Chapter 3",
+    "scope": "General physical-world verification",
+    "reason": "World specifications and geometry/simulation feedback illustrate verification-guided orchestration; retained as a general physical-world reference.",
+    "anchor": "wang2026worldagentv1"
+  },
+  {
+    "citation_key": "zhang2026code2worlds2v1",
+    "title": "Code2Worlds-2: Physically Plausible Agent Harness for Embodied World Simulation",
+    "year": 2026,
+    "publication": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.17651v1",
+    "resources": {},
+    "topic": "4.1",
+    "survey_section": "3.4",
+    "cited_in": [
+      "Hybrid Construction and Automated Orchestration"
+    ],
+    "inventory_id": null,
+    "selection_basis": "Directly discussed in manuscript Chapter 3",
+    "scope": "Physical-world compilation",
+    "reason": "Visual-to-MuJoCo compilation and simulator checks illustrate physical preparation and feedback for embodied worlds.",
+    "anchor": "zhang2026code2worlds2v1"
   }
 ]

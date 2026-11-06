@@ -78,6 +78,83 @@
     "selection_basis": "Directly discussed in manuscript Chapter 3"
   },
   {
+    "citation_key": "fremont2019scenic",
+    "title": "Scenic: A Language for Scenario Specification and Scene Generation",
+    "year": 2019,
+    "publication": "PLDI 2019",
+    "paper_url": "https://people.eecs.berkeley.edu/~sseshia/pubdir/pldi19-scenic.pdf",
+    "resources": {},
+    "topic": "1.1",
+    "survey_section": "3.1.1",
+    "cited_in": [
+      "Rule- and Constraint-Driven Procedural Generation"
+    ],
+    "inventory_id": null,
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "vin2023scenic3",
+    "title": "3D Environment Modeling for Falsification and Beyond with Scenic 3.0",
+    "year": 2023,
+    "publication": "CAV 2023",
+    "paper_url": "https://arxiv.org/abs/2307.03325v1",
+    "resources": {},
+    "topic": "1.1",
+    "survey_section": "3.1.1",
+    "cited_in": [
+      "Rule- and Constraint-Driven Procedural Generation"
+    ],
+    "inventory_id": null,
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "vecchio2025midgard",
+    "title": "MIDGARD: A Robot Navigation Simulator for Outdoor Unstructured Environments",
+    "year": 2025,
+    "publication": "ERF 2024 (proceedings 2025)",
+    "paper_url": "https://researchportal.hw.ac.uk/en/publications/midgard-a-robot-navigation-simulator-for-outdoor-unstructured-env/",
+    "resources": {},
+    "topic": "1.1",
+    "survey_section": "3.1.1",
+    "cited_in": [
+      "Rule- and Constraint-Driven Procedural Generation"
+    ],
+    "inventory_id": null,
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "bajpai2026agrigen",
+    "title": "AgriGen: Large-Scale Scene Generation Framework for Photorealistic Agricultural Robotics Simulation",
+    "year": 2026,
+    "publication": "ICRA Workshop on Agricultural Robotics 2026",
+    "paper_url": "https://baj31415.github.io/agrigen/",
+    "resources": {},
+    "topic": "1.1",
+    "survey_section": "3.1.1",
+    "cited_in": [
+      "Rule- and Constraint-Driven Procedural Generation"
+    ],
+    "inventory_id": null,
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "wu2025urbansim",
+    "title": "Towards Autonomous Micromobility through Scalable Urban Simulation",
+    "year": 2025,
+    "publication": "CVPR 2025",
+    "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wu_Towards_Autonomous_Micromobility_through_Scalable_Urban_Simulation_CVPR_2025_paper.html",
+    "resources": {
+      "project": "https://metadriverse.github.io/urban-sim/"
+    },
+    "topic": "1.1",
+    "survey_section": "3.1.1",
+    "cited_in": [
+      "Rule- and Constraint-Driven Procedural Generation"
+    ],
+    "inventory_id": "015",
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
     "citation_key": "sun2023gpt3dv1",
     "title": "3D-GPT: Procedural 3D Modeling with Large Language Models",
     "year": 2023,
@@ -127,11 +204,86 @@
     "selection_basis": "Directly discussed in manuscript Chapter 3"
   },
   {
+    "citation_key": "tang2025unrealllm",
+    "title": "UnrealLLM: Towards Highly Controllable and Interactable 3D Scene Generation by LLM-powered Procedural Content Generation",
+    "year": 2025,
+    "publication": "Findings of ACL 2025",
+    "paper_url": "https://aclanthology.org/2025.findings-acl.994/",
+    "resources": {},
+    "topic": "1.1",
+    "survey_section": "3.1.1",
+    "cited_in": [
+      "Rule- and Constraint-Driven Procedural Generation"
+    ],
+    "inventory_id": "191",
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "liu2025worldcraft",
+    "title": "WorldCraft: Photo-Realistic 3D World Creation and Customization via LLM Agents",
+    "year": 2025,
+    "publication": "arXiv 2025",
+    "paper_url": "https://arxiv.org/abs/2502.15601v2",
+    "resources": {},
+    "topic": "1.1",
+    "survey_section": "3.1.1",
+    "cited_in": [
+      "Rule- and Constraint-Driven Procedural Generation"
+    ],
+    "inventory_id": "033",
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "duan2025latticeworld",
+    "title": "LatticeWorld: A Multimodal Large Language Model-Empowered Framework for Interactive Complex World Generation",
+    "year": 2025,
+    "publication": "arXiv 2025",
+    "paper_url": "https://arxiv.org/abs/2509.05263v2",
+    "resources": {},
+    "topic": "1.1",
+    "survey_section": "3.1.1",
+    "cited_in": [
+      "Rule- and Constraint-Driven Procedural Generation"
+    ],
+    "inventory_id": "201",
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "galin2010roads",
+    "title": "Procedural Generation of Roads",
+    "year": 2010,
+    "publication": "Computer Graphics Forum 2010",
+    "paper_url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1467-8659.2009.01612.x",
+    "resources": {},
+    "topic": "1.1",
+    "survey_section": "3.1.1",
+    "cited_in": [
+      "Rule- and Constraint-Driven Procedural Generation"
+    ],
+    "inventory_id": null,
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "niese2022urbanforestry",
+    "title": "Procedural Urban Forestry",
+    "year": 2022,
+    "publication": "ACM TOG 2022",
+    "paper_url": "https://research.google/pubs/procedural-urban-forestry/",
+    "resources": {},
+    "topic": "1.1",
+    "survey_section": "3.1.1",
+    "cited_in": [
+      "Rule- and Constraint-Driven Procedural Generation"
+    ],
+    "inventory_id": null,
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
     "citation_key": "li2023metadrive",
     "title": "MetaDrive: Composing Diverse Driving Scenarios for Generalizable Reinforcement Learning",
     "year": 2023,
     "publication": "IEEE TPAMI 2023",
-    "paper_url": "https://doi.org/10.1109/TPAMI.2022.3190471",
+    "paper_url": "https://doi.org/10.1109/tpami.2022.3190471",
     "resources": {
       "code": "https://github.com/metadriverse/metadrive",
       "documentation": "https://metadrive-simulator.readthedocs.io/en/latest/"
@@ -159,6 +311,21 @@
       "Asset Retrieval and Compositional Environment Assembly"
     ],
     "inventory_id": "008",
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "zhuang2025simworldrobotics",
+    "title": "SimWorld-Robotics: Synthesizing Photorealistic and Dynamic Urban Environments for Multimodal Robot Navigation and Collaboration",
+    "year": 2025,
+    "publication": "NeurIPS 2025",
+    "paper_url": "https://papers.neurips.cc/paper_files/paper/2025/hash/4a81c1aad3064fb8243b8938a49ecca0-Abstract-Conference.html",
+    "resources": {},
+    "topic": "1.2",
+    "survey_section": "3.1.2",
+    "cited_in": [
+      "Asset Retrieval and Compositional Environment Assembly"
+    ],
+    "inventory_id": null,
     "selection_basis": "Directly discussed in manuscript Chapter 3"
   },
   {
@@ -209,6 +376,21 @@
     "selection_basis": "Directly discussed in manuscript Chapter 3"
   },
   {
+    "citation_key": "deng2024citycraftv1",
+    "title": "CityCraft: A Real Crafter for 3D City Generation",
+    "year": 2024,
+    "publication": "arXiv 2024",
+    "paper_url": "https://arxiv.org/abs/2406.04983v1",
+    "resources": {},
+    "topic": "1.2",
+    "survey_section": "3.1.2",
+    "cited_in": [
+      "Asset Retrieval and Compositional Environment Assembly"
+    ],
+    "inventory_id": null,
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
     "citation_key": "kar2019metasim",
     "title": "Meta-Sim: Learning to Generate Synthetic Datasets",
     "year": 2019,
@@ -256,6 +438,23 @@
     "selection_basis": "Directly discussed in manuscript Chapter 3"
   },
   {
+    "citation_key": "liu2025outdoorscenegraphs",
+    "title": "Controllable 3D Outdoor Scene Generation via Scene Graphs",
+    "year": 2025,
+    "publication": "ICCV 2025",
+    "paper_url": "https://arxiv.org/abs/2503.07152",
+    "resources": {
+      "code": "https://github.com/yuhengliu02/control-3d-scene"
+    },
+    "topic": "1.3",
+    "survey_section": "3.1.3",
+    "cited_in": [
+      "Learning-Based Generation of 3D Structures and Scene Representations"
+    ],
+    "inventory_id": "193",
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
     "citation_key": "ren2024xcube",
     "title": "XCube: Large-Scale 3D Generative Modeling using Sparse Voxel Hierarchies",
     "year": 2024,
@@ -289,11 +488,86 @@
     "selection_basis": "Directly discussed in manuscript Chapter 3"
   },
   {
+    "citation_key": "lee2024semcity",
+    "title": "SemCity: Semantic Scene Generation with Triplane Diffusion",
+    "year": 2024,
+    "publication": "CVPR 2024",
+    "paper_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Lee_SemCity_Semantic_Scene_Generation_with_Triplane_Diffusion_CVPR_2024_paper.html",
+    "resources": {},
+    "topic": "1.3",
+    "survey_section": "3.1.3",
+    "cited_in": [
+      "Learning-Based Generation of 3D Structures and Scene Representations"
+    ],
+    "inventory_id": null,
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "tze2026pritti",
+    "title": "PrITTI: Primitive-based Generation of Controllable and Editable 3D Semantic Urban Scenes",
+    "year": 2026,
+    "publication": "CVPR 2026",
+    "paper_url": "https://raniatze.github.io/pritti/",
+    "resources": {},
+    "topic": "1.3",
+    "survey_section": "3.1.3",
+    "cited_in": [
+      "Learning-Based Generation of 3D Structures and Scene Representations"
+    ],
+    "inventory_id": null,
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "bian2025dynamiccity",
+    "title": "DynamicCity: Large-Scale 4D Occupancy Generation from Dynamic Scenes",
+    "year": 2025,
+    "publication": "ICLR 2025",
+    "paper_url": "https://openreview.net/forum?id=M7KyLjuN0A",
+    "resources": {},
+    "topic": "1.3",
+    "survey_section": "3.1.3",
+    "cited_in": [
+      "Learning-Based Generation of 3D Structures and Scene Representations"
+    ],
+    "inventory_id": null,
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "liang2025cymbadiff",
+    "title": "CymbaDiff: Structured Spatial Diffusion for Sketch-based 3D Semantic Urban Scene Generation",
+    "year": 2025,
+    "publication": "NeurIPS 2025",
+    "paper_url": "https://arxiv.org/abs/2510.13245v3",
+    "resources": {},
+    "topic": "1.3",
+    "survey_section": "3.1.3",
+    "cited_in": [
+      "Learning-Based Generation of 3D Structures and Scene Representations"
+    ],
+    "inventory_id": null,
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "li2025uniscene",
+    "title": "UniScene: Unified Occupancy-Centric Driving Scene Generation",
+    "year": 2025,
+    "publication": "CVPR 2025",
+    "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Li_UniScene_Unified_Occupancy-centric_Driving_Scene_Generation_CVPR_2025_paper.html",
+    "resources": {},
+    "topic": "1.3",
+    "survey_section": "3.1.3",
+    "cited_in": [
+      "Learning-Based Generation of 3D Structures and Scene Representations"
+    ],
+    "inventory_id": "195",
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
     "citation_key": "chen2023scenedreamer",
     "title": "SceneDreamer: Unbounded 3D Scene Generation From 2D Image Collections",
     "year": 2023,
     "publication": "IEEE TPAMI 2023",
-    "paper_url": "https://doi.org/10.1109/TPAMI.2023.3321857",
+    "paper_url": "https://doi.org/10.1109/tpami.2023.3321857",
     "resources": {
       "code": "https://github.com/FrozenBurning/SceneDreamer"
     },
@@ -318,7 +592,24 @@
       "Learning-Based Generation of 3D Structures and Scene Representations"
     ],
     "inventory_id": null,
-    "selection_basis": "Directly discussed in manuscript Chapter 3"
+    "selection_basis": "Directly discussed in manuscript Chapter 3",
+    "extensions": [
+      {
+        "citation_key": "xie2026citydreamer4d",
+        "title": "Compositional Generative Model of Unbounded 4D Cities",
+        "year": 2026,
+        "publication": "IEEE TPAMI 2026",
+        "paper_url": "https://doi.org/10.1109/TPAMI.2025.3603078",
+        "resources": {},
+        "topic": "1.3",
+        "survey_section": "3.1.3",
+        "cited_in": [
+          "Learning-Based Generation of 3D Structures and Scene Representations"
+        ],
+        "inventory_id": null,
+        "selection_basis": "Directly discussed in manuscript Chapter 3"
+      }
+    ]
   },
   {
     "citation_key": "xie2025gaussiancity",
@@ -336,6 +627,115 @@
       "3D Environment Generation with Image and Video Priors"
     ],
     "inventory_id": "038",
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "chai2023persistentnature",
+    "title": "Persistent Nature: A Generative Model of Unbounded 3D Worlds",
+    "year": 2023,
+    "publication": "CVPR 2023",
+    "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/html/Chai_Persistent_Nature_A_Generative_Model_of_Unbounded_3D_Worlds_CVPR_2023_paper.html",
+    "resources": {},
+    "topic": "1.3",
+    "survey_section": "3.1.3",
+    "cited_in": [
+      "Learning-Based Generation of 3D Structures and Scene Representations"
+    ],
+    "inventory_id": null,
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "lin2023infinicity",
+    "title": "InfiniCity: Infinite-Scale City Synthesis",
+    "year": 2023,
+    "publication": "ICCV 2023",
+    "paper_url": "https://hubert0527.github.io/infinicity/",
+    "resources": {},
+    "topic": "1.3",
+    "survey_section": "3.1.3",
+    "cited_in": [
+      "Learning-Based Generation of 3D Structures and Scene Representations"
+    ],
+    "inventory_id": null,
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "joshi2026worldflow3dv1",
+    "title": "WorldFlow3D: Flowing Through 3D Distributions for Unbounded World Generation",
+    "year": 2026,
+    "publication": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2603.29089v1",
+    "resources": {
+      "project": "https://light.princeton.edu/worldflow3d"
+    },
+    "topic": "1.3",
+    "survey_section": "3.1.3",
+    "cited_in": [
+      "Learning-Based Generation of 3D Structures and Scene Representations"
+    ],
+    "inventory_id": "049",
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "zyrianov2025lidardm",
+    "title": "LidarDM: Generative LiDAR Simulation in a Generated World",
+    "year": 2025,
+    "publication": "ICRA 2025",
+    "paper_url": "https://zyrianov.org/lidardm/LidarDM_ICRA2025.pdf",
+    "resources": {},
+    "topic": "1.3",
+    "survey_section": "3.1.3",
+    "cited_in": [
+      "Learning-Based Generation of 3D Structures and Scene Representations"
+    ],
+    "inventory_id": null,
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "hu2024terraindiffusion",
+    "title": "Terrain Diffusion Network: Climatic-Aware Terrain Generation with Geological Sketch Guidance",
+    "year": 2024,
+    "publication": "AAAI 2024",
+    "paper_url": "https://ojs.aaai.org/index.php/AAAI/article/view/29150",
+    "resources": {},
+    "topic": "1.3",
+    "survey_section": "3.1.3",
+    "cited_in": [
+      "Learning-Based Generation of 3D Structures and Scene Representations"
+    ],
+    "inventory_id": null,
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "wu2024blockfusion",
+    "title": "BlockFusion: Expandable 3D Scene Generation using Latent Tri-plane Extrapolation",
+    "year": 2024,
+    "publication": "ACM TOG 2024",
+    "paper_url": "https://arxiv.org/abs/2401.17053",
+    "resources": {},
+    "topic": "1.3",
+    "survey_section": "3.1.3",
+    "cited_in": [
+      "Learning-Based Generation of 3D Structures and Scene Representations"
+    ],
+    "inventory_id": null,
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "lee2025nuiscene",
+    "title": "NuiScene: Exploring Efficient Generation of Unbounded Outdoor Scenes",
+    "year": 2025,
+    "publication": "ICCV 2025",
+    "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Lee_NuiScene_Exploring_Efficient_Generation_of_Unbounded_Outdoor_Scenes_ICCV_2025_paper.html",
+    "resources": {
+      "dataset": "https://github.com/3dlg-hcvc/NuiScene43-Dataset"
+    },
+    "topic": "1.3",
+    "survey_section": "3.1.3",
+    "cited_in": [
+      "Learning-Based Generation of 3D Structures and Scene Representations"
+    ],
+    "inventory_id": "192",
     "selection_basis": "Directly discussed in manuscript Chapter 3"
   },
   {
@@ -371,6 +771,21 @@
       "Geometric Completion, Local Repair, and Spatial Expansion"
     ],
     "inventory_id": "048",
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "kim2026scenefrom3dv1",
+    "title": "SceneFrom3D: Geometry-Conditioned Outdoor 3D Scene Generation via View Scheduling with Object-Level Control",
+    "year": 2026,
+    "publication": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2607.04540v1",
+    "resources": {},
+    "topic": "1.4",
+    "survey_section": "3.1.4",
+    "cited_in": [
+      "3D Environment Generation with Image and Video Priors"
+    ],
+    "inventory_id": null,
     "selection_basis": "Directly discussed in manuscript Chapter 3"
   },
   {
@@ -440,6 +855,81 @@
     "selection_basis": "Directly discussed in manuscript Chapter 3"
   },
   {
+    "citation_key": "mao2025dreamdrive",
+    "title": "DreamDrive: Generative 4D Scene Modeling from Street View Images",
+    "year": 2025,
+    "publication": "ICRA 2025",
+    "paper_url": "https://research.nvidia.com/labs/aspire/publication/mao.li.etal.icra2025/",
+    "resources": {},
+    "topic": "1.4",
+    "survey_section": "3.1.4",
+    "cited_in": [
+      "3D Environment Generation with Image and Video Priors"
+    ],
+    "inventory_id": null,
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "guo2025dist4d",
+    "title": "DiST-4D: Disentangled Spatiotemporal Diffusion with Metric Depth for 4D Driving Scene Generation",
+    "year": 2025,
+    "publication": "ICCV 2025",
+    "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Guo_DiST-4D_Disentangled_Spatiotemporal_Diffusion_with_Metric_Depth_for_4D_Driving_ICCV_2025_paper.html",
+    "resources": {},
+    "topic": "1.4",
+    "survey_section": "3.1.4",
+    "cited_in": [
+      "3D Environment Generation with Image and Video Priors"
+    ],
+    "inventory_id": null,
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "zhu2026worldsplat",
+    "title": "WorldSplat: Gaussian-Centric Feed-Forward 4D Scene Generation for Autonomous Driving",
+    "year": 2026,
+    "publication": "ICLR 2026",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/6fa4a1def9d60b5bf6078e13c900c45c-Abstract-Conference.html",
+    "resources": {},
+    "topic": "1.4",
+    "survey_section": "3.1.4",
+    "cited_in": [
+      "3D Environment Generation with Image and Video Priors"
+    ],
+    "inventory_id": null,
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "ost2026lsd3d",
+    "title": "LSD-3D: Large-Scale 3D Driving Scene Generation with Geometry Grounding",
+    "year": 2026,
+    "publication": "AAAI 2026",
+    "paper_url": "https://arxiv.org/abs/2508.19204v1",
+    "resources": {},
+    "topic": "1.4",
+    "survey_section": "3.1.4",
+    "cited_in": [
+      "3D Environment Generation with Image and Video Priors"
+    ],
+    "inventory_id": null,
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "li2026flymiragev1",
+    "title": "FlyMirage: A Fully Automated Generation Pipeline for Diverse and Scalable UAV Flight Data via Generative World Model",
+    "year": 2026,
+    "publication": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2605.19600v1",
+    "resources": {},
+    "topic": "1.4",
+    "survey_section": "3.1.4",
+    "cited_in": [
+      "3D Environment Generation with Image and Video Priors"
+    ],
+    "inventory_id": null,
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
     "citation_key": "raskoti2025elevation",
     "title": "Elevation Aware 2D/3D Co-simulation Framework for Large-scale Traffic Flow and High-fidelity Vehicle Dynamics",
     "year": 2025,
@@ -467,6 +957,36 @@
       "Geospatial Data- and Map-Driven Structured Reconstruction"
     ],
     "inventory_id": "153",
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "jannussi2026cam2simv1",
+    "title": "Cam2Sim: Neural Scenario Reconstruction for Closed-Loop Autonomous Driving Simulation",
+    "year": 2026,
+    "publication": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2607.04770v1",
+    "resources": {},
+    "topic": "2.1",
+    "survey_section": "3.2.1",
+    "cited_in": [
+      "Geospatial Data- and Map-Driven Structured Reconstruction"
+    ],
+    "inventory_id": "051",
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "hari2026simscene",
+    "title": "SimScene: Automated Photorealistic Scene Reconstruction for Geographically Scalable Physical AI",
+    "year": 2026,
+    "publication": "CVPR Workshop 2026",
+    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026W/ReGen4D/html/hari_SimScene_Automated_Photorealistic_Scene_Reconstruction_for_Geographically_Scalable_Physical_AI_CVPRW_2026_paper.html",
+    "resources": {},
+    "topic": "2.1",
+    "survey_section": "3.2.1",
+    "cited_in": [
+      "Geospatial Data- and Map-Driven Structured Reconstruction"
+    ],
+    "inventory_id": null,
     "selection_basis": "Directly discussed in manuscript Chapter 3"
   },
   {
@@ -517,6 +1037,96 @@
     "selection_basis": "Directly discussed in manuscript Chapter 3"
   },
   {
+    "citation_key": "tancik2022blocknerf",
+    "title": "Block-NeRF: Scalable Large Scene Neural View Synthesis",
+    "year": 2022,
+    "publication": "CVPR 2022",
+    "paper_url": "https://openaccess.thecvf.com/content/CVPR2022/html/Tancik_Block-NeRF_Scalable_Large_Scene_Neural_View_Synthesis_CVPR_2022_paper.html",
+    "resources": {},
+    "topic": "2.3",
+    "survey_section": "3.2.3",
+    "cited_in": [
+      "Scene Reconstruction with Neural Fields and Gaussian Representations"
+    ],
+    "inventory_id": null,
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "turki2022meganerf",
+    "title": "Mega-NeRF: Scalable Construction of Large-Scale NeRFs for Virtual Fly-Throughs",
+    "year": 2022,
+    "publication": "CVPR 2022",
+    "paper_url": "https://openaccess.thecvf.com/content/CVPR2022/html/Turki_Mega-NERF_Scalable_Construction_of_Large-Scale_NeRFs_for_Virtual_Fly-Throughs_CVPR_2022_paper.html",
+    "resources": {},
+    "topic": "2.3",
+    "survey_section": "3.2.3",
+    "cited_in": [
+      "Scene Reconstruction with Neural Fields and Gaussian Representations"
+    ],
+    "inventory_id": null,
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "rematas2022urbanradiance",
+    "title": "Urban Radiance Fields",
+    "year": 2022,
+    "publication": "CVPR 2022",
+    "paper_url": "https://openaccess.thecvf.com/content/CVPR2022/html/Rematas_Urban_Radiance_Fields_CVPR_2022_paper.html",
+    "resources": {},
+    "topic": "2.3",
+    "survey_section": "3.2.3",
+    "cited_in": [
+      "Scene Reconstruction with Neural Fields and Gaussian Representations"
+    ],
+    "inventory_id": null,
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "xiangli2022bungeenerf",
+    "title": "BungeeNeRF: Progressive Neural Radiance Field for Extreme Multi-Scale Scene Rendering",
+    "year": 2022,
+    "publication": "ECCV 2022",
+    "paper_url": "https://doi.org/10.1007/978-3-031-19824-3_7",
+    "resources": {},
+    "topic": "2.3",
+    "survey_section": "3.2.3",
+    "cited_in": [
+      "Scene Reconstruction with Neural Fields and Gaussian Representations"
+    ],
+    "inventory_id": null,
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "lin2024vastgaussian",
+    "title": "VastGaussian: Vast 3D Gaussians for Large Scene Reconstruction",
+    "year": 2024,
+    "publication": "CVPR 2024",
+    "paper_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Lin_VastGaussian_Vast_3D_Gaussians_for_Large_Scene_Reconstruction_CVPR_2024_paper.html",
+    "resources": {},
+    "topic": "2.3",
+    "survey_section": "3.2.3",
+    "cited_in": [
+      "Scene Reconstruction with Neural Fields and Gaussian Representations"
+    ],
+    "inventory_id": null,
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "liu2025citygaussian",
+    "title": "CityGaussian: Real-Time High-Quality Large-Scale Scene Rendering with Gaussians",
+    "year": 2025,
+    "publication": "ECCV 2024 (proceedings 2025)",
+    "paper_url": "https://doi.org/10.1007/978-3-031-72640-8_15",
+    "resources": {},
+    "topic": "2.3",
+    "survey_section": "3.2.3",
+    "cited_in": [
+      "Scene Reconstruction with Neural Fields and Gaussian Representations"
+    ],
+    "inventory_id": null,
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
     "citation_key": "tonderski2024neurad",
     "title": "NeuRAD: Neural Rendering for Autonomous Driving",
     "year": 2024,
@@ -544,6 +1154,96 @@
       "Scene Reconstruction with Neural Fields and Gaussian Representations"
     ],
     "inventory_id": "061",
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "yang2024emernerf",
+    "title": "EmerNeRF: Emergent Spatial-Temporal Scene Decomposition via Self-Supervision",
+    "year": 2024,
+    "publication": "ICLR 2024",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/47fc64d05a394955b1ae2487bfef1ab0-Abstract-Conference.html",
+    "resources": {},
+    "topic": "2.3",
+    "survey_section": "3.2.3",
+    "cited_in": [
+      "Scene Reconstruction with Neural Fields and Gaussian Representations"
+    ],
+    "inventory_id": null,
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "ost2021neuralscenegraphs",
+    "title": "Neural Scene Graphs for Dynamic Scenes",
+    "year": 2021,
+    "publication": "CVPR 2021",
+    "paper_url": "https://openaccess.thecvf.com/content/CVPR2021/html/Ost_Neural_Scene_Graphs_for_Dynamic_Scenes_CVPR_2021_paper.html",
+    "resources": {},
+    "topic": "2.3",
+    "survey_section": "3.2.3",
+    "cited_in": [
+      "Scene Reconstruction with Neural Fields and Gaussian Representations"
+    ],
+    "inventory_id": null,
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "yan2024streetgaussians",
+    "title": "Street Gaussians: Modeling Dynamic Urban Scenes with Gaussian Splatting",
+    "year": 2024,
+    "publication": "ECCV 2024",
+    "paper_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/9243_ECCV_2024_paper.php",
+    "resources": {},
+    "topic": "2.3",
+    "survey_section": "3.2.3",
+    "cited_in": [
+      "Scene Reconstruction with Neural Fields and Gaussian Representations"
+    ],
+    "inventory_id": null,
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "chen2025omnire",
+    "title": "OmniRe: Omni Urban Scene Reconstruction",
+    "year": 2025,
+    "publication": "ICLR 2025",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/d4938496368e1c5806138bea8837595c-Abstract-Conference.html",
+    "resources": {},
+    "topic": "2.3",
+    "survey_section": "3.2.3",
+    "cited_in": [
+      "Scene Reconstruction with Neural Fields and Gaussian Representations"
+    ],
+    "inventory_id": null,
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "fischer2024multilevelscenegraphs",
+    "title": "Multi-Level Neural Scene Graphs for Dynamic Urban Environments",
+    "year": 2024,
+    "publication": "CVPR 2024",
+    "paper_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Fischer_Multi-Level_Neural_Scene_Graphs_for_Dynamic_Urban_Environments_CVPR_2024_paper.html",
+    "resources": {},
+    "topic": "2.3",
+    "survey_section": "3.2.3",
+    "cited_in": [
+      "Scene Reconstruction with Neural Fields and Gaussian Representations"
+    ],
+    "inventory_id": null,
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "zhou2024hugs",
+    "title": "HUGS: Holistic Urban 3D Scene Understanding via Gaussian Splatting",
+    "year": 2024,
+    "publication": "CVPR 2024",
+    "paper_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Zhou_HUGS_Holistic_Urban_3D_Scene_Understanding_via_Gaussian_Splatting_CVPR_2024_paper.html",
+    "resources": {},
+    "topic": "2.3",
+    "survey_section": "3.2.3",
+    "cited_in": [
+      "Scene Reconstruction with Neural Fields and Gaussian Representations"
+    ],
+    "inventory_id": null,
     "selection_basis": "Directly discussed in manuscript Chapter 3"
   },
   {
@@ -582,6 +1282,171 @@
     "selection_basis": "Directly discussed in manuscript Chapter 3"
   },
   {
+    "citation_key": "guo2023streetsurfv1",
+    "title": "StreetSurf: Extending Multi-View Implicit Surface Reconstruction to Street Views",
+    "year": 2023,
+    "publication": "arXiv 2023",
+    "paper_url": "https://arxiv.org/abs/2306.04988v1",
+    "resources": {},
+    "topic": "2.3",
+    "survey_section": "3.2.3",
+    "cited_in": [
+      "Scene Reconstruction with Neural Fields and Gaussian Representations"
+    ],
+    "inventory_id": null,
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "ren2024scube",
+    "title": "SCube: Instant Large-Scale Scene Reconstruction using VoxSplats",
+    "year": 2024,
+    "publication": "NeurIPS 2024",
+    "paper_url": "https://proceedings.nips.cc/paper_files/paper/2024/hash/b111aa30ab71255946b19b6bd4e68939-Abstract-Conference.html",
+    "resources": {},
+    "topic": "2.3",
+    "survey_section": "3.2.3",
+    "cited_in": [
+      "Scene Reconstruction with Neural Fields and Gaussian Representations"
+    ],
+    "inventory_id": null,
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "chen2026dggt",
+    "title": "DGGT: Feedforward 4D Reconstruction of Dynamic Driving Scenes using Unposed Images",
+    "year": 2026,
+    "publication": "CVPR 2026",
+    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Chen_DGGT_Feedforward_4D_Reconstruction_of_Dynamic_Driving_Scenes_using_Unposed_CVPR_2026_paper.html",
+    "resources": {},
+    "topic": "2.3",
+    "survey_section": "3.2.3",
+    "cited_in": [
+      "Scene Reconstruction with Neural Fields and Gaussian Representations"
+    ],
+    "inventory_id": null,
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "li2026aerogs",
+    "title": "AeroGS: Scale-Aware Gaussian Splatting for Pose-Free Dynamic UAV Scene Reconstruction",
+    "year": 2026,
+    "publication": "CVPR 2026",
+    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Li_AeroGS_Scale-Aware_Gaussian_Splatting_for_Pose-Free_Dynamic_UAV_Scene_Reconstruction_CVPR_2026_paper.html",
+    "resources": {},
+    "topic": "2.3",
+    "survey_section": "3.2.3",
+    "cited_in": [
+      "Scene Reconstruction with Neural Fields and Gaussian Representations"
+    ],
+    "inventory_id": null,
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "liu2026aerodgs",
+    "title": "AeroDGS: Physically Consistent Dynamic Gaussian Splatting for Single-Sequence Aerial 4D Reconstruction",
+    "year": 2026,
+    "publication": "CVPR 2026",
+    "paper_url": "https://arxiv.org/abs/2602.22376v1",
+    "resources": {},
+    "topic": "2.3",
+    "survey_section": "3.2.3",
+    "cited_in": [
+      "Scene Reconstruction with Neural Fields and Gaussian Representations"
+    ],
+    "inventory_id": null,
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "choi2026uav4d",
+    "title": "UAV4D: Dynamic Neural Rendering of Human-Centric UAV Imagery Using Gaussian Splatting",
+    "year": 2026,
+    "publication": "AAAI 2026",
+    "paper_url": "https://ojs.aaai.org/index.php/AAAI/article/view/37333",
+    "resources": {},
+    "topic": "2.3",
+    "survey_section": "3.2.3",
+    "cited_in": [
+      "Scene Reconstruction with Neural Fields and Gaussian Representations"
+    ],
+    "inventory_id": null,
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "zhao2025drivedreamer4d",
+    "title": "DriveDreamer4D: World Models Are Effective Data Machines for 4D Driving Scene Representation",
+    "year": 2025,
+    "publication": "CVPR 2025",
+    "paper_url": "https://arxiv.org/abs/2410.13571v3",
+    "resources": {},
+    "topic": "2.3",
+    "survey_section": "3.2.3",
+    "cited_in": [
+      "Scene Reconstruction with Neural Fields and Gaussian Representations"
+    ],
+    "inventory_id": null,
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "zhang2024hgca",
+    "title": "Outdoor Scene Extrapolation with Hierarchical Generative Cellular Automata",
+    "year": 2024,
+    "publication": "CVPR 2024",
+    "paper_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_Outdoor_Scene_Extrapolation_with_Hierarchical_Generative_Cellular_Automata_CVPR_2024_paper.html",
+    "resources": {},
+    "topic": "2.3",
+    "survey_section": "3.2.3",
+    "cited_in": [
+      "Scene Reconstruction with Neural Fields and Gaussian Representations"
+    ],
+    "inventory_id": null,
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "li2024sat2scene",
+    "title": "Sat2Scene: 3D Urban Scene Generation from Satellite Images with Diffusion",
+    "year": 2024,
+    "publication": "CVPR 2024",
+    "paper_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Li_Sat2Scene_3D_Urban_Scene_Generation_from_Satellite_Images_with_Diffusion_CVPR_2024_paper.html",
+    "resources": {},
+    "topic": "2.3",
+    "survey_section": "3.2.3",
+    "cited_in": [
+      "Scene Reconstruction with Neural Fields and Gaussian Representations"
+    ],
+    "inventory_id": null,
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "yan2025streetcrafter",
+    "title": "StreetCrafter: Street View Synthesis with Controllable Video Diffusion Models",
+    "year": 2025,
+    "publication": "CVPR 2025",
+    "paper_url": "https://arxiv.org/abs/2412.13188v3",
+    "resources": {},
+    "topic": "2.3",
+    "survey_section": "3.2.3",
+    "cited_in": [
+      "Scene Reconstruction with Neural Fields and Gaussian Representations"
+    ],
+    "inventory_id": null,
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "ni2025recondreamer",
+    "title": "ReconDreamer: Crafting World Models for Driving Scene Reconstruction via Online Restoration",
+    "year": 2025,
+    "publication": "CVPR 2025",
+    "paper_url": "https://arxiv.org/abs/2411.19548v1",
+    "resources": {},
+    "topic": "2.3",
+    "survey_section": "3.2.3",
+    "cited_in": [
+      "Scene Reconstruction with Neural Fields and Gaussian Representations"
+    ],
+    "inventory_id": "204",
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
     "citation_key": "qian2026sat3dgen",
     "title": "Sat3DGen: Comprehensive Street-Level 3D Scene Generation from Single Satellite Image",
     "year": 2026,
@@ -596,6 +1461,21 @@
       "Scene Reconstruction with Neural Fields and Gaussian Representations"
     ],
     "inventory_id": "059",
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "liu2025citygaussianv2",
+    "title": "CityGaussianV2: Efficient and Geometrically Accurate Reconstruction for Large-Scale Scenes",
+    "year": 2025,
+    "publication": "ICLR 2025",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/d218ec74edbfc494fa7d7a253951c603-Abstract-Conference.html",
+    "resources": {},
+    "topic": "2.3",
+    "survey_section": "3.2.3",
+    "cited_in": [
+      "Scene Reconstruction with Neural Fields and Gaussian Representations"
+    ],
+    "inventory_id": null,
     "selection_basis": "Directly discussed in manuscript Chapter 3"
   },
   {
@@ -646,6 +1526,36 @@
     "selection_basis": "Directly discussed in manuscript Chapter 3"
   },
   {
+    "citation_key": "chen2025invrgbl",
+    "title": "InvRGB+L: Inverse Rendering of Complex Scenes with Unified Color and LiDAR Reflectance Modeling",
+    "year": 2025,
+    "publication": "ICCV 2025",
+    "paper_url": "https://arxiv.org/abs/2507.17613",
+    "resources": {},
+    "topic": "2.4",
+    "survey_section": "3.2.4",
+    "cited_in": [
+      "Recovering Simulation-Relevant Structures and Properties"
+    ],
+    "inventory_id": null,
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "wu2025emiemap",
+    "title": "EMIE-MAP: Large-Scale Road Surface Reconstruction Based on Explicit Mesh and Implicit Encoding",
+    "year": 2025,
+    "publication": "ECCV 2024 (proceedings 2025)",
+    "paper_url": "https://doi.org/10.1007/978-3-031-73021-4_22",
+    "resources": {},
+    "topic": "2.4",
+    "survey_section": "3.2.4",
+    "cited_in": [
+      "Recovering Simulation-Relevant Structures and Properties"
+    ],
+    "inventory_id": null,
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
     "citation_key": "chen2025gsroadpatching",
     "title": "GS-RoadPatching: Inpainting Gaussians via 3D Searching and Placing for Driving Scenes",
     "year": 2025,
@@ -677,6 +1587,21 @@
       "Geometric Completion, Local Repair, and Spatial Expansion"
     ],
     "inventory_id": "130",
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "balde2026editssc",
+    "title": "EditSSC: Toward Editable Semantic Occupancy Scenes with Unconditional Diffusion Models",
+    "year": 2026,
+    "publication": "CVPR Workshop 2026",
+    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026W/USM3D/html/Balde_EditSSC_Toward_Editable_Semantic_Occupancy_Scenes_with_Unconditional_Diffusion_Models_CVPRW_2026_paper.html",
+    "resources": {},
+    "topic": "3.1",
+    "survey_section": "3.3.1",
+    "cited_in": [
+      "Geometric Completion, Local Repair, and Spatial Expansion"
+    ],
+    "inventory_id": null,
     "selection_basis": "Directly discussed in manuscript Chapter 3"
   },
   {
@@ -712,6 +1637,72 @@
     "selection_basis": "Directly discussed in manuscript Chapter 3"
   },
   {
+    "citation_key": "wei2024chatsim",
+    "title": "Editable Scene Simulation for Autonomous Driving via Collaborative LLM-Agents",
+    "year": 2024,
+    "publication": "CVPR 2024",
+    "paper_url": "https://arxiv.org/abs/2402.05746v3",
+    "resources": {
+      "code": "https://github.com/yifanlu0227/ChatSim"
+    },
+    "topic": "3.2",
+    "survey_section": "3.3.2",
+    "cited_in": [
+      "Object, Semantic, and Topological Editing"
+    ],
+    "inventory_id": "137",
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "xiong2025drivinggaussianppv1",
+    "title": "DrivingGaussian++: Towards Realistic Reconstruction and Editable Simulation for Surrounding Dynamic Driving Scenes",
+    "year": 2025,
+    "publication": "arXiv 2025",
+    "paper_url": "https://arxiv.org/abs/2508.20965v1",
+    "resources": {
+      "project": "https://xiong-creator.github.io/DrivingGaussian_plus.github.io"
+    },
+    "topic": "3.2",
+    "survey_section": "3.3.2",
+    "cited_in": [
+      "Object, Semantic, and Topological Editing"
+    ],
+    "inventory_id": "122",
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "wang2026horizonforge",
+    "title": "HorizonForge: Driving Scene Editing with Any Trajectories and Any Vehicles",
+    "year": 2026,
+    "publication": "CVPR 2026",
+    "paper_url": "https://arxiv.org/abs/2602.21333",
+    "resources": {
+      "project": "https://horizonforge.github.io/"
+    },
+    "topic": "3.2",
+    "survey_section": "3.3.2",
+    "cited_in": [
+      "Object, Semantic, and Topological Editing"
+    ],
+    "inventory_id": "213",
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "deng2026gaussiandwmppv1",
+    "title": "GaussianDWM++: Language-Grounded 3D Gaussian Driving World Model for Unified Scene Understanding, Editing, and Multi-Modal Generation",
+    "year": 2026,
+    "publication": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2608.16234v1",
+    "resources": {},
+    "topic": "3.2",
+    "survey_section": "3.3.2",
+    "cited_in": [
+      "Object, Semantic, and Topological Editing"
+    ],
+    "inventory_id": null,
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
     "citation_key": "miao2025falcongymv1",
     "title": "Performance-Guided Refinement for Visual Aerial Navigation using Editable Gaussian Splatting in FalconGym 2.0",
     "year": 2025,
@@ -729,8 +1720,8 @@
   {
     "citation_key": "ljungbergh2025r3d2v1",
     "title": "R3D2: Realistic 3D Asset Insertion via Diffusion for Autonomous Driving Simulation",
-    "year": 2025,
-    "publication": "arXiv 2025",
+    "year": 2026,
+    "publication": "CVPR Workshop 2026",
     "paper_url": "https://arxiv.org/abs/2506.07826v1",
     "resources": {},
     "topic": "3.2",
@@ -739,6 +1730,51 @@
       "Object, Semantic, and Topological Editing"
     ],
     "inventory_id": "138",
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "rudnev2022nerfosr",
+    "title": "NeRF for Outdoor Scene Relighting",
+    "year": 2022,
+    "publication": "ECCV 2022",
+    "paper_url": "https://doi.org/10.1007/978-3-031-19787-1_35",
+    "resources": {},
+    "topic": "3.3",
+    "survey_section": "3.3.3",
+    "cited_in": [
+      "Transformations of Appearance, Physics, and Environmental Properties"
+    ],
+    "inventory_id": null,
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "li2023climatenerf",
+    "title": "ClimateNeRF: Extreme Weather Synthesis in Neural Radiance Field",
+    "year": 2023,
+    "publication": "ICCV 2023",
+    "paper_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Li_ClimateNeRF_Extreme_Weather_Synthesis_in_Neural_Radiance_Field_ICCV_2023_paper.html",
+    "resources": {},
+    "topic": "3.3",
+    "survey_section": "3.3.3",
+    "cited_in": [
+      "Transformations of Appearance, Physics, and Environmental Properties"
+    ],
+    "inventory_id": "128",
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "pun2023lightsim",
+    "title": "Neural Lighting Simulation for Urban Scenes",
+    "year": 2023,
+    "publication": "NeurIPS 2023",
+    "paper_url": "https://papers.neurips.cc/paper_files/paper/2023/hash/3d7259031023c5aa463187c4a31c95c8-Abstract-Conference.html",
+    "resources": {},
+    "topic": "3.3",
+    "survey_section": "3.3.3",
+    "cited_in": [
+      "Transformations of Appearance, Physics, and Environmental Properties"
+    ],
+    "inventory_id": null,
     "selection_basis": "Directly discussed in manuscript Chapter 3"
   },
   {
@@ -789,6 +1825,24 @@
     "selection_basis": "Directly discussed in manuscript Chapter 3"
   },
   {
+    "citation_key": "fiebelman2026letitsnow",
+    "title": "Let it Snow! Animating 3D Gaussian Scenes with Dynamic Weather Effects via Physics-Guided Score Distillation",
+    "year": 2026,
+    "publication": "CVPR 2026",
+    "paper_url": "https://arxiv.org/abs/2504.05296v4",
+    "resources": {
+      "project": "https://galfiebelman.github.io/let-it-snow/",
+      "code": "https://github.com/galfiebelman/let-it-snow"
+    },
+    "topic": "3.3",
+    "survey_section": "3.3.3",
+    "cited_in": [
+      "Transformations of Appearance, Physics, and Environmental Properties"
+    ],
+    "inventory_id": "145",
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
     "citation_key": "chen2026musyncv1",
     "title": "muSync-GS: Physics-Synchronized Driving Video Synthesis for Weather and Geometric Road Hazards",
     "year": 2026,
@@ -804,12 +1858,29 @@
     "selection_basis": "Directly discussed in manuscript Chapter 3"
   },
   {
-    "citation_key": "zhang2024dronewisv1",
-    "title": "DroneWiS: Automated Simulation Testing of small Unmanned Aerial Systems in Realistic Windy Conditions",
-    "year": 2024,
-    "publication": "arXiv 2024",
-    "paper_url": "https://arxiv.org/abs/2408.16559v1",
+    "citation_key": "zhou2026rovesv1",
+    "title": "Physics-Aware 3D Gaussian Editing for Driving Scene Generation",
+    "year": 2026,
+    "publication": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2605.25373v1",
     "resources": {},
+    "topic": "3.3",
+    "survey_section": "3.3.3",
+    "cited_in": [
+      "Transformations of Appearance, Physics, and Environmental Properties"
+    ],
+    "inventory_id": "126",
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "zhang2024dronewisv1",
+    "title": "DroneWiS: Automated Simulation Testing of small Unmanned Aerial System in Realistic Windy Conditions",
+    "year": 2024,
+    "publication": "ASE Demo 2024",
+    "paper_url": "https://doi.org/10.1145/3691620.3695351",
+    "resources": {
+      "preprint": "https://arxiv.org/abs/2408.16559v1"
+    },
     "topic": "3.3",
     "survey_section": "3.3.3",
     "cited_in": [
@@ -817,6 +1888,21 @@
       "Hybrid Construction and Automated Orchestration"
     ],
     "inventory_id": "190",
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "fan2026metegs",
+    "title": "MeteGS: Meteorology-Guided Gaussian Splatting for Scene Rendering and Recovery in Adverse Weather Conditions",
+    "year": 2026,
+    "publication": "AAAI 2026",
+    "paper_url": "https://ijcai.org/proceedings/2026/120",
+    "resources": {},
+    "topic": "3.3",
+    "survey_section": "3.3.3",
+    "cited_in": [
+      "Transformations of Appearance, Physics, and Environmental Properties"
+    ],
+    "inventory_id": null,
     "selection_basis": "Directly discussed in manuscript Chapter 3"
   },
   {
@@ -849,6 +1935,38 @@
       "Hybrid Construction and Automated Orchestration"
     ],
     "inventory_id": "031",
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "kang2026simworldstudiov2",
+    "title": "SimWorld Studio: Automatic Environment Generation with Evolving Coding Agent for Embodied Agent Learning",
+    "year": 2026,
+    "publication": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2605.09423v2",
+    "resources": {
+      "project": "https://simworld.org/simworld-studio/"
+    },
+    "topic": "4.1",
+    "survey_section": "3.4",
+    "cited_in": [
+      "Hybrid Construction and Automated Orchestration"
+    ],
+    "inventory_id": "091",
+    "selection_basis": "Directly discussed in manuscript Chapter 3"
+  },
+  {
+    "citation_key": "wang2026urbanworld2v3",
+    "title": "UrbanWorld2.0: A Multimodal Agentic Framework for Reality-Aligned 3D World Generation at City-Scale",
+    "year": 2026,
+    "publication": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2511.18005v3",
+    "resources": {},
+    "topic": "4.1",
+    "survey_section": "3.4",
+    "cited_in": [
+      "Hybrid Construction and Automated Orchestration"
+    ],
+    "inventory_id": null,
     "selection_basis": "Directly discussed in manuscript Chapter 3"
   }
 ]

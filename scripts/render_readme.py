@@ -16,7 +16,7 @@ def load(name):
 
 ICONS = {
     'paper': '📄', 'code': '💻', 'project': '🌐', 'dataset': '🗃️',
-    'documentation': '📘', 'devkit': '🧰', 'product': '🔗',
+    'documentation': '📘', 'devkit': '🧰', 'product': '🔗', 'preprint': '📝',
 }
 
 
@@ -28,8 +28,12 @@ def entry(paper, anchor=False):
     prefix = f'<a id="paper-{paper["citation_key"]}"></a>' if anchor else ''
     resources = {'paper': paper['paper_url'], **paper['resources']}
     resources = {key: value for key, value in resources.items() if value}
-    return (f'- {prefix}**{paper["title"]}**' + '\\' + '\n'
-            f'  <sub>{html.escape(paper["publication"])}</sub> · {links(resources)}\n')
+    result = (f'- {prefix}**{paper["title"]}**' + '\\' + '\n'
+              f'  <sub>{html.escape(paper["publication"])}</sub> · {links(resources)}')
+    for extension in paper.get('extensions', []):
+        result += ('\\' + '\n' + f'  <sub>↳ Journal extension: {html.escape(extension["title"])} · {html.escape(extension["publication"])}</sub> '
+                   f'· [📄 Journal paper]({extension["paper_url"]})')
+    return result + '\n'
 
 
 def main():
@@ -39,10 +43,18 @@ def main():
     candidates = load('candidates.json')
     resources = load('resources.json')
     curation = load('curation.json')
+    supporting = load('supporting-references.json')
+    resolutions = {r['candidate_id']: r for r in curation.get('candidate_resolutions', [])}
+    active_candidates = [p for p in candidates if p['id'] not in resolutions]
+    selected_ids = {p['inventory_id'] for p in featured if p['inventory_id']}
+    related_ids = {p['inventory_id'] for p in related if p['inventory_id']}
+    pending_provisional = [p for p in inventory if p['provisional'] and p['id'] not in selected_ids]
+    additional = [p for p in featured + related + supporting if p['inventory_id'] is None]
     topics = curation['topics']
     counts = Counter(p['topic'].split('.')[0] for p in featured)
     assert len({p['citation_key'] for p in featured + related}) == len(featured) + len(related)
     assert {p['topic'] for p in featured} == {t['id'] for t in topics}
+    assert len(featured) + len(related) + len(supporting) + sum(len(p.get('extensions', [])) for p in featured) == curation['counts']['chapter3_citations']
 
     sections = {
         '1': ('🌱', 'Synthesis of New Environments', 'synthesis', 'Create new environments using procedural rules, asset composition, learned structures, or visual priors.'),
@@ -82,6 +94,8 @@ def main():
 A reading guide to the environment construction methods directly discussed in the survey. The technical topics follow **Sections 3.1–3.4** of the manuscript; simulation platforms, data, and response references are listed separately under [Supporting resources](#resources).
 
 本页精选综述正文直接讨论的构建方法，按“生成、重建、变换及混合编排”的技术路线组织。方法借鉴、完整文献台账和待核验候选可在[补充阅读](#further-reading)中查阅。
+
+**Updated {curation['last_synced']}.** [📝 Latest changes](docs/updates.md)
 
 <table>
 <tr>
@@ -135,7 +149,15 @@ Methods appear once in the guide, under their principal technical discussion. Pu
             if not topic['id'].startswith(number + '.'): continue
             out.append(f'\n<a id="{topic["anchor"]}"></a>\n\n### {topic["icon"]} {topic["id"]} {topic["title"]}\n\n{topic["description"]}\n')
             members = sorted((p for p in featured if p['topic'] == topic['id']), key=lambda p: (-p['year'], p['title'].casefold()))
-            out.extend(entry(p, anchor=True) for p in members)
+            display_groups = curation.get('display_groups', {}).get(topic['id'])
+            if display_groups:
+                grouped = [key for group in display_groups for key in group['citation_keys']]
+                assert len(grouped) == len(set(grouped)) and set(grouped) == {p['citation_key'] for p in members}, topic['id']
+                for group in display_groups:
+                    out.append(f'\n#### {group["title"]}\n')
+                    out.extend(entry(p, anchor=True) for p in members if p['citation_key'] in group['citation_keys'])
+            else:
+                out.extend(entry(p, anchor=True) for p in members)
         if number == '2':
             out.append('The navigation-structure example **SE(2) Navigation Mesh** is discussed separately in [Methodological references](docs/methodological-references.md#navigation-structure).\n')
         if number == '3':
@@ -169,6 +191,8 @@ These resources support the simulation uses and evaluation settings discussed in
         ('platform', '🏗️ Simulation Platforms', 'Environment execution, configurable scenes, and repeatable trials.'),
         ('scene-data', '🗃️ Scene Data and Evaluation Inputs', 'Observations and scene inputs used in the reviewed experiments.'),
         ('assets', '🧩 Asset Resources', 'Object resources compared within construction and perception pipelines.'),
+        ('runtime-method', '🔌 Runtime Integration', 'Methods that connect construction outputs to rendering, sensor operators, and simulator state.'),
+        ('evaluation', '📊 Evaluation Frameworks', 'View extrapolation, world-generation control, policy learning, and scenario-based safety evaluation.'),
         ('response-reference', '📏 Response References', 'Measurements or external model outputs used to assess environmental and vehicle responses.'),
     ]
     for kind, title, description in resource_groups:
@@ -185,12 +209,14 @@ These resources support the simulation uses and evaluation settings discussed in
 
 | Collection | What it contains |
 | :--- | :--- |
-| [🧭 Methodological references](docs/methodological-references.md) | {len(related)} explicitly scoped examples from indoor authoring, game worlds, legged navigation, and abstract road graphs. |
-| [📚 Extended reading and full inventory](docs/extended-reading.md) | The original {len(inventory)} records, plus the {sum(p['inventory_id'] is None for p in featured)} manuscript methods added during curation. This includes papers beyond the current homepage scope. |
-| [🔎 Candidate review queue](docs/candidates.md) | {len(candidates)} boundary candidates with unresolved scope or classification questions. |
+| [🧭 Methodological references](docs/methodological-references.md) | {len(related)} scoped examples from indoor construction, general physical-world verification, game worlds, legged navigation, and road graphs. |
+| [📘 Supporting literature](docs/supporting-literature.md) | {len(supporting)} background, asset/map, and survey references discussed in Chapter 3. |
+| [📚 Extended reading and full inventory](docs/extended-reading.md) | The original {len(inventory)} records, plus {len(additional)} manuscript references outside that inventory. |
+| [🔎 Candidate review queue](docs/candidates.md) | {len(active_candidates)} unresolved boundary candidates; resolved entries are linked to their current placement. |
 | [📝 Selection and source notes](docs/selection-notes.md) | Inclusion rationale, manuscript correspondence, and a record of where the original entries are displayed. |
+| [🗓️ Update record](docs/updates.md) | Newly included methods, publication corrections, and resolved classifications. |
 
-The {sum(p['provisional'] for p in inventory)} provisional additions from the original supplement remain in extended reading. They are not promoted to this manuscript-aligned homepage solely because they were present in the collection.
+The historical supplement contained {sum(p['provisional'] for p in inventory)} provisional entries. The current manuscript now discusses {len(selected_ids & {p['id'] for p in inventory if p['provisional']})} of them as selected methods; the remaining {len(pending_provisional)} stay in extended reading. Selection follows the updated technical discussion.
 
 <a id="contributing"></a>
 
@@ -217,9 +243,9 @@ The presentation is inspired by [Awesome-Self-Evolving-Agents](https://github.co
     docs.mkdir(exist_ok=True)
     (ROOT / 'README.md').write_text('\n'.join(out).strip() + '\n')
 
-    related_out = ['''# 🧭 Methodological References
+    related_out = [f'''# 🧭 Methodological References
 
-These five papers are explicitly used as methodological references in Chapter 3 of the survey. Their scope is identified here so that they can inform construction design without being grouped into the main outdoor-method list.
+These {len(related)} papers supply scoped methodological examples for Chapter 3: indoor environments, general physical-world construction, game worlds, navigation structure, and abstract road graphs.
 
 [← Survey reading guide](../README.md)
 ''']
@@ -227,16 +253,14 @@ These five papers are explicitly used as methodological references in Chapter 3 
                        'Indoor scene authoring': 'indoor-scene-authoring', 'Multi-scene game worlds': 'multi-scene-game-worlds',
                        'Indoor physical arrangement': 'indoor-physical-arrangement'}
     for p in related:
-        related_out.append(f'\n<a id="{related_anchors[p["scope"]]}"></a>\n\n## {p["scope"]}\n\n**Survey section {p["survey_section"]}.** {p["reason"]}\n')
+        related_out.append(f'\n<a id="{p.get("anchor", related_anchors.get(p["scope"], p["citation_key"]))}"></a>\n\n## {p["scope"]}\n\n**Survey section {p["survey_section"]}.** {p["reason"]}\n')
         related_out.append(entry(p))
     related_out.append('\n[Machine-readable records](../data/methodological-references.json) · [Selection notes](selection-notes.md)\n')
     (docs / 'methodological-references.md').write_text('\n'.join(related_out).strip() + '\n')
 
-    selected_ids = {p['inventory_id'] for p in featured if p['inventory_id']}
-    related_ids = {p['inventory_id'] for p in related if p['inventory_id']}
     extended = [f'''# 📚 Extended Reading and Full Inventory
 
-This is the broader collection behind the survey reading guide. It retains the **{len(inventory)} original inventory records**, including related indoor methods and **{sum(p['provisional'] for p in inventory)} provisional supplement entries**, and adds the **{sum(p['inventory_id'] is None for p in featured)} manuscript methods** that were missing from that inventory. Entries here are not all selected for the current homepage.
+This collection retains the **{len(inventory)} original inventory records** and adds **{len(additional)} current manuscript references** that were absent from that inventory. Historical provisional flags are retained in the original JSON; current placement and displayed publication metadata follow the updated curation.
 
 **Status key:** `Homepage` = selected method; `Methodological reference` = separately scoped example; `Extended reading` = retained outside the homepage; `Provisional` = supplement entry awaiting further review.
 
@@ -247,21 +271,27 @@ This is the broader collection behind the survey reading guide. It retains the *
         extended.append(f'\n## {task} — original inventory\n')
         for p in rows:
             status = 'Homepage' if p['id'] in selected_ids else 'Methodological reference' if p['id'] in related_ids else 'Provisional' if p['provisional'] else 'Extended reading'
-            extended.append(entry(p) + f'  <sub>Inventory {p["id"]} · {status}</sub>\n')
-    extended.append('\n## Additional Methods from the Manuscript\n\nThese seven papers were added from the manuscript bibliography when the homepage was aligned with its technical discussion.\n')
-    extended.extend(entry(p) for p in featured if p['inventory_id'] is None)
+            current = next((r for r in featured + related + supporting if r['inventory_id'] == p['id']), p)
+            extended.append(entry(current) + f'  <sub>Inventory {p["id"]} · {status}</sub>\n')
+    extended.append(f'\n## Additional References from the Manuscript\n\nThese {len(additional)} references came from the manuscript bibliography. Their placement is described in the source notes; presence in this archive does not by itself indicate homepage selection.\n')
+    extended.extend(entry(p) for p in additional)
     extended.append('\nThe original inventory is preserved in [data/papers.json](../data/papers.json). Curated metadata and bibliography keys are in [data/featured.json](../data/featured.json). The homepage uses the curated publication labels where they differ from the historical inventory.\n')
     (docs / 'extended-reading.md').write_text('\n'.join(extended).strip() + '\n')
 
     queue = [f'''# 🔎 Candidate Review Queue
 
-These {len(candidates)} records have unresolved questions about the primary construction task, output scope, or eligibility. Suggested tasks are carried over from the source supplement and remain provisional. These records are not included in the selected-method count.
+There are **{len(active_candidates)} unresolved records** from the historical seven-record queue. Suggested tasks remain provisional. Resolved cases appear below with their current manuscript placement.
 
 [← Survey reading guide](../README.md) · [Extended reading](extended-reading.md)
 ''']
-    for p in candidates:
+    for p in active_candidates:
         queue.append(f'- **{p["title"]}**' + '\\' + f'\n  [📄 Paper]({p["paper_url"]}) · <sub>Suggested task: {html.escape(p["suggested_task"])}</sub>\n')
-    queue.append('\n[Machine-readable queue](../data/candidates.json)\n')
+    queue.append('\n## Resolved Since the Original Queue\n')
+    for p in candidates:
+        if p['id'] in resolutions:
+            key = resolutions[p['id']]['citation_key']
+            queue.append(f'- **{p["title"]}** — included under [image- and video-prior-guided synthesis](../README.md#paper-{key}) based on the current manuscript discussion.\n')
+    queue.append('\n[Historical queue](../data/candidates.json) · [Resolution records](../data/curation.json)\n')
     (docs / 'candidates.md').write_text('\n'.join(queue).strip() + '\n')
 
     dispositions = Counter(r['destination'] for r in curation['inventory_dispositions'])
@@ -271,11 +301,11 @@ These {len(candidates)} records have unresolved questions about the primary cons
 
 ## Selection Basis
 
-The homepage follows the construction methods directly discussed in **Chapter 3 of the manuscript**, rather than reproducing every bibliography item or the whole literature inventory. The chapter cites **{len(featured) + len(related)} distinct studies**: **{len(featured)} selected methods** are on the homepage, and **{len(related)} explicitly scoped methodological references** are on a supplementary page.
+The homepage follows construction methods directly discussed in **Chapter 3 of the manuscript**. The current bibliography has **{curation['counts']['bibliography_entries']} entries**; Chapter 3 cites **{curation['counts']['chapter3_citations']}** of them. The homepage contains **{len(featured)} method families**, with **{len(related)} methodological examples**, **{len(supporting)} supporting references**, and **{sum(len(p.get('extensions', [])) for p in featured)} associated journal extension** accounted for separately.
 
 The survey's technical subdivisions determine the homepage topics. An environment-generation method is not placed in a separate language-agent category solely because it invokes an LLM; procedural control, asset assembly, learned structure generation, and visual-prior-guided construction remain distinct routes. Repeated citations and secondary operations do not create duplicate homepage entries.
 
-The five methodological references are separated because of the roles stated in the manuscript: SE(2) Navigation Mesh (legged-robot navigation structure), TraSculptor (abstract road graphs), MUSE (indoor authoring), MAGIC (game-world connectivity), and PhyScensis (indoor physical arrangement). This placement identifies their relevance without treating them as full outdoor construction systems.
+The methodological-reference page identifies indoor, game-world, navigation, graph-level, and general physical-world examples. COLMAP papers, general surface representations, instruction-based editing mechanisms, asset/map references, and a driving-NeRF survey are listed in supporting literature. CityDreamer4D is associated with CityDreamer as a journal extension and does not increase the method-family count.
 
 Platforms, data, assets, and response references are drawn from **Sections 4–5 and Table 4**. Their resource rows are not additional selected methods; some platforms are also discussed as construction methods.
 
@@ -288,13 +318,13 @@ Platforms, data, assets, and response references are drawn from **Sections 4–5
 | Retained in extended reading | {dispositions['extended-reading']} |
 | **Original inventory total** | **{len(inventory)}** |
 
-Seven additional methods came from the manuscript bibliography: Infinigen, MetaDrive, XCube, SceneDreamer, CityDreamer, LucidDreamer, and DreamScene360. They are included in the homepage and extended reading, with no invented inventory IDs.
+There are {len(additional)} current manuscript references outside the original inventory. They retain their bibliography keys and have no invented inventory IDs.
 
-The **25 provisional supplement entries** remain outside the homepage. The separate **seven boundary candidates** remain in the review queue. A record's absence from the homepage is a presentation decision for this manuscript-aligned guide, not a finding that the paper is invalid or irrelevant to all related research.
+Of the historical 25 provisional entries, **{25-len(pending_provisional)} now appear on the homepage** because they are explicitly discussed in the updated manuscript. The remaining **{len(pending_provisional)}** stay in extended reading. **{len(active_candidates)} of the original seven boundary candidates remain unresolved**; SceneFrom3D is now assigned to synthesis based on its current discussion. These dispositions are recorded separately from the unchanged historical input files.
 
 ## Publication Metadata and Links
 
-Curated titles, years, and publication labels follow `references.bib`; version-specific paper URLs are retained when the manuscript cites a particular version. Existing author-maintained links are reused from the inventory. The seven newly added methods were linked through publisher, arXiv, or author-maintained sources. The historical inventory retains its original metadata for traceability.
+Curated titles, years, and publication labels follow `references.bib`; version-specific paper URLs are retained when the manuscript cites a particular version. Existing author-maintained links are reused from the inventory. The historical JSON retains its original metadata for traceability; the extended-reading display uses current curated metadata for matched records.
 
 PandaSet links to its development kit, and CarSim links to the product page; the reviewed vehicle-response experiments use CarSim 2022.1. Project links for GoogleEarth views, Vid2Sim videos, and LiDARsim assets identify the reviewed resource context, without implying a new independent dataset release.
 
@@ -306,7 +336,7 @@ PandaSet links to its development kit, and CarSim links to the product page; the
     notes[0] = notes[0].rstrip()
     for topic in topics:
         notes.append(f'| {topic["id"]} {topic["title"]} | {topic["survey_section"]} | {sum(p["topic"] == topic["id"] for p in featured)} |')
-    notes.append('''
+    notes.append(f'''
 
 The bibliography key and discussion sections for each selected study are recorded in [featured.json](../data/featured.json). [curation.json](../data/curation.json) records all original inventory dispositions and SHA-256 hashes of the manuscript source files used for this selection. Source prose, unpublished manuscript files, figures, and paper PDFs are not copied into this repository.
 
@@ -315,11 +345,13 @@ The bibliography key and discussion sections for each selected study are recorde
 | File | Purpose |
 | :--- | :--- |
 | [data/featured.json](../data/featured.json) | Curated methods, current bibliography metadata, and manuscript correspondence. |
-| [data/methodological-references.json](../data/methodological-references.json) | The five separately scoped references. |
+| [data/methodological-references.json](../data/methodological-references.json) | The {len(related)} separately scoped references. |
+| [data/supporting-references.json](../data/supporting-references.json) | Technical background, resource references, and related surveys. |
 | [data/resources.json](../data/resources.json) | Supporting resource roles, links, and source citation keys. |
 | [data/curation.json](../data/curation.json) | Topic definitions, source fingerprints, and inventory dispositions. |
 | [data/papers.json](../data/papers.json) | The unchanged 177-record historical inventory. |
 | [data/candidates.json](../data/candidates.json) | The unchanged seven-record boundary queue. |
+| [data/latest-update.json](../data/latest-update.json) | Added methods and metadata/classification changes in this update. |
 
 To update the displayed guide, edit the relevant curated records and run:
 
@@ -328,8 +360,46 @@ python3 scripts/render_readme.py
 ```
 
 The renderer uses only the Python standard library. It renders the homepage and supplemental Markdown from the repository data; it does not automatically promote inventory records into the homepage.
+
+For a manuscript refresh, run `python3 scripts/sync_manuscript.py /path/to/manuscript`, review the updated records and scope policies in `data/curation.json`, then run the renderer. The sync reads the supplied manuscript directory and writes only repository metadata.
 ''')
     (docs / 'selection-notes.md').write_text('\n'.join(notes).strip() + '\n')
+    supporting_out = ['# 📘 Supporting Literature\n\nTechnical background, resource references, and surveys used in Chapter 3.\n\n[← Survey reading guide](../README.md)\n']
+    for category, title in [('technical-background', 'Technical Background'), ('resource-reference', 'Map and Asset References'), ('survey', 'Related Surveys')]:
+        supporting_out.append(f'\n## {title}\n')
+        for p in supporting:
+            if p['category'] == category:
+                supporting_out.extend([entry(p), p['reason'] + '\n'])
+    (docs / 'supporting-literature.md').write_text('\n'.join(supporting_out).strip() + '\n')
+    update = load('latest-update.json')
+    old_counts = update['previous_counts']
+    update_out = [f'''# 🗓️ Manuscript Update — {update['date']}
+
+[← Survey reading guide](../README.md)
+
+| Collection | Previous | Current |
+| :--- | ---: | ---: |
+| Homepage method families | {old_counts['homepage_methods']} | {len(featured)} |
+| Methodological examples | {old_counts['methodological_references']} | {len(related)} |
+| Supporting resources | {old_counts['resource_entries']} | {len(resources)} |
+
+## Publication and Scope Changes
+
+- **R3D2** now carries the manuscript's CVPR Workshop 2026 publication label; its consulted arXiv version remains linked.
+- **DroneWiS** now uses the ASE 2024 Tool Demonstrations title and publication DOI.
+- **CityDreamer4D** is linked as CityDreamer's journal extension, rather than counted as another method family.
+- **SceneFrom3D** moved from the boundary queue to synthesis, following its explicit discussion in Section 3.1.4.
+- **{25-len(pending_provisional)} historical provisional entries** now appear in the selected list. The remaining {len(pending_provisional)} retain their extended-reading status.
+- The original 177-record inventory and seven-record candidate input files are preserved; current placements are tracked separately.
+
+## Newly Included Methods ({len(update['added_methods'])})
+''']
+    for topic in topics:
+        added = [p for p in update['added_methods'] if p['topic'] == topic['id']]
+        if added:
+            update_out.append(f'\n### {topic["id"]} {topic["title"]}\n')
+            update_out.extend(f'- [{p["title"]}](../README.md#paper-{p["citation_key"]})' for p in added)
+    (docs / 'updates.md').write_text('\n'.join(update_out).strip() + '\n')
     print(f'Rendered {len(featured)} selected methods, {len(related)} methodological references, {len(resources)} supporting resources, and all original inventory/candidate records.')
 
 

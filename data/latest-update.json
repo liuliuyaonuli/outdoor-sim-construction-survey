@@ -1,0 +1,436 @@
+{
+  "date": "2026-11-06",
+  "previous_counts": {
+    "homepage_methods": 53,
+    "methodological_references": 5,
+    "original_inventory": 177,
+    "provisional_in_original_inventory": 25,
+    "added_from_manuscript": 7,
+    "resource_entries": 12
+  },
+  "current_counts": {
+    "homepage_methods": 125,
+    "methodological_references": 10,
+    "original_inventory": 177,
+    "provisional_in_original_inventory": 25,
+    "added_from_manuscript": 62,
+    "resource_entries": 28,
+    "supporting_literature": 10,
+    "journal_extensions": 1,
+    "chapter3_citations": 146,
+    "bibliography_entries": 240,
+    "active_boundary_candidates": 6,
+    "provisional_promoted": 7
+  },
+  "added_methods": [
+    {
+      "citation_key": "fremont2019scenic",
+      "title": "Scenic: A Language for Scenario Specification and Scene Generation",
+      "topic": "1.1"
+    },
+    {
+      "citation_key": "vin2023scenic3",
+      "title": "3D Environment Modeling for Falsification and Beyond with Scenic 3.0",
+      "topic": "1.1"
+    },
+    {
+      "citation_key": "vecchio2025midgard",
+      "title": "MIDGARD: A Robot Navigation Simulator for Outdoor Unstructured Environments",
+      "topic": "1.1"
+    },
+    {
+      "citation_key": "bajpai2026agrigen",
+      "title": "AgriGen: Large-Scale Scene Generation Framework for Photorealistic Agricultural Robotics Simulation",
+      "topic": "1.1"
+    },
+    {
+      "citation_key": "wu2025urbansim",
+      "title": "Towards Autonomous Micromobility through Scalable Urban Simulation",
+      "topic": "1.1"
+    },
+    {
+      "citation_key": "tang2025unrealllm",
+      "title": "UnrealLLM: Towards Highly Controllable and Interactable 3D Scene Generation by LLM-powered Procedural Content Generation",
+      "topic": "1.1"
+    },
+    {
+      "citation_key": "liu2025worldcraft",
+      "title": "WorldCraft: Photo-Realistic 3D World Creation and Customization via LLM Agents",
+      "topic": "1.1"
+    },
+    {
+      "citation_key": "duan2025latticeworld",
+      "title": "LatticeWorld: A Multimodal Large Language Model-Empowered Framework for Interactive Complex World Generation",
+      "topic": "1.1"
+    },
+    {
+      "citation_key": "galin2010roads",
+      "title": "Procedural Generation of Roads",
+      "topic": "1.1"
+    },
+    {
+      "citation_key": "niese2022urbanforestry",
+      "title": "Procedural Urban Forestry",
+      "topic": "1.1"
+    },
+    {
+      "citation_key": "zhuang2025simworldrobotics",
+      "title": "SimWorld-Robotics: Synthesizing Photorealistic and Dynamic Urban Environments for Multimodal Robot Navigation and Collaboration",
+      "topic": "1.2"
+    },
+    {
+      "citation_key": "deng2024citycraftv1",
+      "title": "CityCraft: A Real Crafter for 3D City Generation",
+      "topic": "1.2"
+    },
+    {
+      "citation_key": "liu2025outdoorscenegraphs",
+      "title": "Controllable 3D Outdoor Scene Generation via Scene Graphs",
+      "topic": "1.3"
+    },
+    {
+      "citation_key": "lee2024semcity",
+      "title": "SemCity: Semantic Scene Generation with Triplane Diffusion",
+      "topic": "1.3"
+    },
+    {
+      "citation_key": "tze2026pritti",
+      "title": "PrITTI: Primitive-based Generation of Controllable and Editable 3D Semantic Urban Scenes",
+      "topic": "1.3"
+    },
+    {
+      "citation_key": "bian2025dynamiccity",
+      "title": "DynamicCity: Large-Scale 4D Occupancy Generation from Dynamic Scenes",
+      "topic": "1.3"
+    },
+    {
+      "citation_key": "liang2025cymbadiff",
+      "title": "CymbaDiff: Structured Spatial Diffusion for Sketch-based 3D Semantic Urban Scene Generation",
+      "topic": "1.3"
+    },
+    {
+      "citation_key": "li2025uniscene",
+      "title": "UniScene: Unified Occupancy-Centric Driving Scene Generation",
+      "topic": "1.3"
+    },
+    {
+      "citation_key": "chai2023persistentnature",
+      "title": "Persistent Nature: A Generative Model of Unbounded 3D Worlds",
+      "topic": "1.3"
+    },
+    {
+      "citation_key": "lin2023infinicity",
+      "title": "InfiniCity: Infinite-Scale City Synthesis",
+      "topic": "1.3"
+    },
+    {
+      "citation_key": "joshi2026worldflow3dv1",
+      "title": "WorldFlow3D: Flowing Through 3D Distributions for Unbounded World Generation",
+      "topic": "1.3"
+    },
+    {
+      "citation_key": "zyrianov2025lidardm",
+      "title": "LidarDM: Generative LiDAR Simulation in a Generated World",
+      "topic": "1.3"
+    },
+    {
+      "citation_key": "hu2024terraindiffusion",
+      "title": "Terrain Diffusion Network: Climatic-Aware Terrain Generation with Geological Sketch Guidance",
+      "topic": "1.3"
+    },
+    {
+      "citation_key": "wu2024blockfusion",
+      "title": "BlockFusion: Expandable 3D Scene Generation using Latent Tri-plane Extrapolation",
+      "topic": "1.3"
+    },
+    {
+      "citation_key": "lee2025nuiscene",
+      "title": "NuiScene: Exploring Efficient Generation of Unbounded Outdoor Scenes",
+      "topic": "1.3"
+    },
+    {
+      "citation_key": "kim2026scenefrom3dv1",
+      "title": "SceneFrom3D: Geometry-Conditioned Outdoor 3D Scene Generation via View Scheduling with Object-Level Control",
+      "topic": "1.4"
+    },
+    {
+      "citation_key": "mao2025dreamdrive",
+      "title": "DreamDrive: Generative 4D Scene Modeling from Street View Images",
+      "topic": "1.4"
+    },
+    {
+      "citation_key": "guo2025dist4d",
+      "title": "DiST-4D: Disentangled Spatiotemporal Diffusion with Metric Depth for 4D Driving Scene Generation",
+      "topic": "1.4"
+    },
+    {
+      "citation_key": "zhu2026worldsplat",
+      "title": "WorldSplat: Gaussian-Centric Feed-Forward 4D Scene Generation for Autonomous Driving",
+      "topic": "1.4"
+    },
+    {
+      "citation_key": "ost2026lsd3d",
+      "title": "LSD-3D: Large-Scale 3D Driving Scene Generation with Geometry Grounding",
+      "topic": "1.4"
+    },
+    {
+      "citation_key": "li2026flymiragev1",
+      "title": "FlyMirage: A Fully Automated Generation Pipeline for Diverse and Scalable UAV Flight Data via Generative World Model",
+      "topic": "1.4"
+    },
+    {
+      "citation_key": "jannussi2026cam2simv1",
+      "title": "Cam2Sim: Neural Scenario Reconstruction for Closed-Loop Autonomous Driving Simulation",
+      "topic": "2.1"
+    },
+    {
+      "citation_key": "hari2026simscene",
+      "title": "SimScene: Automated Photorealistic Scene Reconstruction for Geographically Scalable Physical AI",
+      "topic": "2.1"
+    },
+    {
+      "citation_key": "tancik2022blocknerf",
+      "title": "Block-NeRF: Scalable Large Scene Neural View Synthesis",
+      "topic": "2.3"
+    },
+    {
+      "citation_key": "turki2022meganerf",
+      "title": "Mega-NeRF: Scalable Construction of Large-Scale NeRFs for Virtual Fly-Throughs",
+      "topic": "2.3"
+    },
+    {
+      "citation_key": "rematas2022urbanradiance",
+      "title": "Urban Radiance Fields",
+      "topic": "2.3"
+    },
+    {
+      "citation_key": "xiangli2022bungeenerf",
+      "title": "BungeeNeRF: Progressive Neural Radiance Field for Extreme Multi-Scale Scene Rendering",
+      "topic": "2.3"
+    },
+    {
+      "citation_key": "lin2024vastgaussian",
+      "title": "VastGaussian: Vast 3D Gaussians for Large Scene Reconstruction",
+      "topic": "2.3"
+    },
+    {
+      "citation_key": "liu2025citygaussian",
+      "title": "CityGaussian: Real-Time High-Quality Large-Scale Scene Rendering with Gaussians",
+      "topic": "2.3"
+    },
+    {
+      "citation_key": "yang2024emernerf",
+      "title": "EmerNeRF: Emergent Spatial-Temporal Scene Decomposition via Self-Supervision",
+      "topic": "2.3"
+    },
+    {
+      "citation_key": "ost2021neuralscenegraphs",
+      "title": "Neural Scene Graphs for Dynamic Scenes",
+      "topic": "2.3"
+    },
+    {
+      "citation_key": "yan2024streetgaussians",
+      "title": "Street Gaussians: Modeling Dynamic Urban Scenes with Gaussian Splatting",
+      "topic": "2.3"
+    },
+    {
+      "citation_key": "chen2025omnire",
+      "title": "OmniRe: Omni Urban Scene Reconstruction",
+      "topic": "2.3"
+    },
+    {
+      "citation_key": "fischer2024multilevelscenegraphs",
+      "title": "Multi-Level Neural Scene Graphs for Dynamic Urban Environments",
+      "topic": "2.3"
+    },
+    {
+      "citation_key": "zhou2024hugs",
+      "title": "HUGS: Holistic Urban 3D Scene Understanding via Gaussian Splatting",
+      "topic": "2.3"
+    },
+    {
+      "citation_key": "guo2023streetsurfv1",
+      "title": "StreetSurf: Extending Multi-View Implicit Surface Reconstruction to Street Views",
+      "topic": "2.3"
+    },
+    {
+      "citation_key": "ren2024scube",
+      "title": "SCube: Instant Large-Scale Scene Reconstruction using VoxSplats",
+      "topic": "2.3"
+    },
+    {
+      "citation_key": "chen2026dggt",
+      "title": "DGGT: Feedforward 4D Reconstruction of Dynamic Driving Scenes using Unposed Images",
+      "topic": "2.3"
+    },
+    {
+      "citation_key": "li2026aerogs",
+      "title": "AeroGS: Scale-Aware Gaussian Splatting for Pose-Free Dynamic UAV Scene Reconstruction",
+      "topic": "2.3"
+    },
+    {
+      "citation_key": "liu2026aerodgs",
+      "title": "AeroDGS: Physically Consistent Dynamic Gaussian Splatting for Single-Sequence Aerial 4D Reconstruction",
+      "topic": "2.3"
+    },
+    {
+      "citation_key": "choi2026uav4d",
+      "title": "UAV4D: Dynamic Neural Rendering of Human-Centric UAV Imagery Using Gaussian Splatting",
+      "topic": "2.3"
+    },
+    {
+      "citation_key": "zhao2025drivedreamer4d",
+      "title": "DriveDreamer4D: World Models Are Effective Data Machines for 4D Driving Scene Representation",
+      "topic": "2.3"
+    },
+    {
+      "citation_key": "zhang2024hgca",
+      "title": "Outdoor Scene Extrapolation with Hierarchical Generative Cellular Automata",
+      "topic": "2.3"
+    },
+    {
+      "citation_key": "li2024sat2scene",
+      "title": "Sat2Scene: 3D Urban Scene Generation from Satellite Images with Diffusion",
+      "topic": "2.3"
+    },
+    {
+      "citation_key": "yan2025streetcrafter",
+      "title": "StreetCrafter: Street View Synthesis with Controllable Video Diffusion Models",
+      "topic": "2.3"
+    },
+    {
+      "citation_key": "ni2025recondreamer",
+      "title": "ReconDreamer: Crafting World Models for Driving Scene Reconstruction via Online Restoration",
+      "topic": "2.3"
+    },
+    {
+      "citation_key": "liu2025citygaussianv2",
+      "title": "CityGaussianV2: Efficient and Geometrically Accurate Reconstruction for Large-Scale Scenes",
+      "topic": "2.3"
+    },
+    {
+      "citation_key": "chen2025invrgbl",
+      "title": "InvRGB+L: Inverse Rendering of Complex Scenes with Unified Color and LiDAR Reflectance Modeling",
+      "topic": "2.4"
+    },
+    {
+      "citation_key": "wu2025emiemap",
+      "title": "EMIE-MAP: Large-Scale Road Surface Reconstruction Based on Explicit Mesh and Implicit Encoding",
+      "topic": "2.4"
+    },
+    {
+      "citation_key": "balde2026editssc",
+      "title": "EditSSC: Toward Editable Semantic Occupancy Scenes with Unconditional Diffusion Models",
+      "topic": "3.1"
+    },
+    {
+      "citation_key": "wei2024chatsim",
+      "title": "Editable Scene Simulation for Autonomous Driving via Collaborative LLM-Agents",
+      "topic": "3.2"
+    },
+    {
+      "citation_key": "xiong2025drivinggaussianppv1",
+      "title": "DrivingGaussian++: Towards Realistic Reconstruction and Editable Simulation for Surrounding Dynamic Driving Scenes",
+      "topic": "3.2"
+    },
+    {
+      "citation_key": "wang2026horizonforge",
+      "title": "HorizonForge: Driving Scene Editing with Any Trajectories and Any Vehicles",
+      "topic": "3.2"
+    },
+    {
+      "citation_key": "deng2026gaussiandwmppv1",
+      "title": "GaussianDWM++: Language-Grounded 3D Gaussian Driving World Model for Unified Scene Understanding, Editing, and Multi-Modal Generation",
+      "topic": "3.2"
+    },
+    {
+      "citation_key": "rudnev2022nerfosr",
+      "title": "NeRF for Outdoor Scene Relighting",
+      "topic": "3.3"
+    },
+    {
+      "citation_key": "li2023climatenerf",
+      "title": "ClimateNeRF: Extreme Weather Synthesis in Neural Radiance Field",
+      "topic": "3.3"
+    },
+    {
+      "citation_key": "pun2023lightsim",
+      "title": "Neural Lighting Simulation for Urban Scenes",
+      "topic": "3.3"
+    },
+    {
+      "citation_key": "fiebelman2026letitsnow",
+      "title": "Let it Snow! Animating 3D Gaussian Scenes with Dynamic Weather Effects via Physics-Guided Score Distillation",
+      "topic": "3.3"
+    },
+    {
+      "citation_key": "zhou2026rovesv1",
+      "title": "Physics-Aware 3D Gaussian Editing for Driving Scene Generation",
+      "topic": "3.3"
+    },
+    {
+      "citation_key": "fan2026metegs",
+      "title": "MeteGS: Meteorology-Guided Gaussian Splatting for Scene Rendering and Recovery in Adverse Weather Conditions",
+      "topic": "3.3"
+    },
+    {
+      "citation_key": "kang2026simworldstudiov2",
+      "title": "SimWorld Studio: Automatic Environment Generation with Evolving Coding Agent for Embodied Agent Learning",
+      "topic": "4.1"
+    },
+    {
+      "citation_key": "wang2026urbanworld2v3",
+      "title": "UrbanWorld2.0: A Multimodal Agentic Framework for Reality-Aligned 3D World Generation at City-Scale",
+      "topic": "4.1"
+    }
+  ],
+  "metadata_changes": [
+    {
+      "citation_key": "zhang2024dronewisv1",
+      "title": "DroneWiS: Automated Simulation Testing of small Unmanned Aerial System in Realistic Windy Conditions",
+      "changes": {
+        "title": {
+          "old": "DroneWiS: Automated Simulation Testing of small Unmanned Aerial Systems in Realistic Windy Conditions",
+          "new": "DroneWiS: Automated Simulation Testing of small Unmanned Aerial System in Realistic Windy Conditions"
+        },
+        "publication": {
+          "old": "arXiv 2024",
+          "new": "ASE Demo 2024"
+        },
+        "paper_url": {
+          "old": "https://arxiv.org/abs/2408.16559v1",
+          "new": "https://doi.org/10.1145/3691620.3695351"
+        }
+      }
+    },
+    {
+      "citation_key": "ljungbergh2025r3d2v1",
+      "title": "R3D2: Realistic 3D Asset Insertion via Diffusion for Autonomous Driving Simulation",
+      "changes": {
+        "year": {
+          "old": 2025,
+          "new": 2026
+        },
+        "publication": {
+          "old": "arXiv 2025",
+          "new": "CVPR Workshop 2026"
+        }
+      }
+    }
+  ],
+  "journal_extensions": [
+    {
+      "parent_key": "xie2024citydreamer",
+      "citation_key": "xie2026citydreamer4d",
+      "title": "Compositional Generative Model of Unbounded 4D Cities"
+    }
+  ],
+  "candidate_resolutions": [
+    {
+      "candidate_id": "217",
+      "citation_key": "kim2026scenefrom3dv1",
+      "destination": "homepage",
+      "reason": "Current manuscript explicitly discusses this construction task"
+    }
+  ]
+}

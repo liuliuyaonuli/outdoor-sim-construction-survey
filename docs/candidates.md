@@ -1,14 +1,11 @@
 # 🔎 Candidate Review Queue
 
-These 7 records have unresolved questions about the primary construction task, output scope, or eligibility. Suggested tasks are carried over from the source supplement and remain provisional. These records are not included in the selected-method count.
+There are **6 unresolved records** from the historical seven-record queue. Suggested tasks remain provisional. Resolved cases appear below with their current manuscript placement.
 
 [← Survey reading guide](../README.md) · [Extended reading](extended-reading.md)
 
 - **Gen3R: 3D Scene Generation Meets Feed-Forward Reconstruction**\
   [📄 Paper](https://arxiv.org/abs/2601.04090) · <sub>Suggested task: Synthesis（暂定）</sub>
-
-- **SceneFrom3D: Geometry-Conditioned Outdoor 3D Scene Generation via View Scheduling with Object-Level Control**\
-  [📄 Paper](https://arxiv.org/abs/2607.04540) · <sub>Suggested task: Synthesis / Transformation（待判）</sub>
 
 - **InfiniVerse: Occupancy Guided Unbounded Scene Generation for Autonomous Driving**\
   [📄 Paper](https://arxiv.org/abs/2606.31109) · <sub>Suggested task: Synthesis（局部/部分状态）</sub>
@@ -26,4 +23,9 @@ These 7 records have unresolved questions about the primary construction task, o
   [📄 Paper](https://aclanthology.org/2026.findings-acl.2116/) · <sub>Suggested task: Reconstruction（建议；待全文编码）</sub>
 
 
-[Machine-readable queue](../data/candidates.json)
+## Resolved Since the Original Queue
+
+- **SceneFrom3D: Geometry-Conditioned Outdoor 3D Scene Generation via View Scheduling with Object-Level Control** — included under [image- and video-prior-guided synthesis](../README.md#paper-kim2026scenefrom3dv1) based on the current manuscript discussion.
+
+
+[Historical queue](../data/candidates.json) · [Resolution records](../data/curation.json)

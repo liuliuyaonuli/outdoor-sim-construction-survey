@@ -53,10 +53,12 @@
     "kind": "scene-data",
     "role": "Driving observations for reconstruction, editing, and transfer experiments",
     "links": {
-      "dataset": "https://waymo.com/open/"
+      "dataset": "https://waymo.com/open/",
+      "paper": "https://openaccess.thecvf.com/content_CVPR_2020/html/Sun_Scalability_in_Perception_for_Autonomous_Driving_Waymo_Open_Dataset_CVPR_2020_paper.html"
     },
     "survey_reference": "Table 4; Section 5",
     "citation_keys": [
+      "sun2020waymo",
       "zhang2024resimad",
       "xu2025streetunveiler",
       "park2026simsplatv2"
@@ -67,10 +69,12 @@
     "kind": "scene-data",
     "role": "Camera and LiDAR observations for sensor fidelity and transfer evaluation",
     "links": {
-      "devkit": "https://github.com/scaleapi/pandaset-devkit"
+      "devkit": "https://github.com/scaleapi/pandaset-devkit",
+      "paper": "https://arxiv.org/abs/2112.12610"
     },
     "survey_reference": "Table 4; Section 5",
     "citation_keys": [
+      "xiao2021pandaset",
       "tonderski2024neurad",
       "yang2023unisim"
     ]
@@ -80,22 +84,26 @@
     "kind": "scene-data",
     "role": "Real observations and labels for detection transfer evaluation",
     "links": {
-      "dataset": "https://www.cvlibs.net/datasets/kitti/"
+      "dataset": "https://www.cvlibs.net/datasets/kitti/",
+      "paper": "https://doi.org/10.1177/0278364913491297"
     },
     "survey_reference": "Table 4; Section 5.3",
     "citation_keys": [
+      "geiger2013kitti",
       "zhang2024resimad"
     ]
   },
   {
-    "name": "DL3DV",
+    "name": "DL3DV-10K",
     "kind": "scene-data",
     "role": "Multiview scene observations for completion and preservation evaluation",
     "links": {
-      "dataset": "https://huggingface.co/DL3DV"
+      "dataset": "https://huggingface.co/DL3DV",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2024/html/Ling_DL3DV-10K_A_Large-Scale_Scene_Dataset_for_Deep_Learning-based_3D_Vision_CVPR_2024_paper.html"
     },
     "survey_reference": "Table 4; Section 5.2",
     "citation_keys": [
+      "ling2024dl3dv",
       "gao2026gscompleterv2"
     ]
   },
@@ -145,6 +153,200 @@
     "survey_reference": "Table 4; Section 5.3",
     "citation_keys": [
       "chen2026musyncv1"
+    ]
+  },
+  {
+    "name": "UrbanScene3D",
+    "kind": "scene-data",
+    "role": "Urban imagery and geometry for capture planning, reconstruction, and view synthesis",
+    "links": {
+      "paper": "https://doi.org/10.1007/978-3-031-20074-8_6"
+    },
+    "survey_reference": "Table 4",
+    "citation_keys": [
+      "lin2022urbanscene3d"
+    ]
+  },
+  {
+    "name": "MatrixCity",
+    "kind": "scene-data",
+    "role": "Synthetic aerial and street views with reference buffers for controlled city-scale rendering tests",
+    "links": {
+      "paper": "https://openaccess.thecvf.com/content/ICCV2023/html/Li_MatrixCity_A_Large-scale_City_Dataset_for_City-scale_Neural_Rendering_and_ICCV_2023_paper.html"
+    },
+    "survey_reference": "Table 4",
+    "citation_keys": [
+      "li2023matrixcity"
+    ]
+  },
+  {
+    "name": "KITTI-360",
+    "kind": "scene-data",
+    "role": "Urban observations with semantic and instance correspondence",
+    "links": {
+      "paper": "https://www.cvlibs.net/datasets/kitti-360/"
+    },
+    "survey_reference": "Table 4",
+    "citation_keys": [
+      "liao2023kitti360"
+    ]
+  },
+  {
+    "name": "Oxford Spires",
+    "kind": "scene-data",
+    "role": "Calibrated multimodal sequences and reference maps for geometry, localisation, and rendering",
+    "links": {
+      "paper": "https://journals.sagepub.com/doi/10.1177/02783649251369905"
+    },
+    "survey_reference": "Table 4",
+    "citation_keys": [
+      "tao2026oxfordspires"
+    ]
+  },
+  {
+    "name": "Virtual KITTI / 2",
+    "kind": "scene-data",
+    "role": "Cloned driving scenes and controlled variants for perception comparisons",
+    "links": {
+      "paper": "https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Gaidon_Virtual_Worlds_as_CVPR_2016_paper.html",
+      "paper (v2)": "https://arxiv.org/abs/2001.10773v1"
+    },
+    "survey_reference": "Table 4",
+    "citation_keys": [
+      "gaidon2016virtualkitti",
+      "cabon2020virtualkitti2"
+    ]
+  },
+  {
+    "name": "OpenStreetMap",
+    "kind": "scene-data",
+    "role": "Geographic road structure used by map-driven construction pipelines",
+    "links": {
+      "paper": "https://discovery.ucl.ac.uk/id/eprint/13849/"
+    },
+    "survey_reference": "Section 3.2.1",
+    "citation_keys": [
+      "haklay2008openstreetmap"
+    ]
+  },
+  {
+    "name": "Objaverse",
+    "kind": "assets",
+    "role": "Annotated reusable 3D objects for retrieval and assembly",
+    "links": {
+      "paper": "https://openaccess.thecvf.com/content/CVPR2023/html/Deitke_Objaverse_A_Universe_of_Annotated_3D_Objects_CVPR_2023_paper.html"
+    },
+    "survey_reference": "Table 4; Section 3.1.2",
+    "citation_keys": [
+      "deitke2023objaverse"
+    ]
+  },
+  {
+    "name": "GenAssets",
+    "kind": "assets",
+    "role": "Generated foreground assets and fixed-layout actor replacements",
+    "links": {
+      "paper": "https://openaccess.thecvf.com/content/CVPR2025/html/Yang_GenAssets_Generating_in-the-wild_3D_Assets_in_Latent_Space_CVPR_2025_paper.html"
+    },
+    "survey_reference": "Sections 3.1.2 and 5.3",
+    "citation_keys": [
+      "yang2025genassets"
+    ]
+  },
+  {
+    "name": "EUVS",
+    "kind": "evaluation",
+    "role": "Separate interpolation from translation, rotation, and combined viewpoint extrapolation",
+    "links": {
+      "paper": "https://openaccess.thecvf.com/content/ICCV2025/html/Han_Extrapolated_Urban_View_Synthesis_Benchmark_ICCV_2025_paper.html"
+    },
+    "survey_reference": "Table 4; Section 5.1",
+    "citation_keys": [
+      "han2025euvs"
+    ]
+  },
+  {
+    "name": "WorldScore",
+    "kind": "evaluation",
+    "role": "Controllability, quality, and dynamics under standardized camera trajectories and semantic controls",
+    "links": {
+      "paper": "https://openaccess.thecvf.com/content/ICCV2025/html/Duan_WorldScore_A_Unified_Evaluation_Benchmark_for_World_Generation_ICCV_2025_paper.html"
+    },
+    "survey_reference": "Table 4; Section 5.1",
+    "citation_keys": [
+      "duan2025worldscore"
+    ]
+  },
+  {
+    "name": "NeuroNCAP",
+    "kind": "evaluation",
+    "role": "Scenario-based safety tests with policy actions and subsequent rendered observations",
+    "links": {
+      "paper": "https://doi.org/10.1007/978-3-031-73404-5_10"
+    },
+    "survey_reference": "Sections 4.3 and 5.3",
+    "citation_keys": [
+      "ljungbergh2025neuroncap"
+    ]
+  },
+  {
+    "name": "RAD",
+    "kind": "evaluation",
+    "role": "Policy learning in reconstructed Gaussian environments; other actors follow logged trajectories in the reviewed experiments",
+    "links": {
+      "paper": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/2ed3a566a0af6dcec424b988f1880ecc-Abstract-Conference.html"
+    },
+    "survey_reference": "Section 5.3",
+    "citation_keys": [
+      "gao2025rad"
+    ]
+  },
+  {
+    "name": "UE4-NeRF",
+    "kind": "runtime-method",
+    "role": "Neural scene conversion to engine rasterization with rendering proxies and level-of-detail management",
+    "links": {
+      "paper": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/b94d8b035e2183e47afef9e2f299ba47-Abstract-Conference.html"
+    },
+    "survey_reference": "Section 4.1",
+    "citation_keys": [
+      "gu2023ue4nerf"
+    ]
+  },
+  {
+    "name": "AlignMiF",
+    "kind": "runtime-method",
+    "role": "Cross-modal geometry alignment with modality-specific details",
+    "links": {
+      "paper": "https://openaccess.thecvf.com/content/CVPR2024/html/Tao_AlignMiF_Geometry-Aligned_Multimodal_Implicit_Field_for_LiDAR-Camera_Joint_Synthesis_CVPR_2024_paper.html"
+    },
+    "survey_reference": "Section 4.2.1",
+    "citation_keys": [
+      "tao2024alignmif"
+    ]
+  },
+  {
+    "name": "Uni-Gaussians",
+    "kind": "runtime-method",
+    "role": "Camera rasterization and LiDAR ray tracing of a shared dynamic Gaussian scene",
+    "links": {
+      "paper": "https://arxiv.org/abs/2503.08317v3"
+    },
+    "survey_reference": "Section 4.2.1",
+    "citation_keys": [
+      "yuan2025unigaussians"
+    ]
+  },
+  {
+    "name": "CARLA-GS",
+    "kind": "runtime-method",
+    "role": "CARLA-controlled actor motion transferred to StreetGaussians scene state",
+    "links": {
+      "paper": "https://arxiv.org/abs/2607.07601v1"
+    },
+    "survey_reference": "Section 4.3",
+    "citation_keys": [
+      "huang2026carlags"
     ]
   }
 ]

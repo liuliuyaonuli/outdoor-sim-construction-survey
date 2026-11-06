@@ -3,23 +3,23 @@
   "source_documents": [
     {
       "file": "sections/chapter03.tex",
-      "sha256": "8c49d89eafb6ea028e911320c0508926fedc3fff3886fe2f9102c1cca82d9f64"
+      "sha256": "64054fcd8155983fd13fe9bc1438c7419a8e9cc11f81ec481e420d00e56b7815"
     },
     {
       "file": "sections/chapter04.tex",
-      "sha256": "333fd0a4ddcb10c75ac272ebd59a127f10d7fc1f424aa1c1fd11a6a33d4b5a59"
+      "sha256": "a39c1bbf68b1d4dc84dc1081a17cb49dd2fdbe11f8492db69d0fc9d11ccb587a"
     },
     {
       "file": "sections/chapter05.tex",
-      "sha256": "bb55d569bc00a0c6ecf1060c7db99888268cffccc075bb107004bc4cb6920d9d"
+      "sha256": "cf2e34590b111e085e417feca83a90127c46d06b95d6f01cf23e6063231cda9b"
     },
     {
       "file": "tables/table4.tex",
-      "sha256": "4e0dccfcf7f4f3792101e3df144a7837038cc4310ebd3ccd1e245dc7bf856593"
+      "sha256": "d0077c15e533215c72c5da136d0aa75a200e45e15d7035453f738c925777ac8b"
     },
     {
       "file": "references.bib",
-      "sha256": "cf0c8111bcb7a866a5422b4163411f40e9131ca5cdc1b0eeb1452b9841b0806f"
+      "sha256": "83c3ec6e6b17c472967e6e490e076bf57721066bb1f596c760a7041656ed8c50"
     }
   ],
   "topics": [
@@ -124,895 +124,1890 @@
     {
       "inventory_id": "001",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "002",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "003",
       "destination": "homepage",
-      "reason": "Directly discussed construction method in manuscript Chapter 3"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "004",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "005",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "006",
       "destination": "homepage",
-      "reason": "Directly discussed construction method in manuscript Chapter 3"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "007",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "008",
       "destination": "homepage",
-      "reason": "Directly discussed construction method in manuscript Chapter 3"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "009",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "010",
-      "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "destination": "methodological-references",
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "011",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "012",
       "destination": "homepage",
-      "reason": "Directly discussed construction method in manuscript Chapter 3"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "013",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "014",
       "destination": "homepage",
-      "reason": "Directly discussed construction method in manuscript Chapter 3"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "015",
-      "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "destination": "homepage",
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "016",
       "destination": "homepage",
-      "reason": "Directly discussed construction method in manuscript Chapter 3"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "017",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "018",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "019",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "020",
       "destination": "homepage",
-      "reason": "Directly discussed construction method in manuscript Chapter 3"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "021",
       "destination": "homepage",
-      "reason": "Directly discussed construction method in manuscript Chapter 3"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "022",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "023",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "024",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "025",
       "destination": "methodological-references",
-      "reason": "Explicit methodological reference with a scope distinct from the main outdoor construction list"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "026",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "027",
       "destination": "homepage",
-      "reason": "Directly discussed construction method in manuscript Chapter 3"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "028",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "029",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "030",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "031",
       "destination": "homepage",
-      "reason": "Directly discussed construction method in manuscript Chapter 3"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "032",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "033",
-      "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "destination": "homepage",
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "034",
       "destination": "homepage",
-      "reason": "Directly discussed construction method in manuscript Chapter 3"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "035",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "036",
       "destination": "homepage",
-      "reason": "Directly discussed construction method in manuscript Chapter 3"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "037",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "038",
       "destination": "homepage",
-      "reason": "Directly discussed construction method in manuscript Chapter 3"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "039",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "040",
       "destination": "homepage",
-      "reason": "Directly discussed construction method in manuscript Chapter 3"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "041",
       "destination": "homepage",
-      "reason": "Directly discussed construction method in manuscript Chapter 3"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "042",
       "destination": "homepage",
-      "reason": "Directly discussed construction method in manuscript Chapter 3"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "043",
       "destination": "homepage",
-      "reason": "Directly discussed construction method in manuscript Chapter 3"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "044",
-      "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "destination": "methodological-references",
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "045",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "046",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "047",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "048",
       "destination": "homepage",
-      "reason": "Directly discussed construction method in manuscript Chapter 3"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "049",
-      "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "destination": "homepage",
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "050",
       "destination": "homepage",
-      "reason": "Directly discussed construction method in manuscript Chapter 3"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "051",
-      "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "destination": "homepage",
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "052",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "053",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "054",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "055",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "056",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "057",
       "destination": "homepage",
-      "reason": "Directly discussed construction method in manuscript Chapter 3"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "058",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "059",
       "destination": "homepage",
-      "reason": "Directly discussed construction method in manuscript Chapter 3"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "060",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "061",
       "destination": "homepage",
-      "reason": "Directly discussed construction method in manuscript Chapter 3"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "063",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "064",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "065",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "066",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "067",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "068",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "069",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "070",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "071",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "072",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "073",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "074",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "075",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "077",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "078",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "079",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "080",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "081",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "082",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "083",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "084",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "085",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "086",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "087",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "088",
       "destination": "methodological-references",
-      "reason": "Explicit methodological reference with a scope distinct from the main outdoor construction list"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "089",
-      "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "destination": "methodological-references",
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "090",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "091",
-      "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "destination": "homepage",
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "095",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "096",
       "destination": "homepage",
-      "reason": "Directly discussed construction method in manuscript Chapter 3"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "097",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "098",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "099",
       "destination": "homepage",
-      "reason": "Directly discussed construction method in manuscript Chapter 3"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "100",
       "destination": "homepage",
-      "reason": "Directly discussed construction method in manuscript Chapter 3"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "101",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "102",
       "destination": "homepage",
-      "reason": "Directly discussed construction method in manuscript Chapter 3"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "103",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "104",
       "destination": "homepage",
-      "reason": "Directly discussed construction method in manuscript Chapter 3"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "105",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "106",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "107",
       "destination": "homepage",
-      "reason": "Directly discussed construction method in manuscript Chapter 3"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "115",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "121",
       "destination": "homepage",
-      "reason": "Directly discussed construction method in manuscript Chapter 3"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "122",
-      "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "destination": "homepage",
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "123",
       "destination": "homepage",
-      "reason": "Directly discussed construction method in manuscript Chapter 3"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "124",
       "destination": "homepage",
-      "reason": "Directly discussed construction method in manuscript Chapter 3"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "125",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "126",
-      "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "destination": "homepage",
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "127",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "128",
-      "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "destination": "homepage",
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "129",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "130",
       "destination": "homepage",
-      "reason": "Directly discussed construction method in manuscript Chapter 3"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "131",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "132",
       "destination": "methodological-references",
-      "reason": "Explicit methodological reference with a scope distinct from the main outdoor construction list"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "133",
       "destination": "homepage",
-      "reason": "Directly discussed construction method in manuscript Chapter 3"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "134",
       "destination": "methodological-references",
-      "reason": "Explicit methodological reference with a scope distinct from the main outdoor construction list"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "135",
       "destination": "homepage",
-      "reason": "Directly discussed construction method in manuscript Chapter 3"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "136",
       "destination": "homepage",
-      "reason": "Directly discussed construction method in manuscript Chapter 3"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "137",
-      "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "destination": "homepage",
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "138",
       "destination": "homepage",
-      "reason": "Directly discussed construction method in manuscript Chapter 3"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "139",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "140",
       "destination": "homepage",
-      "reason": "Directly discussed construction method in manuscript Chapter 3"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "141",
       "destination": "homepage",
-      "reason": "Directly discussed construction method in manuscript Chapter 3"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "142",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "143",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "144",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "145",
-      "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "destination": "homepage",
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "146",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "147",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "148",
       "destination": "methodological-references",
-      "reason": "Explicit methodological reference with a scope distinct from the main outdoor construction list"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "149",
       "destination": "homepage",
-      "reason": "Directly discussed construction method in manuscript Chapter 3"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "150",
       "destination": "homepage",
-      "reason": "Directly discussed construction method in manuscript Chapter 3"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "151",
       "destination": "homepage",
-      "reason": "Directly discussed construction method in manuscript Chapter 3"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "152",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "153",
       "destination": "homepage",
-      "reason": "Directly discussed construction method in manuscript Chapter 3"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "154",
       "destination": "homepage",
-      "reason": "Directly discussed construction method in manuscript Chapter 3"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "155",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "156",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "157",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "179",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "180",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "181",
       "destination": "homepage",
-      "reason": "Directly discussed construction method in manuscript Chapter 3"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "182",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "183",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "184",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "185",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "186",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "187",
       "destination": "homepage",
-      "reason": "Directly discussed construction method in manuscript Chapter 3"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "188",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "189",
       "destination": "extended-reading",
-      "reason": "Retained in the broader collection; not selected for the current manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "190",
       "destination": "homepage",
-      "reason": "Directly discussed construction method in manuscript Chapter 3"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "191",
-      "destination": "extended-reading",
-      "reason": "Provisional supplement entry; not promoted to the manuscript-aligned homepage"
+      "destination": "homepage",
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "192",
-      "destination": "extended-reading",
-      "reason": "Provisional supplement entry; not promoted to the manuscript-aligned homepage"
+      "destination": "homepage",
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "193",
-      "destination": "extended-reading",
-      "reason": "Provisional supplement entry; not promoted to the manuscript-aligned homepage"
+      "destination": "homepage",
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "194",
       "destination": "extended-reading",
-      "reason": "Provisional supplement entry; not promoted to the manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "195",
-      "destination": "extended-reading",
-      "reason": "Provisional supplement entry; not promoted to the manuscript-aligned homepage"
+      "destination": "homepage",
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "196",
       "destination": "extended-reading",
-      "reason": "Provisional supplement entry; not promoted to the manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "197",
       "destination": "extended-reading",
-      "reason": "Provisional supplement entry; not promoted to the manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "198",
       "destination": "extended-reading",
-      "reason": "Provisional supplement entry; not promoted to the manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "199",
       "destination": "extended-reading",
-      "reason": "Provisional supplement entry; not promoted to the manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "200",
       "destination": "extended-reading",
-      "reason": "Provisional supplement entry; not promoted to the manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "201",
-      "destination": "extended-reading",
-      "reason": "Provisional supplement entry; not promoted to the manuscript-aligned homepage"
+      "destination": "homepage",
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "202",
       "destination": "extended-reading",
-      "reason": "Provisional supplement entry; not promoted to the manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "203",
       "destination": "extended-reading",
-      "reason": "Provisional supplement entry; not promoted to the manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "204",
-      "destination": "extended-reading",
-      "reason": "Provisional supplement entry; not promoted to the manuscript-aligned homepage"
+      "destination": "homepage",
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "205",
       "destination": "extended-reading",
-      "reason": "Provisional supplement entry; not promoted to the manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "206",
       "destination": "extended-reading",
-      "reason": "Provisional supplement entry; not promoted to the manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "207",
       "destination": "extended-reading",
-      "reason": "Provisional supplement entry; not promoted to the manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "208",
       "destination": "extended-reading",
-      "reason": "Provisional supplement entry; not promoted to the manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "209",
       "destination": "extended-reading",
-      "reason": "Provisional supplement entry; not promoted to the manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "210",
       "destination": "extended-reading",
-      "reason": "Provisional supplement entry; not promoted to the manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "211",
       "destination": "extended-reading",
-      "reason": "Provisional supplement entry; not promoted to the manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "212",
       "destination": "extended-reading",
-      "reason": "Provisional supplement entry; not promoted to the manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "213",
-      "destination": "extended-reading",
-      "reason": "Provisional supplement entry; not promoted to the manuscript-aligned homepage"
+      "destination": "homepage",
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "214",
       "destination": "extended-reading",
-      "reason": "Provisional supplement entry; not promoted to the manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     },
     {
       "inventory_id": "215",
       "destination": "extended-reading",
-      "reason": "Provisional supplement entry; not promoted to the manuscript-aligned homepage"
+      "reason": "Placed according to current manuscript discussion and scope"
     }
   ],
   "counts": {
-    "homepage_methods": 53,
-    "methodological_references": 5,
+    "homepage_methods": 125,
+    "methodological_references": 10,
     "original_inventory": 177,
     "provisional_in_original_inventory": 25,
-    "added_from_manuscript": 7,
-    "resource_entries": 12
+    "added_from_manuscript": 62,
+    "resource_entries": 28,
+    "supporting_literature": 10,
+    "journal_extensions": 1,
+    "chapter3_citations": 146,
+    "bibliography_entries": 240,
+    "active_boundary_candidates": 6,
+    "provisional_promoted": 7
+  },
+  "citation_policies": {
+    "shi2026se2": {
+      "destination": "methodological-reference",
+      "scope": "Navigation structure",
+      "reason": "Recovers orientation-dependent traversability for legged robotics. The survey uses it to explain how embodiment affects recovered navigation structure, rather than as a complete outdoor environment construction pipeline.",
+      "anchor": "navigation-structure"
+    },
+    "deng2025trasculptor": {
+      "destination": "methodological-reference",
+      "scope": "Abstract road graph",
+      "reason": "Edits road-network structure and attributes for traffic planning. It operates at the graph layer; corresponding 3D road surfaces require separate instantiation.",
+      "anchor": "abstract-road-graph"
+    },
+    "xu2026musev1": {
+      "destination": "methodological-reference",
+      "scope": "Indoor scene authoring",
+      "reason": "Provides a methodological example of persistent requirements, scene state, and preservation checks across successive edits.",
+      "anchor": "indoor-scene-authoring"
+    },
+    "fan2026magicv1": {
+      "destination": "methodological-reference",
+      "scope": "Multi-scene game worlds",
+      "reason": "Provides a methodological example of portal-connectivity verification and feedback-driven placement repair.",
+      "anchor": "multi-scene-game-worlds"
+    },
+    "wang2026physcensisv1": {
+      "destination": "methodological-reference",
+      "scope": "Indoor physical arrangement",
+      "reason": "Provides a methodological example of solver feedback for revising spatial and physical predicates.",
+      "anchor": "indoor-physical-arrangement"
+    },
+    "deitke2022procthor": {
+      "destination": "methodological-reference",
+      "scope": "Indoor procedural environments",
+      "reason": "Room-layout and interactive-asset generation for houses; a transferable procedural example rather than outdoor construction.",
+      "anchor": "deitke2022procthor"
+    },
+    "yang2024physcene": {
+      "destination": "methodological-reference",
+      "scope": "Indoor constrained layout synthesis",
+      "reason": "Collision, layout, and reachability guidance for indoor embodied scenes; explicitly introduced as a methodological reference.",
+      "anchor": "yang2024physcene"
+    },
+    "xia2026sage": {
+      "destination": "methodological-reference",
+      "scope": "Indoor agentic verification",
+      "reason": "Tool use and semantic, visual, and stability critics for indoor scene generation; outdoor checks require additional task-specific design.",
+      "anchor": "xia2026sage"
+    },
+    "wang2026worldagentv1": {
+      "destination": "methodological-reference",
+      "scope": "General physical-world verification",
+      "reason": "World specifications and geometry/simulation feedback illustrate verification-guided orchestration; retained as a general physical-world reference.",
+      "anchor": "wang2026worldagentv1"
+    },
+    "zhang2026code2worlds2v1": {
+      "destination": "methodological-reference",
+      "scope": "Physical-world compilation",
+      "reason": "Visual-to-MuJoCo compilation and simulator checks illustrate physical preparation and feedback for embodied worlds.",
+      "anchor": "zhang2026code2worlds2v1"
+    },
+    "schoenberger2016sfm": {
+      "destination": "technical-background",
+      "reason": "Foundational camera registration and sparse structure recovery."
+    },
+    "schoenberger2016mvs": {
+      "destination": "technical-background",
+      "reason": "Foundational view selection, depth, and normal estimation for dense reconstruction."
+    },
+    "guedon2024sugar": {
+      "destination": "technical-background",
+      "reason": "General surface-aligned Gaussian and mesh-recovery technique."
+    },
+    "huang2024surfsplatting": {
+      "destination": "technical-background",
+      "reason": "General planar-Gaussian surface representation and geometric regularization."
+    },
+    "haque2023instructnerf2nerf": {
+      "destination": "technical-background",
+      "reason": "General instruction-driven NeRF editing mechanism used as technical background."
+    },
+    "chen2024gaussianeditor": {
+      "destination": "technical-background",
+      "reason": "General semantic target tracking and Gaussian editing mechanism used as technical background."
+    },
+    "deitke2023objaverse": {
+      "destination": "resource-reference",
+      "reason": "Reusable annotated 3D object collection; listed as an asset resource."
+    },
+    "haklay2008openstreetmap": {
+      "destination": "resource-reference",
+      "reason": "Geographic map source used by construction pipelines."
+    },
+    "yang2025genassets": {
+      "destination": "resource-reference",
+      "reason": "Foreground-asset generation and replacement; listed under assets rather than counted as an environment-construction pipeline."
+    },
+    "he2024nerfdrivingsurvey": {
+      "destination": "survey",
+      "reason": "Background survey connecting NeRF reconstruction, perception, SLAM, and simulation."
+    },
+    "xie2026citydreamer4d": {
+      "destination": "journal-extension",
+      "parent_key": "xie2024citydreamer",
+      "reason": "Journal extension of the CityDreamer method family; associated with its existing homepage entry."
+    }
+  },
+  "candidate_resolutions": [
+    {
+      "candidate_id": "217",
+      "citation_key": "kim2026scenefrom3dv1",
+      "destination": "homepage",
+      "reason": "Current manuscript explicitly discusses this construction task"
+    }
+  ],
+  "classified_citations": [
+    {
+      "citation_key": "parish2001cities",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "muller2006buildings",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "genevaux2013hydrology",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "raistrick2023infinigen",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "capek2025flightforge",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "deitke2022procthor",
+      "destination": "methodological-reference",
+      "reason": "Room-layout and interactive-asset generation for houses; a transferable procedural example rather than outdoor construction."
+    },
+    {
+      "citation_key": "fremont2019scenic",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "vin2023scenic3",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "vecchio2025midgard",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "bajpai2026agrigen",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "wu2025urbansim",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "sun2023gpt3dv1",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "zhang2024cityxv1",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "liu2026landcraft",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "tang2025unrealllm",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "liu2025worldcraft",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "duan2025latticeworld",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "galin2010roads",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "niese2022urbanforestry",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "li2023metadrive",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "wu2025metaurban",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "zhuang2025simworldrobotics",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "bian2025holodeck2",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "huang2025majutsucityv2",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "lu2026yocity",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "deng2024citycraftv1",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "deitke2023objaverse",
+      "destination": "resource-reference",
+      "reason": "Reusable annotated 3D object collection; listed as an asset resource."
+    },
+    {
+      "citation_key": "yang2025genassets",
+      "destination": "resource-reference",
+      "reason": "Foreground-asset generation and replacement; listed under assets rather than counted as an environment-construction pipeline."
+    },
+    {
+      "citation_key": "kar2019metasim",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "devaranjan2020metasim2",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "vu2026aeroscenev2",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "liu2025outdoorscenegraphs",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "ren2024xcube",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "hu2025cadd",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "lee2024semcity",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "tze2026pritti",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "bian2025dynamiccity",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "liang2025cymbadiff",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "li2025uniscene",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "yang2024physcene",
+      "destination": "methodological-reference",
+      "reason": "Collision, layout, and reachability guidance for indoor embodied scenes; explicitly introduced as a methodological reference."
+    },
+    {
+      "citation_key": "chen2023scenedreamer",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "xie2024citydreamer",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "xie2025gaussiancity",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "xie2026citydreamer4d",
+      "destination": "journal-extension",
+      "reason": "Journal extension of the CityDreamer method family; associated with its existing homepage entry."
+    },
+    {
+      "citation_key": "chai2023persistentnature",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "lin2023infinicity",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "joshi2026worldflow3dv1",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "zyrianov2025lidardm",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "hu2024terraindiffusion",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "wu2024blockfusion",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "lee2025nuiscene",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "chung2025luciddreamer",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "yu2025wonderworld",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "kim2026scenefrom3dv1",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "zhou2024dreamscene360",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "hunyuan2025worldv2",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "lu2025infinicube",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "hyworld2026v1",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "mao2025dreamdrive",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "guo2025dist4d",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "zhu2026worldsplat",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "ost2026lsd3d",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "li2026flymiragev1",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "he2024nerfdrivingsurvey",
+      "destination": "survey",
+      "reason": "Background survey connecting NeRF reconstruction, perception, SLAM, and simulation."
+    },
+    {
+      "citation_key": "raskoti2025elevation",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "haklay2008openstreetmap",
+      "destination": "resource-reference",
+      "reason": "Geographic map source used by construction pipelines."
+    },
+    {
+      "citation_key": "sanchez2026agricultural",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "jannussi2026cam2simv1",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "hari2026simscene",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "schoenberger2016sfm",
+      "destination": "technical-background",
+      "reason": "Foundational camera registration and sparse structure recovery."
+    },
+    {
+      "citation_key": "schoenberger2016mvs",
+      "destination": "technical-background",
+      "reason": "Foundational view selection, depth, and normal estimation for dense reconstruction."
+    },
+    {
+      "citation_key": "kostrzewa2025photogrammetry",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "manivasagam2020lidarsim",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "zhang2024resimad",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "tancik2022blocknerf",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "turki2022meganerf",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "rematas2022urbanradiance",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "xiangli2022bungeenerf",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "lin2024vastgaussian",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "liu2025citygaussian",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "tonderski2024neurad",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "wang2026urbangs",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "yang2024emernerf",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "ost2021neuralscenegraphs",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "yan2024streetgaussians",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "chen2025omnire",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "fischer2024multilevelscenegraphs",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "zhou2024hugs",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "nvidia2026instantnurec",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "xie2025vid2sim",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "guo2023streetsurfv1",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "ren2024scube",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "chen2026dggt",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "li2026aerogs",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "liu2026aerodgs",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "choi2026uav4d",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "zhao2025drivedreamer4d",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "zhang2024hgca",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "li2024sat2scene",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "yan2025streetcrafter",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "ni2025recondreamer",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "qian2026sat3dgen",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "guedon2024sugar",
+      "destination": "technical-background",
+      "reason": "General surface-aligned Gaussian and mesh-recovery technique."
+    },
+    {
+      "citation_key": "huang2024surfsplatting",
+      "destination": "technical-background",
+      "reason": "General planar-Gaussian surface representation and geometric regularization."
+    },
+    {
+      "citation_key": "liu2025citygaussianv2",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "xu2025streetunveiler",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "shi2026se2",
+      "destination": "methodological-reference",
+      "reason": "Recovers orientation-dependent traversability for legged robotics. The survey uses it to explain how embodiment affects recovered navigation structure, rather than as a complete outdoor environment construction pipeline."
+    },
+    {
+      "citation_key": "schnerring2025solar",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "achermann2024windseer",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "chen2025invrgbl",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "wu2025emiemap",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "chen2025gsroadpatching",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "gao2026gscompleterv2",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "balde2026editssc",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "haque2023instructnerf2nerf",
+      "destination": "technical-background",
+      "reason": "General instruction-driven NeRF editing mechanism used as technical background."
+    },
+    {
+      "citation_key": "chen2024gaussianeditor",
+      "destination": "technical-background",
+      "reason": "General semantic target tracking and Gaussian editing mechanism used as technical background."
+    },
+    {
+      "citation_key": "yang2023unisim",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "park2026simsplatv2",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "wei2024chatsim",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "xiong2025drivinggaussianppv1",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "wang2026horizonforge",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "deng2026gaussiandwmppv1",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "miao2025falcongymv1",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "ljungbergh2025r3d2v1",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "deng2025trasculptor",
+      "destination": "methodological-reference",
+      "reason": "Edits road-network structure and attributes for traffic planning. It operates at the graph layer; corresponding 3D road surfaces require separate instantiation."
+    },
+    {
+      "citation_key": "rudnev2022nerfosr",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "li2023climatenerf",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "pun2023lightsim",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "lv2026relightablev2",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "dai2025rainygs",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "qian2026weatheredit",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "fiebelman2026letitsnow",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "chen2026musyncv1",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "zhou2026rovesv1",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "zhang2024dronewisv1",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "fan2026metegs",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "wang2026worldgen",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "zhou2025scenex",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "kang2026simworldstudiov2",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "wang2026urbanworld2v3",
+      "destination": "homepage",
+      "reason": "Direct outdoor construction discussion"
+    },
+    {
+      "citation_key": "xu2026musev1",
+      "destination": "methodological-reference",
+      "reason": "Provides a methodological example of persistent requirements, scene state, and preservation checks across successive edits."
+    },
+    {
+      "citation_key": "fan2026magicv1",
+      "destination": "methodological-reference",
+      "reason": "Provides a methodological example of portal-connectivity verification and feedback-driven placement repair."
+    },
+    {
+      "citation_key": "wang2026physcensisv1",
+      "destination": "methodological-reference",
+      "reason": "Provides a methodological example of solver feedback for revising spatial and physical predicates."
+    },
+    {
+      "citation_key": "xia2026sage",
+      "destination": "methodological-reference",
+      "reason": "Tool use and semantic, visual, and stability critics for indoor scene generation; outdoor checks require additional task-specific design."
+    },
+    {
+      "citation_key": "wang2026worldagentv1",
+      "destination": "methodological-reference",
+      "reason": "World specifications and geometry/simulation feedback illustrate verification-guided orchestration; retained as a general physical-world reference."
+    },
+    {
+      "citation_key": "zhang2026code2worlds2v1",
+      "destination": "methodological-reference",
+      "reason": "Visual-to-MuJoCo compilation and simulator checks illustrate physical preparation and feedback for embodied worlds."
+    }
+  ],
+  "last_synced": "2026-11-06",
+  "display_groups": {
+    "1.1": [
+      {
+        "title": "Infrastructure and natural-world rules",
+        "citation_keys": [
+          "parish2001cities",
+          "muller2006buildings",
+          "genevaux2013hydrology",
+          "raistrick2023infinigen",
+          "capek2025flightforge",
+          "galin2010roads",
+          "niese2022urbanforestry"
+        ]
+      },
+      {
+        "title": "Constraint languages and task-specific simulators",
+        "citation_keys": [
+          "fremont2019scenic",
+          "vin2023scenic3",
+          "vecchio2025midgard",
+          "bajpai2026agrigen",
+          "wu2025urbansim"
+        ]
+      },
+      {
+        "title": "Language and intermediate procedural controls",
+        "citation_keys": [
+          "sun2023gpt3dv1",
+          "zhang2024cityxv1",
+          "liu2026landcraft",
+          "tang2025unrealllm",
+          "liu2025worldcraft",
+          "duan2025latticeworld"
+        ]
+      }
+    ],
+    "1.3": [
+      {
+        "title": "Scene parameters, layouts, and relational control",
+        "citation_keys": [
+          "kar2019metasim",
+          "devaranjan2020metasim2",
+          "vu2026aeroscenev2",
+          "liu2025outdoorscenegraphs"
+        ]
+      },
+      {
+        "title": "Hierarchical and semantic spatial representations",
+        "citation_keys": [
+          "ren2024xcube",
+          "hu2025cadd",
+          "lee2024semcity",
+          "tze2026pritti",
+          "bian2025dynamiccity",
+          "liang2025cymbadiff",
+          "li2025uniscene"
+        ]
+      },
+      {
+        "title": "Compositional city representations",
+        "citation_keys": [
+          "chen2023scenedreamer",
+          "xie2024citydreamer",
+          "xie2025gaussiancity",
+          "lin2023infinicity"
+        ]
+      },
+      {
+        "title": "Persistent worlds and local expansion",
+        "citation_keys": [
+          "chai2023persistentnature",
+          "joshi2026worldflow3dv1",
+          "wu2024blockfusion",
+          "lee2025nuiscene"
+        ]
+      },
+      {
+        "title": "Terrain and sensor-oriented world generation",
+        "citation_keys": [
+          "hu2024terraindiffusion",
+          "zyrianov2025lidardm"
+        ]
+      }
+    ],
+    "2.3": [
+      {
+        "title": "City-scale and multiscale representations",
+        "citation_keys": [
+          "tancik2022blocknerf",
+          "turki2022meganerf",
+          "rematas2022urbanradiance",
+          "xiangli2022bungeenerf",
+          "lin2024vastgaussian",
+          "liu2025citygaussian",
+          "liu2025citygaussianv2"
+        ]
+      },
+      {
+        "title": "Dynamic and object-decomposed scenes",
+        "citation_keys": [
+          "tonderski2024neurad",
+          "yang2024emernerf",
+          "ost2021neuralscenegraphs",
+          "yan2024streetgaussians",
+          "chen2025omnire",
+          "fischer2024multilevelscenegraphs",
+          "zhou2024hugs"
+        ]
+      },
+      {
+        "title": "Feed-forward and aerial reconstruction",
+        "citation_keys": [
+          "nvidia2026instantnurec",
+          "ren2024scube",
+          "chen2026dggt",
+          "li2026aerogs",
+          "liu2026aerodgs",
+          "choi2026uav4d"
+        ]
+      },
+      {
+        "title": "Surface recovery and generative completion",
+        "citation_keys": [
+          "guo2023streetsurfv1",
+          "zhao2025drivedreamer4d",
+          "zhang2024hgca",
+          "li2024sat2scene",
+          "yan2025streetcrafter",
+          "ni2025recondreamer",
+          "qian2026sat3dgen"
+        ]
+      },
+      {
+        "title": "Cross-scale observations and navigation-oriented surfaces",
+        "citation_keys": [
+          "wang2026urbangs",
+          "xie2025vid2sim"
+        ]
+      }
+    ]
   }
 }

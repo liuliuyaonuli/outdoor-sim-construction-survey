@@ -1,8 +1,28 @@
 # 🧭 Methodological References
 
-These five papers are explicitly used as methodological references in Chapter 3 of the survey. Their scope is identified here so that they can inform construction design without being grouped into the main outdoor-method list.
+These 10 papers supply scoped methodological examples for Chapter 3: indoor environments, general physical-world construction, game worlds, navigation structure, and abstract road graphs.
 
 [← Survey reading guide](../README.md)
+
+
+<a id="deitke2022procthor"></a>
+
+## Indoor procedural environments
+
+**Survey section 3.1.1.** Room-layout and interactive-asset generation for houses; a transferable procedural example rather than outdoor construction.
+
+- **ProcTHOR: Large-Scale Embodied AI Using Procedural Generation**\
+  <sub>NeurIPS 2022</sub> · [📄 Paper](https://proceedings.neurips.cc/paper_files/paper/2022/file/27c546ab1e4f1d7d638e6a8dfbad9a07-Paper-Conference.pdf)
+
+
+<a id="yang2024physcene"></a>
+
+## Indoor constrained layout synthesis
+
+**Survey section 3.1.3.** Collision, layout, and reachability guidance for indoor embodied scenes; explicitly introduced as a methodological reference.
+
+- **PhyScene: Physically Interactable 3D Scene Synthesis for Embodied AI**\
+  <sub>CVPR 2024</sub> · [📄 Paper](https://openaccess.thecvf.com/content/CVPR2024/html/Yang_PhyScene_Physically_Interactable_3D_Scene_Synthesis_for_Embodied_AI_CVPR_2024_paper.html) · [🌐 Project](https://physcene.github.io)
 
 
 <a id="navigation-structure"></a>
@@ -53,6 +73,36 @@ These five papers are explicitly used as methodological references in Chapter 3 
 
 - **PhyScensis: Physics-Augmented LLM Agents for Complex Physical Scene Arrangement**\
   <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2602.14968v1)
+
+
+<a id="xia2026sage"></a>
+
+## Indoor agentic verification
+
+**Survey section 3.4.** Tool use and semantic, visual, and stability critics for indoor scene generation; outdoor checks require additional task-specific design.
+
+- **SAGE: Scalable Agentic 3D Scene Generation for Embodied AI**\
+  <sub>CVPR 2026</sub> · [📄 Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Xia_SAGE_Scalable_Agentic_3D_Scene_Generation_for_Embodied_AI_CVPR_2026_paper.html)
+
+
+<a id="wang2026worldagentv1"></a>
+
+## General physical-world verification
+
+**Survey section 3.4.** World specifications and geometry/simulation feedback illustrate verification-guided orchestration; retained as a general physical-world reference.
+
+- **WorldAgent: Verification-Guided Agentic Physical World Construction**\
+  <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2609.33208v1)
+
+
+<a id="zhang2026code2worlds2v1"></a>
+
+## Physical-world compilation
+
+**Survey section 3.4.** Visual-to-MuJoCo compilation and simulator checks illustrate physical preparation and feedback for embodied worlds.
+
+- **Code2Worlds-2: Physically Plausible Agent Harness for Embodied World Simulation**\
+  <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2610.17651v1)
 
 
 [Machine-readable records](../data/methodological-references.json) · [Selection notes](selection-notes.md)
