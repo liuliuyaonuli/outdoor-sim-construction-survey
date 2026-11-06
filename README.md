@@ -721,6 +721,4 @@ Suggestions and corrections are welcome through [Issues](https://github.com/liul
 
 [↑ Back to top](#top)
 
-<sub>Layout inspired by <a href="https://github.com/ANative-Lab/Awesome-Self-Evolving-Agents">Awesome-Self-Evolving-Agents</a>.</sub>
-
 </div>
