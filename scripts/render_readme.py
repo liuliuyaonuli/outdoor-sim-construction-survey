@@ -89,6 +89,12 @@ def main():
 
 </div>
 
+<p align="center">
+  <a href="assets/taxonomy-timeline.png"><img src="assets/taxonomy-timeline.png" alt="Timeline of selected research in synthesis, reconstruction, and transformation of outdoor 3D simulation environments" width="100%"></a>
+  <br>
+  <sub>Selected methods across synthesis, reconstruction, and transformation. Click the image to enlarge.</sub>
+</p>
+
 ---
 
 A curated collection of research on automatically constructing outdoor 3D simulation environments. Explore environment synthesis, reconstruction, transformation, and hybrid pipelines, together with [simulation platforms, datasets, and evaluation resources](#resources).
