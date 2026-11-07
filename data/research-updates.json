@@ -1,0 +1,1102 @@
+{
+  "date": "2026-11-07",
+  "source_report": {
+    "file": "室外三维仿真环境构建仓库_近期论文补充调研_20261107.docx",
+    "sha256": "033d280af038572786230b457d8e2f5dce5716b35eedf9c197c31d103722d545",
+    "first_submission_window": [
+      "2026-08-31",
+      "2026-11-06"
+    ]
+  },
+  "policy": "Keep manuscript snapshot data unchanged. Merge this independently curated collection when rendering; deduplicate stable paper IDs across collections. Game/indoor/runtime-only examples remain separately scoped. Published code links require actual implementation, not a placeholder repository.",
+  "papers": [
+    {
+      "report_id": "N01",
+      "name": "OctWorld",
+      "paper_id": "arxiv:2609.03919",
+      "citation_key": "research2026octworld",
+      "title": "OctWorld: Long-Range World-Consistent Video Generation with Octree-Based 3D Mapping",
+      "year": 2026,
+      "publication": "ECCV 2026",
+      "paper_url": "https://arxiv.org/abs/2609.03919",
+      "resources": {
+        "project": "https://microsoft.github.io/OctWorld/",
+        "code": "https://github.com/microsoft/OctWorld"
+      },
+      "topic": "1.4",
+      "survey_section": "3.1.4",
+      "cited_in": [],
+      "inventory_id": null,
+      "destination": "homepage",
+      "first_submission": "2026-09-03",
+      "revision_checked": "v2",
+      "revision_date": "2026-10-27",
+      "checked_at": "2026-11-07",
+      "added_to_repo": "2026-11-07",
+      "in_supplied_manuscript": false,
+      "selection_basis": "November 2026 research supplement; individually checked primary sources",
+      "persistent_state": "Octree TSDF map",
+      "resource_status": {
+        "code": "inference-released",
+        "training_code": "planned"
+      },
+      "summary": "Fuses generated RGB-D into an extensible octree TSDF memory for consistent exploration and revisits.",
+      "evidence_scope": "Rendering and spatial consistency; collision geometry and controller outcomes are not established.",
+      "primary_sources": [
+        "https://arxiv.org/abs/2609.03919",
+        "https://microsoft.github.io/OctWorld/",
+        "https://github.com/microsoft/OctWorld"
+      ],
+      "discovery_group": "core-method"
+    },
+    {
+      "report_id": "N02",
+      "name": "L3G-World",
+      "paper_id": "arxiv:2610.40614",
+      "citation_key": "research2026l3gworld",
+      "title": "L3G-World: Real-Time Infinite World Generation with Latent 3D Gaussian Memory",
+      "year": 2026,
+      "publication": "arXiv 2026",
+      "paper_url": "https://arxiv.org/abs/2610.40614",
+      "resources": {
+        "project": "https://cvlab-kaist.github.io/L3G-World/",
+        "release_plan": "https://github.com/cvlab-kaist/L3G-World"
+      },
+      "topic": "1.4",
+      "survey_section": "3.1.4",
+      "cited_in": [],
+      "inventory_id": null,
+      "destination": "homepage",
+      "first_submission": "2026-10-29",
+      "revision_checked": "v1",
+      "revision_date": "2026-10-29",
+      "checked_at": "2026-11-07",
+      "added_to_repo": "2026-11-07",
+      "in_supplied_manuscript": false,
+      "selection_basis": "November 2026 research supplement; individually checked primary sources",
+      "persistent_state": "Latent 3D Gaussians",
+      "resource_status": {
+        "code": "planned"
+      },
+      "summary": "Alternates video generation with updates to persistent latent Gaussian memory.",
+      "evidence_scope": "Latent spatial memory does not establish exportable collision assets or physical interaction.",
+      "primary_sources": [
+        "https://arxiv.org/abs/2610.40614",
+        "https://cvlab-kaist.github.io/L3G-World/",
+        "https://github.com/cvlab-kaist/L3G-World"
+      ],
+      "discovery_group": "core-method"
+    },
+    {
+      "report_id": "N03",
+      "name": "Drive2Gauss",
+      "paper_id": "arxiv:2610.26585",
+      "citation_key": "research2026drive2gauss",
+      "title": "Drive2Gauss: FeedForward 4D Gaussian Reconstruction from Multimodal Generative Driving Videos",
+      "year": 2026,
+      "publication": "arXiv 2026",
+      "paper_url": "https://arxiv.org/abs/2610.26585",
+      "resources": {
+        "code": "https://github.com/zttt04/Drive2Gauss_"
+      },
+      "topic": "1.4",
+      "survey_section": "3.1.4",
+      "cited_in": [],
+      "inventory_id": null,
+      "destination": "homepage",
+      "first_submission": "2026-10-19",
+      "revision_checked": "v1",
+      "revision_date": "2026-10-19",
+      "checked_at": "2026-11-07",
+      "added_to_repo": "2026-11-07",
+      "in_supplied_manuscript": false,
+      "selection_basis": "November 2026 research supplement; individually checked primary sources",
+      "persistent_state": "Dynamic 4D Gaussians",
+      "resource_status": {
+        "code": "released"
+      },
+      "summary": "Converts jointly generated driving RGB, metric depth and flow into reusable dynamic Gaussian scenes.",
+      "evidence_scope": "Reconstruction quality is measured against generated observations; planner or physics benefits are not established.",
+      "primary_sources": [
+        "https://arxiv.org/abs/2610.26585",
+        "https://github.com/zttt04/Drive2Gauss_"
+      ],
+      "discovery_group": "core-method"
+    },
+    {
+      "report_id": "N04",
+      "name": "BuildRome",
+      "paper_id": "arxiv:2610.08790",
+      "citation_key": "research2026buildrome",
+      "title": "Building Rome from a Single Image",
+      "year": 2026,
+      "publication": "arXiv 2026",
+      "paper_url": "https://arxiv.org/abs/2610.08790",
+      "resources": {
+        "project": "https://build-rome.github.io/",
+        "code": "https://github.com/Applied-Intuition-Open-Source/BuildRome",
+        "weights": "https://huggingface.co/AppliedIntuitionResearch/BuildRome"
+      },
+      "topic": "2.3",
+      "survey_section": "3.2.3",
+      "cited_in": [],
+      "inventory_id": null,
+      "destination": "homepage",
+      "first_submission": "2026-10-06",
+      "revision_checked": "v1",
+      "revision_date": "2026-10-06",
+      "checked_at": "2026-11-07",
+      "added_to_repo": "2026-11-07",
+      "in_supplied_manuscript": false,
+      "selection_basis": "November 2026 research supplement; individually checked primary sources",
+      "persistent_state": "Exportable triangle mesh",
+      "resource_status": {
+        "code": "inference-released"
+      },
+      "summary": "Recovers complete indoor/outdoor scene meshes from a single reference image using adaptive spatial chunks.",
+      "evidence_scope": "Mesh export is supported; estimated scale, collision proxies and navigation structures need separate validation.",
+      "primary_sources": [
+        "https://arxiv.org/abs/2610.08790",
+        "https://build-rome.github.io/",
+        "https://github.com/Applied-Intuition-Open-Source/BuildRome",
+        "https://huggingface.co/AppliedIntuitionResearch/BuildRome"
+      ],
+      "discovery_group": "core-method",
+      "display_group": "Surface recovery and single-image completion",
+      "license_note": "Original code and fine-tuned weights: CC BY-NC 4.0; upstream components have separate terms."
+    },
+    {
+      "report_id": "N05",
+      "name": "DistScene",
+      "paper_id": "arxiv:2610.06960",
+      "citation_key": "research2026distscene",
+      "title": "DistScene: Object-to-Scene Distillation for 3D Scene Generation",
+      "year": 2026,
+      "publication": "arXiv 2026",
+      "paper_url": "https://arxiv.org/abs/2610.06960",
+      "resources": {
+        "project": "https://coolbeam.github.io/DistScene/"
+      },
+      "topic": "2.3",
+      "survey_section": "3.2.3",
+      "cited_in": [],
+      "inventory_id": null,
+      "destination": "homepage",
+      "first_submission": "2026-10-03",
+      "revision_checked": "v1",
+      "revision_date": "2026-10-03",
+      "checked_at": "2026-11-07",
+      "added_to_repo": "2026-11-07",
+      "in_supplied_manuscript": false,
+      "selection_basis": "November 2026 research supplement; individually checked primary sources",
+      "persistent_state": "Environment and object geometry in shared coordinates",
+      "resource_status": {
+        "code": "planned"
+      },
+      "summary": "Uses object-to-scene distillation and local refinement to recover compositional scenes from an image.",
+      "evidence_scope": "Includes outdoor reconstruction evaluation; physically checked training compositions do not establish physical validity of outputs.",
+      "primary_sources": [
+        "https://arxiv.org/abs/2610.06960",
+        "https://coolbeam.github.io/DistScene/"
+      ],
+      "discovery_group": "core-method",
+      "display_group": "Surface recovery and single-image completion"
+    },
+    {
+      "report_id": "N06",
+      "name": "RECAST",
+      "paper_id": "arxiv:2609.31374",
+      "citation_key": "research2026recast",
+      "title": "RECAST: From Log Replay to Closed-Loop Driving Simulation with View-Complete Actors",
+      "year": 2026,
+      "publication": "arXiv 2026",
+      "paper_url": "https://arxiv.org/abs/2609.31374",
+      "resources": {
+        "project": "https://zijunkr.github.io/RECAST/"
+      },
+      "topic": "2.3",
+      "survey_section": "3.2.3",
+      "cited_in": [],
+      "inventory_id": null,
+      "destination": "homepage",
+      "first_submission": "2026-09-25",
+      "revision_checked": "v1",
+      "revision_date": "2026-09-25",
+      "checked_at": "2026-11-07",
+      "added_to_repo": "2026-11-07",
+      "in_supplied_manuscript": false,
+      "selection_basis": "November 2026 research supplement; individually checked primary sources",
+      "persistent_state": "View-complete Gaussian actors registered in a driving scene",
+      "resource_status": {
+        "code": "unverified"
+      },
+      "summary": "Completes partially observed vehicle actors and registers them in reconstructed scenes for planner-in-the-loop simulation.",
+      "evidence_scope": "Closed-loop results concern GTRS-Dense in controlled ego–actor interactions; distinct from Recast Navigation.",
+      "primary_sources": [
+        "https://arxiv.org/abs/2609.31374",
+        "https://zijunkr.github.io/RECAST/"
+      ],
+      "discovery_group": "core-method",
+      "display_group": "Generative completion of dynamic scenes"
+    },
+    {
+      "report_id": "N07",
+      "name": "Foundation4D",
+      "paper_id": "arxiv:2610.30340",
+      "citation_key": "research2026foundation4d",
+      "title": "Foundation4D: Towards a unified perception and reconstruction model for autonomous vehicles",
+      "year": 2026,
+      "publication": "arXiv 2026",
+      "paper_url": "https://arxiv.org/abs/2610.30340",
+      "resources": {
+        "project": "https://research.nvidia.com/labs/sil/projects/foundation4d/",
+        "dataset": "https://huggingface.co/datasets/nvidia/PhysicalAI-Autonomous-Vehicles-Foundation4D"
+      },
+      "topic": "2.3",
+      "survey_section": "3.2.3",
+      "cited_in": [],
+      "inventory_id": null,
+      "destination": "homepage",
+      "first_submission": "2026-10-21",
+      "revision_checked": "v1",
+      "revision_date": "2026-10-21",
+      "checked_at": "2026-11-07",
+      "added_to_repo": "2026-11-07",
+      "in_supplied_manuscript": false,
+      "selection_basis": "November 2026 research supplement; individually checked primary sources",
+      "persistent_state": "Geometry, tracks, occupancy and Gaussian scenes",
+      "resource_status": {
+        "code": "unverified",
+        "dataset": "published-entry"
+      },
+      "summary": "Jointly recovers driving-scene structure and supplies geometry and actor priors to LiDAR-free NuRec.",
+      "evidence_scope": "Downstream reconstruction still uses GPS/IMU; training annotations use LiDAR. Data release does not establish model-code release.",
+      "primary_sources": [
+        "https://arxiv.org/abs/2610.30340",
+        "https://research.nvidia.com/labs/sil/projects/foundation4d/",
+        "https://huggingface.co/datasets/nvidia/PhysicalAI-Autonomous-Vehicles-Foundation4D"
+      ],
+      "discovery_group": "core-method",
+      "display_group": "Feed-forward driving reconstruction"
+    },
+    {
+      "report_id": "N08",
+      "name": "OpenFlyScan",
+      "paper_id": "arxiv:2609.24253",
+      "citation_key": "research2026openflyscan",
+      "title": "OpenFlyScan: A Quality-Guided Aerial Reconstruction System for Consumer Drones",
+      "year": 2026,
+      "publication": "arXiv 2026",
+      "paper_url": "https://arxiv.org/abs/2609.24253",
+      "resources": {
+        "project": "https://openflyscan.github.io/",
+        "code": "https://github.com/mistletoe235/OpenFlyScan"
+      },
+      "topic": "2.3",
+      "survey_section": "3.2.3",
+      "cited_in": [],
+      "inventory_id": null,
+      "destination": "homepage",
+      "first_submission": "2026-09-21",
+      "revision_checked": "v1",
+      "revision_date": "2026-09-21",
+      "checked_at": "2026-11-07",
+      "added_to_repo": "2026-11-07",
+      "in_supplied_manuscript": false,
+      "selection_basis": "November 2026 research supplement; individually checked primary sources",
+      "persistent_state": "Joint aerial reconstruction from initial and additional observations",
+      "resource_status": {
+        "code": "partial",
+        "training_package": "partial"
+      },
+      "summary": "Predicts regional reconstruction quality and plans targeted drone reacquisition before joint reconstruction.",
+      "evidence_scope": "Field acquisition and reconstruction are demonstrated; full teacher/cache training resources remain incomplete.",
+      "primary_sources": [
+        "https://arxiv.org/abs/2609.24253",
+        "https://openflyscan.github.io/",
+        "https://github.com/mistletoe235/OpenFlyScan"
+      ],
+      "discovery_group": "core-method",
+      "display_group": "Aerial reconstruction and cross-view updates"
+    },
+    {
+      "report_id": "N09",
+      "name": "SkyAnchor",
+      "paper_id": "arxiv:2609.13903",
+      "citation_key": "research2026skyanchor",
+      "title": "SkyAnchor: Updating Metric-scale Aerial 3D Gaussian Scenes from Unposed Ground-View Sequences",
+      "year": 2026,
+      "publication": "arXiv 2026",
+      "paper_url": "https://arxiv.org/abs/2609.13903",
+      "resources": {},
+      "topic": "2.3",
+      "survey_section": "3.2.3",
+      "cited_in": [],
+      "inventory_id": null,
+      "destination": "homepage",
+      "first_submission": "2026-09-12",
+      "revision_checked": "v1",
+      "revision_date": "2026-09-12",
+      "checked_at": "2026-11-07",
+      "added_to_repo": "2026-11-07",
+      "in_supplied_manuscript": false,
+      "selection_basis": "November 2026 research supplement; individually checked primary sources",
+      "persistent_state": "Metric-scale aerial–ground Gaussian scene",
+      "resource_status": {
+        "code": "unverified"
+      },
+      "summary": "Registers later unposed ground sequences against an existing metric aerial scaffold and fuses scene updates.",
+      "evidence_scope": "Requires an existing metric aerial SfM/Gaussian anchor; updates measurements of the same real place.",
+      "primary_sources": [
+        "https://arxiv.org/abs/2609.13903"
+      ],
+      "discovery_group": "core-method",
+      "display_group": "Aerial reconstruction and cross-view updates"
+    },
+    {
+      "report_id": "N10",
+      "name": "VDGS",
+      "paper_id": "arxiv:2609.23049",
+      "citation_key": "research2026vdgs",
+      "title": "VDGS: Visibility-Driven Large-Scale 3D Gaussian Splatting for Aerial Scene Reconstruction",
+      "year": 2026,
+      "publication": "arXiv 2026",
+      "paper_url": "https://arxiv.org/abs/2609.23049",
+      "resources": {},
+      "topic": "2.3",
+      "survey_section": "3.2.3",
+      "cited_in": [],
+      "inventory_id": null,
+      "destination": "homepage",
+      "first_submission": "2026-09-19",
+      "revision_checked": "v1",
+      "revision_date": "2026-09-19",
+      "checked_at": "2026-11-07",
+      "added_to_repo": "2026-11-07",
+      "in_supplied_manuscript": false,
+      "selection_basis": "November 2026 research supplement; individually checked primary sources",
+      "persistent_state": "Partitioned aerial Gaussian scene",
+      "resource_status": {
+        "code": "unverified"
+      },
+      "summary": "Uses visibility statistics for partitioning and gradient compensation in large aerial reconstructions.",
+      "evidence_scope": "Evidence concerns reconstruction quality and scalability, rather than navigation or physical interaction.",
+      "primary_sources": [
+        "https://arxiv.org/abs/2609.23049"
+      ],
+      "discovery_group": "core-method",
+      "display_group": "Aerial reconstruction and cross-view updates"
+    },
+    {
+      "report_id": "N11",
+      "name": "ReconDreamer#",
+      "paper_id": "arxiv:2611.04173",
+      "citation_key": "research2026recondreamer",
+      "title": "ReconDreamer#: Self-Evolving Closed-Loop Synergy of Reconstruction and Generation for Dynamic Driving Scenes",
+      "year": 2026,
+      "publication": "arXiv 2026",
+      "paper_url": "https://arxiv.org/abs/2611.04173",
+      "resources": {},
+      "topic": "2.3",
+      "survey_section": "3.2.3",
+      "cited_in": [],
+      "inventory_id": null,
+      "destination": "homepage",
+      "first_submission": "2026-11-03",
+      "revision_checked": "v1",
+      "revision_date": "2026-11-03",
+      "checked_at": "2026-11-07",
+      "added_to_repo": "2026-11-07",
+      "in_supplied_manuscript": false,
+      "selection_basis": "November 2026 research supplement; individually checked primary sources",
+      "persistent_state": "Dynamic driving-scene representation",
+      "resource_status": {
+        "code": "unverified"
+      },
+      "summary": "Iteratively improves generation and reconstruction with an adaptive geometry-prior ground model.",
+      "evidence_scope": "Closed loop refers to reconstruction–generation refinement, rather than a planner/controller loop. This is a separate paper ID.",
+      "primary_sources": [
+        "https://arxiv.org/abs/2611.04173"
+      ],
+      "discovery_group": "core-method",
+      "display_group": "Generative completion of dynamic scenes",
+      "related_method": "ni2025recondreamer"
+    },
+    {
+      "report_id": "N12",
+      "name": "OccSplat",
+      "paper_id": "arxiv:2611.06273",
+      "citation_key": "research2026occsplat",
+      "title": "Quo Vadis, Driving Scene Reconstruction? Occlusion-Aware Gaussian Densification",
+      "year": 2026,
+      "publication": "CV4DC / ACCV Workshop 2026 (accepted)",
+      "paper_url": "https://arxiv.org/abs/2611.06273",
+      "resources": {},
+      "topic": "2.3",
+      "survey_section": "3.2.3",
+      "cited_in": [],
+      "inventory_id": null,
+      "destination": "homepage",
+      "first_submission": "2026-11-04",
+      "revision_checked": "v1",
+      "revision_date": "2026-11-04",
+      "checked_at": "2026-11-07",
+      "added_to_repo": "2026-11-07",
+      "in_supplied_manuscript": false,
+      "selection_basis": "November 2026 research supplement; individually checked primary sources",
+      "persistent_state": "Gaussian primitives added to occluded regions",
+      "resource_status": {
+        "code": "unverified"
+      },
+      "summary": "Maps unsupported occluded regions and completes them by adding persistent Gaussian primitives.",
+      "evidence_scope": "Completes the 3D representation rather than only rendered pixels; inferred unseen geometry is not measurement ground truth.",
+      "primary_sources": [
+        "https://arxiv.org/abs/2611.06273"
+      ],
+      "discovery_group": "core-method",
+      "display_group": "Generative completion of dynamic scenes"
+    },
+    {
+      "report_id": "N13",
+      "name": "PointForward V2",
+      "paper_id": "arxiv:2610.28120",
+      "citation_key": "research2026pointforwardv2",
+      "title": "PointForward V2: Point-Aligned Interaction for Feedforward Driving Reconstruction",
+      "year": 2026,
+      "publication": "arXiv 2026",
+      "paper_url": "https://arxiv.org/abs/2610.28120",
+      "resources": {},
+      "topic": "2.3",
+      "survey_section": "3.2.3",
+      "cited_in": [],
+      "inventory_id": null,
+      "destination": "homepage",
+      "first_submission": "2026-10-20",
+      "revision_checked": "v1",
+      "revision_date": "2026-10-20",
+      "checked_at": "2026-11-07",
+      "added_to_repo": "2026-11-07",
+      "in_supplied_manuscript": false,
+      "selection_basis": "November 2026 research supplement; individually checked primary sources",
+      "persistent_state": "Static and object-aligned dynamic scene representation",
+      "resource_status": {
+        "code": "unverified"
+      },
+      "summary": "Uses compact static and dynamic registers for point-aligned interaction across views and times.",
+      "evidence_scope": "Verified at abstract level; V2 code availability is not inherited from PointForward.",
+      "primary_sources": [
+        "https://arxiv.org/abs/2610.28120"
+      ],
+      "discovery_group": "core-method",
+      "display_group": "Feed-forward driving reconstruction",
+      "parent_method": "PointForward"
+    },
+    {
+      "report_id": "N14",
+      "name": "TerrainForge",
+      "paper_id": "arxiv:2610.02825",
+      "citation_key": "research2026terrainforge",
+      "title": "TerrainForge: Physics-Grounded Road Geometry Editing for Counterfactual Autonomous Driving",
+      "year": 2026,
+      "publication": "arXiv 2026",
+      "paper_url": "https://arxiv.org/abs/2610.02825",
+      "resources": {},
+      "topic": "3.3",
+      "survey_section": "3.3.3",
+      "cited_in": [],
+      "inventory_id": null,
+      "destination": "homepage",
+      "first_submission": "2026-10-02",
+      "revision_checked": "v2",
+      "revision_date": "2026-10-11",
+      "checked_at": "2026-11-07",
+      "added_to_repo": "2026-11-07",
+      "in_supplied_manuscript": false,
+      "selection_basis": "November 2026 research supplement; individually checked primary sources",
+      "persistent_state": "Edited road geometry, friction and dependent vehicle state",
+      "resource_status": {
+        "code": "unverified"
+      },
+      "summary": "Propagates road-shape and friction edits through vehicle dynamics, camera viewpoint and inter-vehicle clearance.",
+      "evidence_scope": "Physics is compared with CarSim in specified settings; no unrelated procedural-terrain repository is linked.",
+      "primary_sources": [
+        "https://arxiv.org/abs/2610.02825"
+      ],
+      "discovery_group": "core-method"
+    },
+    {
+      "report_id": "N15",
+      "name": "IGSW",
+      "paper_id": "arxiv:2611.04374",
+      "citation_key": "research2026igsw",
+      "title": "IGSW: Multi-Weather Urban Scene Reconstruction with Intrinsic-Decoupled Gaussian Splatting",
+      "year": 2026,
+      "publication": "arXiv 2026",
+      "paper_url": "https://arxiv.org/abs/2611.04374",
+      "resources": {
+        "project": "https://akaxi6.github.io/IGSW/",
+        "release_plan": "https://github.com/Akaxi6/IGSW_IntrinsicGSWeather"
+      },
+      "topic": "3.3",
+      "survey_section": "3.3.3",
+      "cited_in": [],
+      "inventory_id": null,
+      "destination": "homepage",
+      "first_submission": "2026-11-03",
+      "revision_checked": "v1",
+      "revision_date": "2026-11-03",
+      "checked_at": "2026-11-07",
+      "added_to_repo": "2026-11-07",
+      "in_supplied_manuscript": false,
+      "selection_basis": "November 2026 research supplement; individually checked primary sources",
+      "persistent_state": "Intrinsic-decoupled multi-weather 4D Gaussians",
+      "resource_status": {
+        "code": "planned"
+      },
+      "summary": "Separates shared scene structure from weather-dependent appearance and rejects unreliable teacher regions.",
+      "evidence_scope": "Weather appearance control does not establish corresponding friction, wind or other physical-property changes.",
+      "primary_sources": [
+        "https://arxiv.org/abs/2611.04374",
+        "https://akaxi6.github.io/IGSW/",
+        "https://github.com/Akaxi6/IGSW_IntrinsicGSWeather"
+      ],
+      "discovery_group": "core-method"
+    },
+    {
+      "report_id": "N16",
+      "name": "Code4Scene",
+      "paper_id": "arxiv:2609.36777",
+      "citation_key": "research2026code4scene",
+      "title": "Code4Scene: Benchmarking Coding Agents for Constructing and Editing 3D Scenes",
+      "year": 2026,
+      "publication": "arXiv 2026",
+      "paper_url": "https://arxiv.org/abs/2609.36777",
+      "resources": {
+        "code": "https://github.com/SimWorld-AI/Code4Scene"
+      },
+      "topic": null,
+      "survey_section": "5",
+      "cited_in": [],
+      "inventory_id": null,
+      "destination": "evaluation",
+      "first_submission": "2026-09-29",
+      "revision_checked": "v1",
+      "revision_date": "2026-09-29",
+      "checked_at": "2026-11-07",
+      "added_to_repo": "2026-11-07",
+      "in_supplied_manuscript": false,
+      "selection_basis": "November 2026 research supplement; individually checked primary sources",
+      "persistent_state": "Engine-native scenes and evaluation artifacts",
+      "resource_status": {
+        "code": "released"
+      },
+      "summary": "Benchmarks construction and editing of persistent Unreal scenes, including validity and preservation of non-target content.",
+      "evidence_scope": "Includes outdoor scenes. Runtime route execution is controller-specific; external scene assets are obtained separately.",
+      "primary_sources": [
+        "https://arxiv.org/abs/2609.36777",
+        "https://github.com/SimWorld-AI/Code4Scene"
+      ],
+      "discovery_group": "evaluation",
+      "kind": "evaluation",
+      "role": "Benchmarks Unreal scene construction/editing, artifact integrity, static validity, non-target preservation and controller-specific route execution; third-party assets obtained separately.",
+      "links": {
+        "paper": "https://arxiv.org/abs/2609.36777",
+        "code": "https://github.com/SimWorld-AI/Code4Scene"
+      },
+      "survey_reference": "Research supplement · evaluation",
+      "citation_keys": [
+        "research2026code4scene"
+      ]
+    },
+    {
+      "report_id": "N17",
+      "name": "Visibility-Aware Reference",
+      "paper_id": "arxiv:2611.05361",
+      "citation_key": "research2026visibilityawarereference",
+      "title": "Visibility-Aware Reference Generation for Benchmarking Visual 3D Reconstruction in Vegetation-Rich Environments",
+      "year": 2026,
+      "publication": "arXiv 2026",
+      "paper_url": "https://arxiv.org/abs/2611.05361",
+      "resources": {},
+      "topic": null,
+      "survey_section": "5",
+      "cited_in": [],
+      "inventory_id": null,
+      "destination": "evaluation",
+      "first_submission": "2026-11-03",
+      "revision_checked": "v1",
+      "revision_date": "2026-11-03",
+      "checked_at": "2026-11-07",
+      "added_to_repo": "2026-11-07",
+      "in_supplied_manuscript": false,
+      "selection_basis": "November 2026 research supplement; individually checked primary sources",
+      "persistent_state": "Visibility-filtered depth and reference point clouds",
+      "resource_status": {
+        "code": "planned"
+      },
+      "summary": "Builds camera-visible geometric references from images, LiDAR and poses for vegetation-rich outdoor evaluation.",
+      "evidence_scope": "Evaluates reference coverage and reconstruction; does not generate an interactive simulation world.",
+      "primary_sources": [
+        "https://arxiv.org/abs/2611.05361"
+      ],
+      "discovery_group": "evaluation",
+      "kind": "evaluation",
+      "role": "Generates camera-visible depth and reference clouds from images, LiDAR and poses for reconstruction evaluation in vegetation-rich environments.",
+      "links": {
+        "paper": "https://arxiv.org/abs/2611.05361"
+      },
+      "survey_reference": "Research supplement · evaluation",
+      "citation_keys": [
+        "research2026visibilityawarereference"
+      ]
+    },
+    {
+      "report_id": "S01",
+      "name": "Drive3R",
+      "paper_id": "arxiv:2610.15112",
+      "citation_key": "research2026drive3r",
+      "title": "Drive3R: Block-wise Streaming Geometric Foundation Models for Autonomous Driving",
+      "year": 2026,
+      "publication": "arXiv 2026",
+      "paper_url": "https://arxiv.org/abs/2610.15112",
+      "resources": {
+        "code": "https://github.com/AutoLab-SAI-SJTU/Drive3R"
+      },
+      "topic": "2.2",
+      "survey_section": "3.2.2",
+      "cited_in": [],
+      "inventory_id": null,
+      "destination": "homepage",
+      "first_submission": "2026-10-10",
+      "revision_checked": "v1",
+      "revision_date": "2026-10-10",
+      "checked_at": "2026-11-07",
+      "added_to_repo": "2026-11-07",
+      "in_supplied_manuscript": false,
+      "selection_basis": "November 2026 research supplement; individually checked primary sources",
+      "persistent_state": "World-frame points and camera poses",
+      "resource_status": {
+        "code": "released"
+      },
+      "summary": "Streams long driving sequences through block-wise geometry estimation with confidence-aware re-anchoring.",
+      "evidence_scope": "A driving-specific geometric support method; not a complete simulator or physical scene package.",
+      "primary_sources": [
+        "https://arxiv.org/abs/2610.15112",
+        "https://github.com/AutoLab-SAI-SJTU/Drive3R"
+      ],
+      "discovery_group": "support-method"
+    },
+    {
+      "report_id": "S02",
+      "name": "MCSplat",
+      "paper_id": "arxiv:2610.25345",
+      "citation_key": "research2026mcsplat",
+      "title": "MCSplat: Multi-View Photometric and Geometric Consistent Feed-Forward Gaussian Splatting for Driving Scenes",
+      "year": 2026,
+      "publication": "NeurIPS 2026 (accepted)",
+      "paper_url": "https://arxiv.org/abs/2610.25345",
+      "resources": {},
+      "topic": "2.3",
+      "survey_section": "3.2.3",
+      "cited_in": [],
+      "inventory_id": null,
+      "destination": "homepage",
+      "first_submission": "2026-10-18",
+      "revision_checked": "v1",
+      "revision_date": "2026-10-18",
+      "checked_at": "2026-11-07",
+      "added_to_repo": "2026-11-07",
+      "in_supplied_manuscript": false,
+      "selection_basis": "November 2026 research supplement; individually checked primary sources",
+      "persistent_state": "Multi-camera-consistent driving Gaussians",
+      "resource_status": {
+        "code": "unverified"
+      },
+      "summary": "Separates camera-specific appearance from canonical scene appearance to reduce geometric artifacts.",
+      "evidence_scope": "Evidence concerns geometry and rendering consistency; simulator physics is not established.",
+      "primary_sources": [
+        "https://arxiv.org/abs/2610.25345"
+      ],
+      "discovery_group": "support-method",
+      "display_group": "Feed-forward driving reconstruction"
+    },
+    {
+      "report_id": "S03",
+      "name": "LangStreet",
+      "paper_id": "arxiv:2609.11616",
+      "citation_key": "research2026langstreet",
+      "title": "LangStreet: Persistent Language Fields for Anchor-Decoded Street Gaussians",
+      "year": 2026,
+      "publication": "arXiv 2026",
+      "paper_url": "https://arxiv.org/abs/2609.11616",
+      "resources": {},
+      "topic": "2.4",
+      "survey_section": "3.2.4",
+      "cited_in": [],
+      "inventory_id": null,
+      "destination": "homepage",
+      "first_submission": "2026-09-10",
+      "revision_checked": "v1",
+      "revision_date": "2026-09-10",
+      "checked_at": "2026-11-07",
+      "added_to_repo": "2026-11-07",
+      "in_supplied_manuscript": false,
+      "selection_basis": "November 2026 research supplement; individually checked primary sources",
+      "persistent_state": "Persistent anchor/slot language fields",
+      "resource_status": {
+        "code": "planned"
+      },
+      "summary": "Attaches stable semantic ownership to persistent street-scene anchors and decoder slots.",
+      "evidence_scope": "A semantic-query layer for driving scenes; semantic benchmarks do not establish physical interaction.",
+      "primary_sources": [
+        "https://arxiv.org/abs/2609.11616"
+      ],
+      "discovery_group": "support-method"
+    },
+    {
+      "report_id": "B01",
+      "name": "World from Motion",
+      "paper_id": "arxiv:2607.01202",
+      "citation_key": "research2026worldfrommotion",
+      "title": "World from Motion: Generative Dynamic Gaussian Reconstruction from Monocular Video",
+      "year": 2026,
+      "publication": "NeurIPS 2026 (accepted)",
+      "paper_url": "https://arxiv.org/abs/2607.01202",
+      "resources": {
+        "project": "https://research.nvidia.com/labs/amri/projects/world-from-motion/",
+        "code": "https://github.com/GradientSpaces/World-from-Motion"
+      },
+      "topic": "2.3",
+      "survey_section": "3.2.3",
+      "cited_in": [],
+      "inventory_id": null,
+      "destination": "homepage",
+      "first_submission": "2026-07-01",
+      "revision_checked": "v2",
+      "revision_date": "2026-10-23",
+      "checked_at": "2026-11-07",
+      "added_to_repo": "2026-11-07",
+      "in_supplied_manuscript": false,
+      "selection_basis": "November 2026 research supplement; individually checked primary sources",
+      "persistent_state": "Dynamic 3D Gaussians with distilled generative completion",
+      "resource_status": {
+        "code": "partial"
+      },
+      "summary": "Distills generated novel-view content and motion back into a persistent monocular-video reconstruction.",
+      "evidence_scope": "Historical omission, first submitted in July. Generic 4D reconstruction includes outdoor examples; driving/UAV policy benefits are not established.",
+      "primary_sources": [
+        "https://arxiv.org/abs/2607.01202",
+        "https://research.nvidia.com/labs/amri/projects/world-from-motion/",
+        "https://github.com/GradientSpaces/World-from-Motion"
+      ],
+      "discovery_group": "historical-omission",
+      "display_group": "Generative completion of dynamic scenes"
+    },
+    {
+      "report_id": "B02",
+      "name": "PERSIST",
+      "paper_id": "arxiv:2603.03482",
+      "citation_key": "research2026persist",
+      "title": "Beyond Pixel Histories: World Models with Persistent 3D State",
+      "year": 2026,
+      "publication": "ICML 2026",
+      "paper_url": "https://proceedings.mlr.press/v306/garcin26a.html",
+      "resources": {
+        "code": "https://github.com/francelico/PERSIST",
+        "preprint": "https://arxiv.org/abs/2603.03482"
+      },
+      "topic": null,
+      "survey_section": "3.1.4",
+      "cited_in": [],
+      "inventory_id": null,
+      "destination": "methodological-reference",
+      "first_submission": "2026-03-03",
+      "revision_checked": "v2",
+      "revision_date": "2026-06-03",
+      "checked_at": "2026-11-07",
+      "added_to_repo": "2026-11-07",
+      "in_supplied_manuscript": false,
+      "selection_basis": "November 2026 research supplement; individually checked primary sources",
+      "persistent_state": "Latent 3D environment, camera and renderer",
+      "resource_status": {
+        "code": "released"
+      },
+      "summary": "Maintains persistent 3D world state and supports geometry-aware editing in interactive world generation.",
+      "evidence_scope": "Game-world evidence in Craftium/OpenWorldCreative; retained as a scoped mechanism reference.",
+      "primary_sources": [
+        "https://arxiv.org/abs/2603.03482",
+        "https://github.com/francelico/PERSIST"
+      ],
+      "discovery_group": "historical-omission",
+      "scope": "Game worlds with persistent 3D state",
+      "reason": "Game-world evidence in Craftium/OpenWorldCreative; retained as a scoped mechanism reference.",
+      "anchor": "research2026persist"
+    },
+    {
+      "report_id": "B03",
+      "name": "HieraScaffold",
+      "paper_id": "pmlr:wu26cf",
+      "citation_key": "research2026hierascaffold",
+      "title": "HieraScaffold: Learning Compact Hierarchical Representations for Scalable 4D LiDAR Generation",
+      "year": 2026,
+      "publication": "ICML 2026",
+      "paper_url": "https://proceedings.mlr.press/v306/wu26cf.html",
+      "resources": {},
+      "topic": "1.3",
+      "survey_section": "3.1.3",
+      "cited_in": [],
+      "inventory_id": null,
+      "destination": "homepage",
+      "first_submission": null,
+      "revision_checked": null,
+      "revision_date": null,
+      "checked_at": "2026-11-07",
+      "added_to_repo": "2026-11-07",
+      "in_supplied_manuscript": false,
+      "selection_basis": "November 2026 research supplement; individually checked primary sources",
+      "persistent_state": "Hierarchical static geometry and temporal motion scaffold",
+      "resource_status": {
+        "code": "unverified"
+      },
+      "summary": "Generates outdoor 4D LiDAR with hierarchical geometry/motion decomposition and compact neural contourlets.",
+      "evidence_scope": "Historical omission from ICML 2026; not a full physical environment. Earliest preprint date was not established.",
+      "primary_sources": [
+        "https://proceedings.mlr.press/v306/wu26cf.html"
+      ],
+      "discovery_group": "historical-omission",
+      "display_group": "Terrain and sensor-oriented world generation",
+      "first_submission_note": "Earliest preprint date unverified; formal ICML 2026 proceedings confirmed."
+    },
+    {
+      "report_id": "E01",
+      "name": "Puffin-World",
+      "paper_id": "arxiv:2609.04196",
+      "citation_key": "research2026puffinworld",
+      "title": "Puffin-World: Scaling a Unified Multimodal Model with Native 3D World States",
+      "year": 2026,
+      "publication": "arXiv 2026",
+      "paper_url": "https://arxiv.org/abs/2609.04196",
+      "resources": {
+        "project": "https://kangliao929.github.io/projects/puffin-world/",
+        "code": "https://github.com/KangLiao929/Puffin"
+      },
+      "topic": null,
+      "survey_section": "3.1.4",
+      "cited_in": [],
+      "inventory_id": null,
+      "destination": "methodological-reference",
+      "first_submission": "2026-09-03",
+      "revision_checked": "v1",
+      "revision_date": "2026-09-03",
+      "checked_at": "2026-11-07",
+      "added_to_repo": "2026-11-07",
+      "in_supplied_manuscript": false,
+      "selection_basis": "November 2026 research supplement; individually checked primary sources",
+      "persistent_state": "Camera, depth and appearance with aligned point-cloud outputs",
+      "resource_status": {
+        "code": "released"
+      },
+      "summary": "Unifies multimodal perception and generation with native 3D world-state components.",
+      "evidence_scope": "General mechanism with outdoor examples; a persistent global map and robot-control loop have not been established.",
+      "primary_sources": [
+        "https://arxiv.org/abs/2609.04196",
+        "https://kangliao929.github.io/projects/puffin-world/",
+        "https://github.com/KangLiao929/Puffin"
+      ],
+      "discovery_group": "scope-extension",
+      "scope": "General native-3D multimodal models",
+      "reason": "General mechanism with outdoor examples; a persistent global map and robot-control loop have not been established.",
+      "anchor": "research2026puffinworld"
+    },
+    {
+      "report_id": "E02",
+      "name": "SceneRig",
+      "paper_id": "arxiv:2610.28585",
+      "citation_key": "research2026scenerig",
+      "title": "SceneRig: An Agentic System for Simulation-Ready 3D Scene Reconstruction from Single Images",
+      "year": 2026,
+      "publication": "CoRL Agentic Robotics Workshop 2026 (accepted)",
+      "paper_url": "https://arxiv.org/abs/2610.28585",
+      "resources": {},
+      "topic": null,
+      "survey_section": "3.4",
+      "cited_in": [],
+      "inventory_id": null,
+      "destination": "methodological-reference",
+      "first_submission": "2026-10-20",
+      "revision_checked": "v1",
+      "revision_date": "2026-10-20",
+      "checked_at": "2026-11-07",
+      "added_to_repo": "2026-11-07",
+      "in_supplied_manuscript": false,
+      "selection_basis": "November 2026 research supplement; individually checked primary sources",
+      "persistent_state": "Editable scene assets validated inside a physics simulator",
+      "resource_status": {
+        "code": "unverified"
+      },
+      "summary": "Uses geometry, vision and physics tools in repeated reconstruction, editing and validation loops.",
+      "evidence_scope": "Primarily indoor manipulation; robot-policy results do not establish outdoor applicability.",
+      "primary_sources": [
+        "https://arxiv.org/abs/2610.28585"
+      ],
+      "discovery_group": "scope-extension",
+      "scope": "Indoor reconstruction and simulation feedback",
+      "reason": "Primarily indoor manipulation; robot-policy results do not establish outdoor applicability.",
+      "anchor": "research2026scenerig"
+    },
+    {
+      "report_id": "E03",
+      "name": "ScIntBench",
+      "paper_id": "arxiv:2610.37326",
+      "citation_key": "research2026scintbench",
+      "title": "ScIntBench: Physical Interaction Plausibility in 3D Scene Generation",
+      "year": 2026,
+      "publication": "arXiv 2026",
+      "paper_url": "https://arxiv.org/abs/2610.37326",
+      "resources": {
+        "project": "https://scintbench.github.io/"
+      },
+      "topic": null,
+      "survey_section": "5",
+      "cited_in": [],
+      "inventory_id": null,
+      "destination": "supporting-reference",
+      "first_submission": "2026-10-27",
+      "revision_checked": "v1",
+      "revision_date": "2026-10-27",
+      "checked_at": "2026-11-07",
+      "added_to_repo": "2026-11-07",
+      "in_supplied_manuscript": false,
+      "selection_basis": "November 2026 research supplement; individually checked primary sources",
+      "persistent_state": "Interaction evaluation traces and scene-state checks",
+      "resource_status": {
+        "code": "unverified"
+      },
+      "summary": "Evaluates physical interaction plausibility through prescribed manipulation and post-interaction checks.",
+      "evidence_scope": "Indoor benchmark; retained for transferable evaluation design, outside the outdoor resource count.",
+      "primary_sources": [
+        "https://arxiv.org/abs/2610.37326",
+        "https://scintbench.github.io/"
+      ],
+      "discovery_group": "scope-extension",
+      "category": "evaluation-reference",
+      "reason": "Indoor benchmark; retained for transferable evaluation design, outside the outdoor resource count."
+    },
+    {
+      "report_id": "E04",
+      "name": "OneFixer",
+      "paper_id": "arxiv:2609.32175",
+      "citation_key": "research2026onefixer",
+      "title": "OneFixer: High-Quality and Consistent One-Step Autoregressive 3DGS Refinement for Driving Scenes",
+      "year": 2026,
+      "publication": "arXiv 2026",
+      "paper_url": "https://arxiv.org/abs/2609.32175",
+      "resources": {},
+      "topic": null,
+      "survey_section": "5",
+      "cited_in": [],
+      "inventory_id": null,
+      "destination": "supporting-reference",
+      "first_submission": "2026-09-26",
+      "revision_checked": "v1",
+      "revision_date": "2026-09-26",
+      "checked_at": "2026-11-07",
+      "added_to_repo": "2026-11-07",
+      "in_supplied_manuscript": false,
+      "selection_basis": "November 2026 research supplement; individually checked primary sources",
+      "persistent_state": "Refined rendered observations; 3D write-back unverified",
+      "resource_status": {
+        "code": "unverified"
+      },
+      "summary": "Refines driving-scene renderings with one-step autoregressive diffusion and evaluates closed-loop driving.",
+      "evidence_scope": "Runtime observation refinement; persistence of edits in the underlying 3D state is not established.",
+      "primary_sources": [
+        "https://arxiv.org/abs/2609.32175"
+      ],
+      "discovery_group": "scope-extension",
+      "category": "runtime-reference",
+      "reason": "Runtime observation refinement; persistence of edits in the underlying 3D state is not established."
+    },
+    {
+      "report_id": "M238",
+      "name": "WEDGE",
+      "paper_id": "arxiv:2610.19420",
+      "citation_key": "research2026wedge",
+      "title": "From Failures to Learnable Worlds: Policy-Conditioned Environment Generation for Navigation Agents",
+      "year": 2026,
+      "publication": "arXiv 2026",
+      "paper_url": "https://arxiv.org/abs/2610.19420",
+      "resources": {
+        "project": "https://zhangyuejoslin.github.io/WEDGE/"
+      },
+      "topic": null,
+      "survey_section": "3.4",
+      "cited_in": [],
+      "inventory_id": null,
+      "destination": "methodological-reference",
+      "first_submission": "2026-10-14",
+      "revision_checked": "v1",
+      "revision_date": "2026-10-14",
+      "checked_at": "2026-11-07",
+      "added_to_repo": "2026-11-07",
+      "in_supplied_manuscript": true,
+      "selection_basis": "November 2026 research supplement; individually checked primary sources",
+      "persistent_state": "Policy-conditioned indoor layouts and object placements",
+      "resource_status": {
+        "code": "unverified"
+      },
+      "summary": "Turns policy weaknesses into executable environment factors and targeted generation for navigation adaptation.",
+      "evidence_scope": "Already cited in the supplied manuscript; ProcTHOR/HM3D evidence remains explicitly indoor.",
+      "primary_sources": [
+        "https://arxiv.org/abs/2610.19420",
+        "https://zhangyuejoslin.github.io/WEDGE/"
+      ],
+      "discovery_group": "manuscript-status",
+      "scope": "Indoor policy-conditioned environment generation",
+      "reason": "Already cited in the supplied manuscript; ProcTHOR/HM3D evidence remains explicitly indoor.",
+      "anchor": "research2026wedge"
+    }
+  ],
+  "metadata_updates": [
+    {
+      "citation_key": "wang2026worldagentv1",
+      "paper_id": "arxiv:2609.33208",
+      "resources": {
+        "project": "https://wclw1021.github.io/WorldAgent_Web/"
+      },
+      "resource_status": {
+        "code": "planned"
+      },
+      "checked_at": "2026-11-07",
+      "first_submission": "2026-09-27",
+      "note": "Official project explicitly says code coming soon."
+    },
+    {
+      "citation_key": "zhang2026code2worlds2v1",
+      "paper_id": "arxiv:2610.17651",
+      "resources": {
+        "code": "https://github.com/AIGeeksGroup/Code2Worlds-2"
+      },
+      "resource_status": {
+        "code": "released"
+      },
+      "checked_at": "2026-11-07",
+      "first_submission": "2026-10-13",
+      "note": "Source is public; frozen reference-package readiness is not a generated-environment success rate."
+    }
+  ],
+  "excluded": [
+    {
+      "paper_id": "arxiv:2610.28829",
+      "title": "HorizonComposer: Spatiotemporally Consistent Driving Video Editing with Enriched Traffic Semantics",
+      "paper_url": "https://arxiv.org/abs/2610.28829",
+      "reason": "Video editing; persistent 3D-state write-back not established."
+    },
+    {
+      "paper_id": "arxiv:2609.06948",
+      "title": "PRG-Fusion: Orchestrating Generative Priors with Reconstruction Evidence for Driving View Synthesis",
+      "paper_url": "https://arxiv.org/abs/2609.06948",
+      "reason": "Novel-trajectory observation synthesis; persistent 3D-state write-back not established."
+    }
+  ]
+}

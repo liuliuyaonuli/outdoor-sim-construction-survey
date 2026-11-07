@@ -916,10 +916,10 @@ These 74 references came from the manuscript bibliography. Their placement is de
   <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2511.18005v3)
 
 - **WorldAgent: Verification-Guided Agentic Physical World Construction**\
-  <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2609.33208v1)
+  <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2609.33208v1) · [🌐 Project](https://wclw1021.github.io/WorldAgent_Web/) · <sub>⏳ Code pending</sub>
 
 - **Code2Worlds-2: Physically Plausible Agent Harness for Embodied World Simulation**\
-  <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2610.17651v1)
+  <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2610.17651v1) · [💻 Code](https://github.com/AIGeeksGroup/Code2Worlds-2)
 
 - **Objaverse: A Universe of Annotated 3D Objects**\
   <sub>CVPR 2023</sub> · [📄 Paper](https://openaccess.thecvf.com/content/CVPR2023/html/Deitke_Objaverse_A_Universe_of_Annotated_3D_Objects_CVPR_2023_paper.html)
@@ -950,6 +950,95 @@ These 74 references came from the manuscript bibliography. Their placement is de
 
 - **GaussianEditor: Swift and Controllable 3D Editing with Gaussian Splatting**\
   <sub>CVPR 2024</sub> · [📄 Paper](https://openaccess.thecvf.com/content/CVPR2024/html/Chen_GaussianEditor_Swift_and_Controllable_3D_Editing_with_Gaussian_Splatting_CVPR_2024_paper.html)
+
+
+## Independently Curated Research Updates
+
+Later discoveries, historical omissions, evaluation studies and scoped examples are recorded separately from the manuscript snapshot. See [research updates](research-updates.md) for dates, release states and evidence limits.
+
+- **OctWorld: Long-Range World-Consistent Video Generation with Octree-Based 3D Mapping**\
+  <sub>ECCV 2026</sub> · [📄 Paper](https://arxiv.org/abs/2609.03919) · [🌐 Project](https://microsoft.github.io/OctWorld/) · [💻 Inference code](https://github.com/microsoft/OctWorld)
+
+- **L3G-World: Real-Time Infinite World Generation with Latent 3D Gaussian Memory**\
+  <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2610.40614) · [🌐 Project](https://cvlab-kaist.github.io/L3G-World/) · [📌 Release plan](https://github.com/cvlab-kaist/L3G-World) · <sub>⏳ Code pending</sub>
+
+- **Drive2Gauss: FeedForward 4D Gaussian Reconstruction from Multimodal Generative Driving Videos**\
+  <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2610.26585) · [💻 Code](https://github.com/zttt04/Drive2Gauss_)
+
+- **Building Rome from a Single Image**\
+  <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2610.08790) · [🌐 Project](https://build-rome.github.io/) · [💻 Inference code](https://github.com/Applied-Intuition-Open-Source/BuildRome) · [🤗 Weights](https://huggingface.co/AppliedIntuitionResearch/BuildRome)
+
+- **DistScene: Object-to-Scene Distillation for 3D Scene Generation**\
+  <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2610.06960) · [🌐 Project](https://coolbeam.github.io/DistScene/) · <sub>⏳ Code pending</sub>
+
+- **RECAST: From Log Replay to Closed-Loop Driving Simulation with View-Complete Actors**\
+  <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2609.31374) · [🌐 Project](https://zijunkr.github.io/RECAST/)
+
+- **Foundation4D: Towards a unified perception and reconstruction model for autonomous vehicles**\
+  <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2610.30340) · [🌐 Project](https://research.nvidia.com/labs/sil/projects/foundation4d/) · [🗃️ Dataset](https://huggingface.co/datasets/nvidia/PhysicalAI-Autonomous-Vehicles-Foundation4D)
+
+- **OpenFlyScan: A Quality-Guided Aerial Reconstruction System for Consumer Drones**\
+  <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2609.24253) · [🌐 Project](https://openflyscan.github.io/) · [💻 Partial code](https://github.com/mistletoe235/OpenFlyScan)
+
+- **SkyAnchor: Updating Metric-scale Aerial 3D Gaussian Scenes from Unposed Ground-View Sequences**\
+  <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2609.13903)
+
+- **VDGS: Visibility-Driven Large-Scale 3D Gaussian Splatting for Aerial Scene Reconstruction**\
+  <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2609.23049)
+
+- **ReconDreamer#: Self-Evolving Closed-Loop Synergy of Reconstruction and Generation for Dynamic Driving Scenes**\
+  <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2611.04173)
+
+- **Quo Vadis, Driving Scene Reconstruction? Occlusion-Aware Gaussian Densification**\
+  <sub>CV4DC / ACCV Workshop 2026 (accepted)</sub> · [📄 Paper](https://arxiv.org/abs/2611.06273)
+
+- **PointForward V2: Point-Aligned Interaction for Feedforward Driving Reconstruction**\
+  <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2610.28120)
+
+- **TerrainForge: Physics-Grounded Road Geometry Editing for Counterfactual Autonomous Driving**\
+  <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2610.02825)
+
+- **IGSW: Multi-Weather Urban Scene Reconstruction with Intrinsic-Decoupled Gaussian Splatting**\
+  <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2611.04374) · [🌐 Project](https://akaxi6.github.io/IGSW/) · [📌 Release plan](https://github.com/Akaxi6/IGSW_IntrinsicGSWeather) · <sub>⏳ Code pending</sub>
+
+- **Code4Scene: Benchmarking Coding Agents for Constructing and Editing 3D Scenes**\
+  <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2609.36777) · [💻 Code](https://github.com/SimWorld-AI/Code4Scene)
+
+- **Visibility-Aware Reference Generation for Benchmarking Visual 3D Reconstruction in Vegetation-Rich Environments**\
+  <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2611.05361) · <sub>⏳ Code pending</sub>
+
+- **Drive3R: Block-wise Streaming Geometric Foundation Models for Autonomous Driving**\
+  <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2610.15112) · [💻 Code](https://github.com/AutoLab-SAI-SJTU/Drive3R)
+
+- **MCSplat: Multi-View Photometric and Geometric Consistent Feed-Forward Gaussian Splatting for Driving Scenes**\
+  <sub>NeurIPS 2026 (accepted)</sub> · [📄 Paper](https://arxiv.org/abs/2610.25345)
+
+- **LangStreet: Persistent Language Fields for Anchor-Decoded Street Gaussians**\
+  <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2609.11616) · <sub>⏳ Code pending</sub>
+
+- **World from Motion: Generative Dynamic Gaussian Reconstruction from Monocular Video**\
+  <sub>NeurIPS 2026 (accepted)</sub> · [📄 Paper](https://arxiv.org/abs/2607.01202) · [🌐 Project](https://research.nvidia.com/labs/amri/projects/world-from-motion/) · [💻 Partial code](https://github.com/GradientSpaces/World-from-Motion)
+
+- **Beyond Pixel Histories: World Models with Persistent 3D State**\
+  <sub>ICML 2026</sub> · [📄 Paper](https://proceedings.mlr.press/v306/garcin26a.html) · [💻 Code](https://github.com/francelico/PERSIST) · [📝 Preprint](https://arxiv.org/abs/2603.03482)
+
+- **HieraScaffold: Learning Compact Hierarchical Representations for Scalable 4D LiDAR Generation**\
+  <sub>ICML 2026</sub> · [📄 Paper](https://proceedings.mlr.press/v306/wu26cf.html)
+
+- **Puffin-World: Scaling a Unified Multimodal Model with Native 3D World States**\
+  <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2609.04196) · [🌐 Project](https://kangliao929.github.io/projects/puffin-world/) · [💻 Code](https://github.com/KangLiao929/Puffin)
+
+- **SceneRig: An Agentic System for Simulation-Ready 3D Scene Reconstruction from Single Images**\
+  <sub>CoRL Agentic Robotics Workshop 2026 (accepted)</sub> · [📄 Paper](https://arxiv.org/abs/2610.28585)
+
+- **ScIntBench: Physical Interaction Plausibility in 3D Scene Generation**\
+  <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2610.37326) · [🌐 Project](https://scintbench.github.io/)
+
+- **OneFixer: High-Quality and Consistent One-Step Autoregressive 3DGS Refinement for Driving Scenes**\
+  <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2609.32175)
+
+- **From Failures to Learnable Worlds: Policy-Conditioned Environment Generation for Navigation Agents**\
+  <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2610.19420) · [🌐 Project](https://zhangyuejoslin.github.io/WEDGE/)
 
 
 The original inventory is preserved in [data/papers.json](../data/papers.json). Curated metadata and bibliography keys are in [data/featured.json](../data/featured.json). The homepage uses the curated publication labels where they differ from the historical inventory.

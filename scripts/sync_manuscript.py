@@ -132,6 +132,9 @@ def main():
     old = {r['citation_key']: r for name in ['featured.json', 'methodological-references.json'] for r in load(name)}
     inventory, candidates = load('papers.json'), load('candidates.json')
     topic_for = {t['title']: t for t in curation['topics']}
+    topics_by_id = {t['id']: t for t in curation['topics']}
+    for heading, topic_id in curation.get('manuscript_heading_aliases', {}).items():
+        topic_for[heading] = topics_by_id[topic_id]
     topic_for['Hybrid Construction and Automated Orchestration'] = curation['topics'][-1]
 
     def match_inventory(record):

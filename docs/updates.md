@@ -1,3 +1,15 @@
+# 🗓️ Research Update — 2026-11-07
+
+[← Survey reading guide](../README.md) · [Paper-by-paper details](research-updates.md)
+
+- 20 construction methods added: 15 core recent methods, three outdoor support methods, and two historical omissions.
+- Two evaluation studies added to the supporting resources.
+- Four scoped methodological references and two evaluation/runtime references added; these include WEDGE, already cited in the supplied manuscript.
+- WorldAgent's code remains pending; Code2Worlds-2 now links verified public source.
+- First-submission dates are kept separate from revisions, conference acceptance and repository addition dates.
+
+---
+
 # 🗓️ Manuscript Update — 2026-11-06
 
 [← Survey reading guide](../README.md)

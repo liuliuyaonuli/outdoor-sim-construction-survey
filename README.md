@@ -11,9 +11,9 @@
 **🚗 Autonomous Driving &nbsp; · &nbsp; 🚁 Aerial Robotics &nbsp; · &nbsp; 🌲 Outdoor Worlds**
 
 <p>
-  <kbd>📚 125 selected methods</kbd> &nbsp;
+  <kbd>📚 145 selected methods</kbd> &nbsp;
   <kbd>🗂️ 12 technical topics</kbd> &nbsp;
-  <kbd>🧰 28 supporting resources</kbd>
+  <kbd>🧰 30 supporting resources</kbd>
 </p>
 
 <p>
@@ -38,27 +38,27 @@ A curated collection of research on automatically constructing outdoor 3D simula
 
 面向室外自主系统的三维仿真环境构建论文与资源，按“生成、重建、变换及混合编排”组织，提供论文、代码、项目与数据集链接。
 
-**Updated 2026-11-06.**
+**Updated 2026-11-07.**
 
 <table>
 <tr>
 <td width="33%" valign="top">
 <h3>🌱 Synthesis</h3>
-<p><strong>新环境生成 · 58 methods</strong></p>
+<p><strong>新环境生成 · 62 methods</strong></p>
 <p>Rules → assets → learned structures → visual priors.</p>
 <p><sub>Diversity + constraints</sub></p>
 <a href="#synthesis">Explore synthesis →</a>
 </td>
 <td width="33%" valign="top">
 <h3>🧭 Reconstruction</h3>
-<p><strong>真实环境重建 · 41 methods</strong></p>
+<p><strong>真实环境重建 · 55 methods</strong></p>
 <p>Maps → geometry → neural scenes → environmental properties.</p>
 <p><sub>Reality correspondence</sub></p>
 <a href="#reconstruction">Explore reconstruction →</a>
 </td>
 <td width="33%" valign="top">
 <h3>🛠️ Transformation</h3>
-<p><strong>现有环境变换 · 22 methods</strong></p>
+<p><strong>现有环境变换 · 24 methods</strong></p>
 <p>Completion → object editing → appearance and physics.</p>
 <p><sub>Change + preservation</sub></p>
 <a href="#transformation">Explore transformation →</a>
@@ -281,6 +281,9 @@ Learned distributions generate scene parameters, layouts, voxels, neural fields,
 
 #### Terrain and sensor-oriented world generation
 
+- <a id="paper-research2026hierascaffold"></a>**HieraScaffold: Learning Compact Hierarchical Representations for Scalable 4D LiDAR Generation**\
+  <sub>ICML 2026</sub> · [📄 Paper](https://proceedings.mlr.press/v306/wu26cf.html)
+
 - <a id="paper-zyrianov2025lidardm"></a>**LidarDM: Generative LiDAR Simulation in a Generated World**\
   <sub>ICRA 2025</sub> · [📄 Paper](https://zyrianov.org/lidardm/LidarDM_ICRA2025.pdf)
 
@@ -294,14 +297,23 @@ Learned distributions generate scene parameters, layouts, voxels, neural fields,
 
 Images, panoramas, and videos supply visual priors that are lifted or fused into spatial environments.
 
+- <a id="paper-research2026drive2gauss"></a>**Drive2Gauss: FeedForward 4D Gaussian Reconstruction from Multimodal Generative Driving Videos**\
+  <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2610.26585) · [💻 Code](https://github.com/zttt04/Drive2Gauss_)
+
 - <a id="paper-li2026flymiragev1"></a>**FlyMirage: A Fully Automated Generation Pipeline for Diverse and Scalable UAV Flight Data via Generative World Model**\
   <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2605.19600v1)
 
 - <a id="paper-hyworld2026v1"></a>**HY-World 2.0: A Multi-Modal World Model for Reconstructing, Generating, and Simulating 3D Worlds**\
   <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2604.14268v1) · [💻 Code](https://github.com/Tencent-Hunyuan/HY-World-2.0)
 
+- <a id="paper-research2026l3gworld"></a>**L3G-World: Real-Time Infinite World Generation with Latent 3D Gaussian Memory**\
+  <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2610.40614) · [🌐 Project](https://cvlab-kaist.github.io/L3G-World/) · [📌 Release plan](https://github.com/cvlab-kaist/L3G-World) · <sub>⏳ Code pending</sub>
+
 - <a id="paper-ost2026lsd3d"></a>**LSD-3D: Large-Scale 3D Driving Scene Generation with Geometry Grounding**\
   <sub>AAAI 2026</sub> · [📄 Paper](https://arxiv.org/abs/2508.19204v1)
+
+- <a id="paper-research2026octworld"></a>**OctWorld: Long-Range World-Consistent Video Generation with Octree-Based 3D Mapping**\
+  <sub>ECCV 2026</sub> · [📄 Paper](https://arxiv.org/abs/2609.03919) · [🌐 Project](https://microsoft.github.io/OctWorld/) · [💻 Inference code](https://github.com/microsoft/OctWorld)
 
 - <a id="paper-kim2026scenefrom3dv1"></a>**SceneFrom3D: Geometry-Conditioned Outdoor 3D Scene Generation via View Scheduling with Object-Level Control**\
   <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2607.04540v1)
@@ -366,6 +378,9 @@ Georeferenced maps and elevation data establish the structure of a specific site
 ### 📡 2.2 Explicit Geometry Recovery and Multisensor Fusion
 
 Calibrated observations and sensor fusion recover explicit samples, surfaces, and object geometry.
+
+- <a id="paper-research2026drive3r"></a>**Drive3R: Block-wise Streaming Geometric Foundation Models for Autonomous Driving**\
+  <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2610.15112) · [💻 Code](https://github.com/AutoLab-SAI-SJTU/Drive3R)
 
 - <a id="paper-kostrzewa2025photogrammetry"></a>**Open-Source vs. Commercial Photogrammetry: Comparing Accuracy and Efficiency of OpenDroneMap and Agisoft Metashape**\
   <sub>ISPRS Archives 2025</sub> · [📄 Paper](https://doi.org/10.5194/isprs-archives-XLVIII-1-W4-2025-65-2025)
@@ -432,7 +447,28 @@ Neural fields and Gaussian representations recover captured outdoor scenes, appe
   <sub>CVPR 2021</sub> · [📄 Paper](https://openaccess.thecvf.com/content/CVPR2021/html/Ost_Neural_Scene_Graphs_for_Dynamic_Scenes_CVPR_2021_paper.html)
 
 
-#### Feed-forward and aerial reconstruction
+#### Feed-forward driving reconstruction
+
+- <a id="paper-chen2026dggt"></a>**DGGT: Feedforward 4D Reconstruction of Dynamic Driving Scenes using Unposed Images**\
+  <sub>CVPR 2026</sub> · [📄 Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Chen_DGGT_Feedforward_4D_Reconstruction_of_Dynamic_Driving_Scenes_using_Unposed_CVPR_2026_paper.html)
+
+- <a id="paper-research2026foundation4d"></a>**Foundation4D: Towards a unified perception and reconstruction model for autonomous vehicles**\
+  <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2610.30340) · [🌐 Project](https://research.nvidia.com/labs/sil/projects/foundation4d/) · [🗃️ Dataset](https://huggingface.co/datasets/nvidia/PhysicalAI-Autonomous-Vehicles-Foundation4D)
+
+- <a id="paper-nvidia2026instantnurec"></a>**Instant NuRec: Feed-Forward 3D Gaussian Reconstruction for Driving Scene Simulation**\
+  <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2607.14203v1) · [🌐 Project](https://research.nvidia.com/labs/sil/projects/instant-nurec) · [💻 Code](https://github.com/nvidia/instant-nurec)
+
+- <a id="paper-research2026mcsplat"></a>**MCSplat: Multi-View Photometric and Geometric Consistent Feed-Forward Gaussian Splatting for Driving Scenes**\
+  <sub>NeurIPS 2026 (accepted)</sub> · [📄 Paper](https://arxiv.org/abs/2610.25345)
+
+- <a id="paper-research2026pointforwardv2"></a>**PointForward V2: Point-Aligned Interaction for Feedforward Driving Reconstruction**\
+  <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2610.28120)
+
+- <a id="paper-ren2024scube"></a>**SCube: Instant Large-Scale Scene Reconstruction using VoxSplats**\
+  <sub>NeurIPS 2024</sub> · [📄 Paper](https://proceedings.nips.cc/paper_files/paper/2024/hash/b111aa30ab71255946b19b6bd4e68939-Abstract-Conference.html)
+
+
+#### Aerial reconstruction and cross-view updates
 
 - <a id="paper-liu2026aerodgs"></a>**AeroDGS: Physically Consistent Dynamic Gaussian Splatting for Single-Sequence Aerial 4D Reconstruction**\
   <sub>CVPR 2026</sub> · [📄 Paper](https://arxiv.org/abs/2602.22376v1)
@@ -440,32 +476,29 @@ Neural fields and Gaussian representations recover captured outdoor scenes, appe
 - <a id="paper-li2026aerogs"></a>**AeroGS: Scale-Aware Gaussian Splatting for Pose-Free Dynamic UAV Scene Reconstruction**\
   <sub>CVPR 2026</sub> · [📄 Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Li_AeroGS_Scale-Aware_Gaussian_Splatting_for_Pose-Free_Dynamic_UAV_Scene_Reconstruction_CVPR_2026_paper.html)
 
-- <a id="paper-chen2026dggt"></a>**DGGT: Feedforward 4D Reconstruction of Dynamic Driving Scenes using Unposed Images**\
-  <sub>CVPR 2026</sub> · [📄 Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Chen_DGGT_Feedforward_4D_Reconstruction_of_Dynamic_Driving_Scenes_using_Unposed_CVPR_2026_paper.html)
+- <a id="paper-research2026openflyscan"></a>**OpenFlyScan: A Quality-Guided Aerial Reconstruction System for Consumer Drones**\
+  <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2609.24253) · [🌐 Project](https://openflyscan.github.io/) · [💻 Partial code](https://github.com/mistletoe235/OpenFlyScan)
 
-- <a id="paper-nvidia2026instantnurec"></a>**Instant NuRec: Feed-Forward 3D Gaussian Reconstruction for Driving Scene Simulation**\
-  <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2607.14203v1) · [🌐 Project](https://research.nvidia.com/labs/sil/projects/instant-nurec) · [💻 Code](https://github.com/nvidia/instant-nurec)
+- <a id="paper-research2026skyanchor"></a>**SkyAnchor: Updating Metric-scale Aerial 3D Gaussian Scenes from Unposed Ground-View Sequences**\
+  <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2609.13903)
 
 - <a id="paper-choi2026uav4d"></a>**UAV4D: Dynamic Neural Rendering of Human-Centric UAV Imagery Using Gaussian Splatting**\
   <sub>AAAI 2026</sub> · [📄 Paper](https://ojs.aaai.org/index.php/AAAI/article/view/37333)
 
-- <a id="paper-ren2024scube"></a>**SCube: Instant Large-Scale Scene Reconstruction using VoxSplats**\
-  <sub>NeurIPS 2024</sub> · [📄 Paper](https://proceedings.nips.cc/paper_files/paper/2024/hash/b111aa30ab71255946b19b6bd4e68939-Abstract-Conference.html)
+- <a id="paper-research2026vdgs"></a>**VDGS: Visibility-Driven Large-Scale 3D Gaussian Splatting for Aerial Scene Reconstruction**\
+  <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2609.23049)
 
 
-#### Surface recovery and generative completion
+#### Surface recovery and single-image completion
+
+- <a id="paper-research2026buildrome"></a>**Building Rome from a Single Image**\
+  <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2610.08790) · [🌐 Project](https://build-rome.github.io/) · [💻 Inference code](https://github.com/Applied-Intuition-Open-Source/BuildRome) · [🤗 Weights](https://huggingface.co/AppliedIntuitionResearch/BuildRome)
+
+- <a id="paper-research2026distscene"></a>**DistScene: Object-to-Scene Distillation for 3D Scene Generation**\
+  <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2610.06960) · [🌐 Project](https://coolbeam.github.io/DistScene/) · <sub>⏳ Code pending</sub>
 
 - <a id="paper-qian2026sat3dgen"></a>**Sat3DGen: Comprehensive Street-Level 3D Scene Generation from Single Satellite Image**\
   <sub>ICLR 2026</sub> · [📄 Paper](https://arxiv.org/abs/2605.14984) · [💻 Code](https://github.com/qianmingduowan/Sat3DGen)
-
-- <a id="paper-zhao2025drivedreamer4d"></a>**DriveDreamer4D: World Models Are Effective Data Machines for 4D Driving Scene Representation**\
-  <sub>CVPR 2025</sub> · [📄 Paper](https://arxiv.org/abs/2410.13571v3)
-
-- <a id="paper-ni2025recondreamer"></a>**ReconDreamer: Crafting World Models for Driving Scene Reconstruction via Online Restoration**\
-  <sub>CVPR 2025</sub> · [📄 Paper](https://arxiv.org/abs/2411.19548v1)
-
-- <a id="paper-yan2025streetcrafter"></a>**StreetCrafter: Street View Synthesis with Controllable Video Diffusion Models**\
-  <sub>CVPR 2025</sub> · [📄 Paper](https://arxiv.org/abs/2412.13188v3)
 
 - <a id="paper-zhang2024hgca"></a>**Outdoor Scene Extrapolation with Hierarchical Generative Cellular Automata**\
   <sub>CVPR 2024</sub> · [📄 Paper](https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_Outdoor_Scene_Extrapolation_with_Hierarchical_Generative_Cellular_Automata_CVPR_2024_paper.html)
@@ -475,6 +508,30 @@ Neural fields and Gaussian representations recover captured outdoor scenes, appe
 
 - <a id="paper-guo2023streetsurfv1"></a>**StreetSurf: Extending Multi-View Implicit Surface Reconstruction to Street Views**\
   <sub>arXiv 2023</sub> · [📄 Paper](https://arxiv.org/abs/2306.04988v1)
+
+
+#### Generative completion of dynamic scenes
+
+- <a id="paper-research2026occsplat"></a>**Quo Vadis, Driving Scene Reconstruction? Occlusion-Aware Gaussian Densification**\
+  <sub>CV4DC / ACCV Workshop 2026 (accepted)</sub> · [📄 Paper](https://arxiv.org/abs/2611.06273)
+
+- <a id="paper-research2026recast"></a>**RECAST: From Log Replay to Closed-Loop Driving Simulation with View-Complete Actors**\
+  <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2609.31374) · [🌐 Project](https://zijunkr.github.io/RECAST/)
+
+- <a id="paper-research2026recondreamer"></a>**ReconDreamer#: Self-Evolving Closed-Loop Synergy of Reconstruction and Generation for Dynamic Driving Scenes**\
+  <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2611.04173)
+
+- <a id="paper-research2026worldfrommotion"></a>**World from Motion: Generative Dynamic Gaussian Reconstruction from Monocular Video**\
+  <sub>NeurIPS 2026 (accepted)</sub> · [📄 Paper](https://arxiv.org/abs/2607.01202) · [🌐 Project](https://research.nvidia.com/labs/amri/projects/world-from-motion/) · [💻 Partial code](https://github.com/GradientSpaces/World-from-Motion)
+
+- <a id="paper-zhao2025drivedreamer4d"></a>**DriveDreamer4D: World Models Are Effective Data Machines for 4D Driving Scene Representation**\
+  <sub>CVPR 2025</sub> · [📄 Paper](https://arxiv.org/abs/2410.13571v3)
+
+- <a id="paper-ni2025recondreamer"></a>**ReconDreamer: Crafting World Models for Driving Scene Reconstruction via Online Restoration**\
+  <sub>CVPR 2025</sub> · [📄 Paper](https://arxiv.org/abs/2411.19548v1)
+
+- <a id="paper-yan2025streetcrafter"></a>**StreetCrafter: Street View Synthesis with Controllable Video Diffusion Models**\
+  <sub>CVPR 2025</sub> · [📄 Paper](https://arxiv.org/abs/2412.13188v3)
 
 
 #### Cross-scale observations and navigation-oriented surfaces
@@ -491,6 +548,9 @@ Neural fields and Gaussian representations recover captured outdoor scenes, appe
 ### 🌬️ 2.4 Recovering Simulation-Relevant Structures and Properties
 
 Recovery extends to persistent surfaces, calibrated facility behavior, and environmental fields.
+
+- <a id="paper-research2026langstreet"></a>**LangStreet: Persistent Language Fields for Anchor-Decoded Street Gaussians**\
+  <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2609.11616) · <sub>⏳ Code pending</sub>
 
 - <a id="paper-xu2025streetunveiler"></a>**3D StreetUnveiler with Semantic-aware 2DGS - a simple baseline**\
   <sub>ICLR 2025</sub> · [📄 Paper](https://arxiv.org/abs/2405.18416) · [🌐 Project](https://streetunveiler.github.io)
@@ -572,6 +632,9 @@ Structured scene representations expose object edits, semantic selection, and co
 
 Scene variants change illumination, weather, physical properties, or geometry-dependent environmental fields.
 
+- <a id="paper-research2026igsw"></a>**IGSW: Multi-Weather Urban Scene Reconstruction with Intrinsic-Decoupled Gaussian Splatting**\
+  <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2611.04374) · [🌐 Project](https://akaxi6.github.io/IGSW/) · [📌 Release plan](https://github.com/Akaxi6/IGSW_IntrinsicGSWeather) · <sub>⏳ Code pending</sub>
+
 - <a id="paper-fiebelman2026letitsnow"></a>**Let it Snow! Animating 3D Gaussian Scenes with Dynamic Weather Effects via Physics-Guided Score Distillation**\
   <sub>CVPR 2026</sub> · [📄 Paper](https://arxiv.org/abs/2504.05296v4) · [🌐 Project](https://galfiebelman.github.io/let-it-snow/) · [💻 Code](https://github.com/galfiebelman/let-it-snow)
 
@@ -583,6 +646,9 @@ Scene variants change illumination, weather, physical properties, or geometry-de
 
 - <a id="paper-zhou2026rovesv1"></a>**Physics-Aware 3D Gaussian Editing for Driving Scene Generation**\
   <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2605.25373v1)
+
+- <a id="paper-research2026terrainforge"></a>**TerrainForge: Physics-Grounded Road Geometry Editing for Counterfactual Autonomous Driving**\
+  <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2610.02825)
 
 - <a id="paper-qian2026weatheredit"></a>**WeatherEdit: Controllable Weather Editing with 4D Gaussian Field**\
   <sub>AAAI 2026</sub> · [📄 Paper](https://doi.org/10.1609/aaai.v40i10.37802) · [🌐 Project](https://jumponthemoon.github.io/w-edit/)
@@ -702,6 +768,8 @@ View extrapolation, world-generation control, policy learning, and scenario-base
 | **WorldScore** | Controllability, quality, and dynamics under standardized camera trajectories and semantic controls | [📄 Paper](https://openaccess.thecvf.com/content/ICCV2025/html/Duan_WorldScore_A_Unified_Evaluation_Benchmark_for_World_Generation_ICCV_2025_paper.html) |
 | **NeuroNCAP** | Scenario-based safety tests with policy actions and subsequent rendered observations | [📄 Paper](https://doi.org/10.1007/978-3-031-73404-5_10) |
 | **RAD** | Policy learning in reconstructed Gaussian environments; other actors follow logged trajectories in the reviewed experiments | [📄 Paper](https://proceedings.neurips.cc/paper_files/paper/2025/hash/2ed3a566a0af6dcec424b988f1880ecc-Abstract-Conference.html) |
+| **Code4Scene** | Benchmarks Unreal scene construction/editing, artifact integrity, static validity, non-target preservation and controller-specific route execution; third-party assets obtained separately. | [📄 Paper](https://arxiv.org/abs/2609.36777) · [💻 Code](https://github.com/SimWorld-AI/Code4Scene) |
+| **Visibility-Aware Reference** | Generates camera-visible depth and reference clouds from images, LiDAR and poses for reconstruction evaluation in vegetation-rich environments. Toolkit pending. | [📄 Paper](https://arxiv.org/abs/2611.05361) |
 
 ### 📏 Response References
 

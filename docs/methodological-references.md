@@ -1,6 +1,6 @@
 # 🧭 Methodological References
 
-These 10 papers supply scoped methodological examples for Chapter 3: indoor environments, general physical-world construction, game worlds, navigation structure, and abstract road graphs.
+These 14 papers supply scoped methodological examples: indoor environments, general physical-world construction, game worlds, navigation structure, and abstract road graphs. The manuscript snapshot contains 10 of these; later additions retain their scope and provenance separately.
 
 [← Survey reading guide](../README.md)
 
@@ -92,7 +92,7 @@ These 10 papers supply scoped methodological examples for Chapter 3: indoor envi
 **Survey section 3.4.** World specifications and geometry/simulation feedback illustrate verification-guided orchestration; retained as a general physical-world reference.
 
 - **WorldAgent: Verification-Guided Agentic Physical World Construction**\
-  <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2609.33208v1)
+  <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2609.33208v1) · [🌐 Project](https://wclw1021.github.io/WorldAgent_Web/) · <sub>⏳ Code pending</sub>
 
 
 <a id="zhang2026code2worlds2v1"></a>
@@ -102,7 +102,47 @@ These 10 papers supply scoped methodological examples for Chapter 3: indoor envi
 **Survey section 3.4.** Visual-to-MuJoCo compilation and simulator checks illustrate physical preparation and feedback for embodied worlds.
 
 - **Code2Worlds-2: Physically Plausible Agent Harness for Embodied World Simulation**\
-  <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2610.17651v1)
+  <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2610.17651v1) · [💻 Code](https://github.com/AIGeeksGroup/Code2Worlds-2)
+
+
+<a id="research2026persist"></a>
+
+## Game worlds with persistent 3D state
+
+**Suggested survey section 3.1.4.** Game-world evidence in Craftium/OpenWorldCreative; retained as a scoped mechanism reference.
+
+- **Beyond Pixel Histories: World Models with Persistent 3D State**\
+  <sub>ICML 2026</sub> · [📄 Paper](https://proceedings.mlr.press/v306/garcin26a.html) · [💻 Code](https://github.com/francelico/PERSIST) · [📝 Preprint](https://arxiv.org/abs/2603.03482)
+
+
+<a id="research2026puffinworld"></a>
+
+## General native-3D multimodal models
+
+**Suggested survey section 3.1.4.** General mechanism with outdoor examples; a persistent global map and robot-control loop have not been established.
+
+- **Puffin-World: Scaling a Unified Multimodal Model with Native 3D World States**\
+  <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2609.04196) · [🌐 Project](https://kangliao929.github.io/projects/puffin-world/) · [💻 Code](https://github.com/KangLiao929/Puffin)
+
+
+<a id="research2026scenerig"></a>
+
+## Indoor reconstruction and simulation feedback
+
+**Suggested survey section 3.4.** Primarily indoor manipulation; robot-policy results do not establish outdoor applicability.
+
+- **SceneRig: An Agentic System for Simulation-Ready 3D Scene Reconstruction from Single Images**\
+  <sub>CoRL Agentic Robotics Workshop 2026 (accepted)</sub> · [📄 Paper](https://arxiv.org/abs/2610.28585)
+
+
+<a id="research2026wedge"></a>
+
+## Indoor policy-conditioned environment generation
+
+**Suggested survey section 3.4.** Already cited in the supplied manuscript; ProcTHOR/HM3D evidence remains explicitly indoor.
+
+- **From Failures to Learnable Worlds: Policy-Conditioned Environment Generation for Navigation Agents**\
+  <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2610.19420) · [🌐 Project](https://zhangyuejoslin.github.io/WEDGE/)
 
 
 [Machine-readable records](../data/methodological-references.json) · [Selection notes](selection-notes.md)

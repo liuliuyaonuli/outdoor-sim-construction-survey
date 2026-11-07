@@ -1,6 +1,6 @@
 # 📘 Supporting Literature
 
-Technical background, resource references, and surveys used in Chapter 3.
+Technical background, resource references, surveys, and separately scoped evaluation/runtime extensions.
 
 [← Survey reading guide](../README.md)
 
@@ -62,3 +62,19 @@ Geographic map source used by construction pipelines.
   <sub>arXiv 2024</sub> · [📄 Paper](https://arxiv.org/abs/2404.13816v1)
 
 Background survey connecting NeRF reconstruction, perception, SLAM, and simulation.
+
+
+## Evaluation Design — Indoor Scope
+
+- **ScIntBench: Physical Interaction Plausibility in 3D Scene Generation**\
+  <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2610.37326) · [🌐 Project](https://scintbench.github.io/)
+
+Indoor benchmark; retained for transferable evaluation design, outside the outdoor resource count.
+
+
+## Runtime Observation Refinement
+
+- **OneFixer: High-Quality and Consistent One-Step Autoregressive 3DGS Refinement for Driving Scenes**\
+  <sub>arXiv 2026</sub> · [📄 Paper](https://arxiv.org/abs/2609.32175)
+
+Runtime observation refinement; persistence of edits in the underlying 3D state is not established.

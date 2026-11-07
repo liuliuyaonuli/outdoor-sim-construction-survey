@@ -1979,26 +1979,36 @@
         ]
       },
       {
-        "title": "Feed-forward and aerial reconstruction",
+        "title": "Feed-forward driving reconstruction",
         "citation_keys": [
           "nvidia2026instantnurec",
           "ren2024scube",
-          "chen2026dggt",
+          "chen2026dggt"
+        ]
+      },
+      {
+        "title": "Aerial reconstruction and cross-view updates",
+        "citation_keys": [
           "li2026aerogs",
           "liu2026aerodgs",
           "choi2026uav4d"
         ]
       },
       {
-        "title": "Surface recovery and generative completion",
+        "title": "Surface recovery and single-image completion",
         "citation_keys": [
           "guo2023streetsurfv1",
-          "zhao2025drivedreamer4d",
           "zhang2024hgca",
           "li2024sat2scene",
-          "yan2025streetcrafter",
-          "ni2025recondreamer",
           "qian2026sat3dgen"
+        ]
+      },
+      {
+        "title": "Generative completion of dynamic scenes",
+        "citation_keys": [
+          "zhao2025drivedreamer4d",
+          "yan2025streetcrafter",
+          "ni2025recondreamer"
         ]
       },
       {
@@ -2009,5 +2019,13 @@
         ]
       }
     ]
+  },
+  "manuscript_heading_aliases": {
+    "Learning-Based 3D Structure and Scene Representation Generation": "1.3",
+    "Image- and Video-Prior-Driven 3D Environment Generation": "1.4",
+    "Geospatial- and Map-Driven Structured Reconstruction": "2.1",
+    "Explicit Geometry Recovery and Multi-Sensor Fusion": "2.2",
+    "Neural-Field- and Gaussian-Based Environment Reconstruction": "2.3",
+    "Simulation-Oriented Structure and Attribute Recovery": "2.4"
   }
 }

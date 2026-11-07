@@ -5,6 +5,7 @@ from collections import Counter
 import html
 import json
 from pathlib import Path
+import re
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -17,11 +18,64 @@ def load(name):
 ICONS = {
     'paper': '📄', 'code': '💻', 'project': '🌐', 'dataset': '🗃️',
     'documentation': '📘', 'devkit': '🧰', 'product': '🔗', 'preprint': '📝',
+    'weights': '🤗', 'release_plan': '📌',
 }
 
 
-def links(resources):
-    return ' · '.join(f'[{ICONS.get(kind, "🔗")} {kind.title()}]({url})' for kind, url in resources.items())
+def links(resources, statuses=None):
+    labels = {'release_plan': 'Release plan'}
+    code_status = (statuses or {}).get('code')
+    if code_status in ('planned', 'unverified'):
+        assert not resources.get('code'), 'An implementation link requires verified code.'
+    if code_status == 'inference-released':
+        labels['code'] = 'Inference code'
+    elif code_status == 'partial':
+        labels['code'] = 'Partial code'
+    return ' · '.join(f'[{ICONS.get(kind, "🔗")} {labels.get(kind, kind.title())}]({url})' for kind, url in resources.items())
+
+
+def paper_id(paper):
+    match = re.search(r'arxiv\.org/(?:abs|pdf)/(\d{4}\.\d{4,5})', paper.get('paper_url', ''))
+    return paper.get('paper_id') or ('arxiv:' + match[1] if match else paper['citation_key'])
+
+
+def merge_research(update, featured, related, supporting, resources, curation):
+    """Overlay independently curated research without changing the manuscript snapshot."""
+    destinations = {'homepage': featured, 'methodological-reference': related,
+                    'supporting-reference': supporting, 'evaluation': resources}
+    index = {}
+    titles = {}
+    def title_id(paper):
+        return re.sub(r'[^a-z0-9]', '', paper['title'].casefold())
+    for rows in destinations.values():
+        for paper in rows:
+            if 'citation_key' in paper:
+                assert paper_id(paper) not in index, paper_id(paper)
+                index[paper_id(paper)] = paper
+                titles[title_id(paper)] = paper
+    for patch in update['metadata_updates']:
+        paper = next(p for p in featured + related + supporting if p['citation_key'] == patch['citation_key'])
+        paper['resources'].update(patch['resources'])
+        paper.update({key: value for key, value in patch.items() if key not in ('resources', 'note')})
+    for paper in update['papers']:
+        identity = paper_id(paper)
+        existing = index.get(identity) or titles.get(title_id(paper))
+        if existing is not None:
+            # A future manuscript refresh may incorporate a supplemental paper.
+            # Keep its manuscript key, location and citation provenance.
+            index[identity] = existing
+            existing.setdefault('resources', {}).update(paper['resources'])
+            for field in ('resource_status', 'checked_at', 'first_submission'):
+                existing[field] = paper[field]
+            continue
+        destinations[paper['destination']].append(paper)
+        index[identity] = paper
+        titles[title_id(paper)] = paper
+        if paper.get('display_group'):
+            groups = curation['display_groups'][paper['topic']]
+            group = next(g for g in groups if g['title'] == paper['display_group'])
+            group['citation_keys'].append(paper['citation_key'])
+    return index
 
 
 def entry(paper, anchor=False):
@@ -29,7 +83,9 @@ def entry(paper, anchor=False):
     resources = {'paper': paper['paper_url'], **paper['resources']}
     resources = {key: value for key, value in resources.items() if value}
     result = (f'- {prefix}**{paper["title"]}**' + '\\' + '\n'
-              f'  <sub>{html.escape(paper["publication"])}</sub> · {links(resources)}')
+              f'  <sub>{html.escape(paper["publication"])}</sub> · {links(resources, paper.get("resource_status"))}')
+    if paper.get('resource_status', {}).get('code') == 'planned':
+        result += ' · <sub>⏳ Code pending</sub>'
     for extension in paper.get('extensions', []):
         result += ('\\' + '\n' + f'  <sub>↳ Journal extension: {html.escape(extension["title"])} · {html.escape(extension["publication"])}</sub> '
                    f'· [📄 Journal paper]({extension["paper_url"]})')
@@ -44,17 +100,20 @@ def main():
     resources = load('resources.json')
     curation = load('curation.json')
     supporting = load('supporting-references.json')
+    research = load('research-updates.json')
+    manuscript_counts = {'homepage': len(featured), 'related': len(related), 'supporting': len(supporting)}
+    assert len(featured) + len(related) + len(supporting) + sum(len(p.get('extensions', [])) for p in featured) == curation['counts']['chapter3_citations']
+    additional = [p for p in featured + related + supporting if p['inventory_id'] is None]
+    current_papers = merge_research(research, featured, related, supporting, resources, curation)
     resolutions = {r['candidate_id']: r for r in curation.get('candidate_resolutions', [])}
     active_candidates = [p for p in candidates if p['id'] not in resolutions]
     selected_ids = {p['inventory_id'] for p in featured if p['inventory_id']}
     related_ids = {p['inventory_id'] for p in related if p['inventory_id']}
     pending_provisional = [p for p in inventory if p['provisional'] and p['id'] not in selected_ids]
-    additional = [p for p in featured + related + supporting if p['inventory_id'] is None]
     topics = curation['topics']
     counts = Counter(p['topic'].split('.')[0] for p in featured)
-    assert len({p['citation_key'] for p in featured + related}) == len(featured) + len(related)
+    assert len({p['citation_key'] for p in featured + related + supporting}) == len(featured) + len(related) + len(supporting)
     assert {p['topic'] for p in featured} == {t['id'] for t in topics}
-    assert len(featured) + len(related) + len(supporting) + sum(len(p.get('extensions', [])) for p in featured) == curation['counts']['chapter3_citations']
 
     sections = {
         '1': ('🌱', 'Synthesis of New Environments', 'synthesis', 'Create new environments using procedural rules, asset composition, learned structures, or visual priors.'),
@@ -101,7 +160,7 @@ A curated collection of research on automatically constructing outdoor 3D simula
 
 面向室外自主系统的三维仿真环境构建论文与资源，按“生成、重建、变换及混合编排”组织，提供论文、代码、项目与数据集链接。
 
-**Updated {curation['last_synced']}.**
+**Updated {max(curation['last_synced'], research['date'])}.**
 
 <table>
 <tr>
@@ -198,7 +257,9 @@ Platforms, scene data, assets, and benchmarks for constructing and evaluating si
     ]
     for kind, title, description in resource_groups:
         out.append(f'\n### {title}\n\n{description}\n\n| Resource | Purpose | Links |\n| :--- | :--- | :--- |')
-        out.extend(f'| **{r["name"]}** | {r["role"]} | {links(r["links"])} |' for r in resources if r['kind'] == kind)
+        out.extend(f'| **{r["name"]}** | {r["role"]}'
+                   + (' Toolkit pending.' if r.get('resource_status', {}).get('code') == 'planned' else '')
+                   + f' | {links(r["links"], r.get("resource_status"))} |' for r in resources if r['kind'] == kind)
 
     out.append('''
 
@@ -225,7 +286,7 @@ Suggestions and corrections are welcome through [Issues](https://github.com/liul
 
     related_out = [f'''# 🧭 Methodological References
 
-These {len(related)} papers supply scoped methodological examples for Chapter 3: indoor environments, general physical-world construction, game worlds, navigation structure, and abstract road graphs.
+These {len(related)} papers supply scoped methodological examples: indoor environments, general physical-world construction, game worlds, navigation structure, and abstract road graphs. The manuscript snapshot contains {manuscript_counts['related']} of these; later additions retain their scope and provenance separately.
 
 [← Survey reading guide](../README.md)
 ''']
@@ -233,7 +294,8 @@ These {len(related)} papers supply scoped methodological examples for Chapter 3:
                        'Indoor scene authoring': 'indoor-scene-authoring', 'Multi-scene game worlds': 'multi-scene-game-worlds',
                        'Indoor physical arrangement': 'indoor-physical-arrangement'}
     for p in related:
-        related_out.append(f'\n<a id="{p.get("anchor", related_anchors.get(p["scope"], p["citation_key"]))}"></a>\n\n## {p["scope"]}\n\n**Survey section {p["survey_section"]}.** {p["reason"]}\n')
+        section_label = 'Suggested survey section' if p.get('added_to_repo') else 'Survey section'
+        related_out.append(f'\n<a id="{p.get("anchor", related_anchors.get(p["scope"], p["citation_key"]))}"></a>\n\n## {p["scope"]}\n\n**{section_label} {p["survey_section"]}.** {p["reason"]}\n')
         related_out.append(entry(p))
     related_out.append('\n[Machine-readable records](../data/methodological-references.json) · [Selection notes](selection-notes.md)\n')
     (docs / 'methodological-references.md').write_text('\n'.join(related_out).strip() + '\n')
@@ -255,6 +317,8 @@ This collection retains the **{len(inventory)} original inventory records** and 
             extended.append(entry(current) + f'  <sub>Inventory {p["id"]} · {status}</sub>\n')
     extended.append(f'\n## Additional References from the Manuscript\n\nThese {len(additional)} references came from the manuscript bibliography. Their placement is described in the source notes; presence in this archive does not by itself indicate homepage selection.\n')
     extended.extend(entry(p) for p in additional)
+    extended.append('\n## Independently Curated Research Updates\n\nLater discoveries, historical omissions, evaluation studies and scoped examples are recorded separately from the manuscript snapshot. See [research updates](research-updates.md) for dates, release states and evidence limits.\n')
+    extended.extend(entry(p) for p in research['papers'])
     extended.append('\nThe original inventory is preserved in [data/papers.json](../data/papers.json). Curated metadata and bibliography keys are in [data/featured.json](../data/featured.json). The homepage uses the curated publication labels where they differ from the historical inventory.\n')
     (docs / 'extended-reading.md').write_text('\n'.join(extended).strip() + '\n')
 
@@ -281,13 +345,15 @@ There are **{len(active_candidates)} unresolved records** from the historical se
 
 ## Selection Basis
 
-The homepage follows construction methods directly discussed in **Chapter 3 of the manuscript**. The current bibliography has **{curation['counts']['bibliography_entries']} entries**; Chapter 3 cites **{curation['counts']['chapter3_citations']}** of them. The homepage contains **{len(featured)} method families**, with **{len(related)} methodological examples**, **{len(supporting)} supporting references**, and **{sum(len(p.get('extensions', [])) for p in featured)} associated journal extension** accounted for separately.
+The homepage combines the **Chapter 3 manuscript snapshot** with separately curated research updates. The source bibliography has **{curation['counts']['bibliography_entries']} entries**; Chapter 3 cites **{curation['counts']['chapter3_citations']}** of them: **{manuscript_counts['homepage']} method families**, **{manuscript_counts['related']} methodological examples**, **{manuscript_counts['supporting']} supporting references**, and **{sum(len(p.get('extensions', [])) for p in featured)} associated journal extension**. Independently added papers are not retroactively counted as manuscript citations.
+
+The continuously maintained guide now contains **{len(featured)} method families**, **{len(related)} methodological examples**, **{len(supporting)} supporting references** and **{len(resources)} supporting resources**. [Research updates](research-updates.md) records additions, first-submission dates and verified release states.
 
 The survey's technical subdivisions determine the homepage topics. An environment-generation method is not placed in a separate language-agent category solely because it invokes an LLM; procedural control, asset assembly, learned structure generation, and visual-prior-guided construction remain distinct routes. Repeated citations and secondary operations do not create duplicate homepage entries.
 
 The methodological-reference page identifies indoor, game-world, navigation, graph-level, and general physical-world examples. COLMAP papers, general surface representations, instruction-based editing mechanisms, asset/map references, and a driving-NeRF survey are listed in supporting literature. CityDreamer4D is associated with CityDreamer as a journal extension and does not increase the method-family count.
 
-Platforms, data, assets, and response references are drawn from **Sections 4–5 and Table 4**. Their resource rows are not additional selected methods; some platforms are also discussed as construction methods.
+The baseline platforms, data, assets, and response references are drawn from **Sections 4–5 and Table 4**; subsequent evaluation studies have their own research-update provenance. Resource rows are not additional selected methods; some platforms are also discussed as construction methods.
 
 ## Original Inventory Dispositions
 
@@ -304,13 +370,13 @@ Of the historical 25 provisional entries, **{25-len(pending_provisional)} now ap
 
 ## Publication Metadata and Links
 
-Curated titles, years, and publication labels follow `references.bib`; version-specific paper URLs are retained when the manuscript cites a particular version. Existing author-maintained links are reused from the inventory. The historical JSON retains its original metadata for traceability; the extended-reading display uses current curated metadata for matched records.
+Manuscript titles, years, and publication labels follow `references.bib`; version-specific paper URLs are retained when the manuscript cites a particular version. Research updates use primary paper, publisher and author resources, keeping first submission, revision and repository addition dates distinct. Accepted venues are labeled as accepted, and placeholder repositories are linked as release plans rather than implementation code. The historical JSON retains its original metadata for traceability.
 
 PandaSet links to its development kit, and CarSim links to the product page; the reviewed vehicle-response experiments use CarSim 2022.1. Project links for GoogleEarth views, Vid2Sim videos, and LiDARsim assets identify the reviewed resource context, without implying a new independent dataset release.
 
-## Source Correspondence
+## Topic Placement, Including Research Updates
 
-| Homepage topic | Manuscript section | Methods |
+| Homepage topic | Corresponding manuscript section | Current methods |
 | :--- | :--- | ---: |
 ''']
     notes[0] = notes[0].rstrip()
@@ -318,20 +384,21 @@ PandaSet links to its development kit, and CarSim links to the product page; the
         notes.append(f'| {topic["id"]} {topic["title"]} | {topic["survey_section"]} | {sum(p["topic"] == topic["id"] for p in featured)} |')
     notes.append(f'''
 
-The bibliography key and discussion sections for each selected study are recorded in [featured.json](../data/featured.json). [curation.json](../data/curation.json) records all original inventory dispositions and SHA-256 hashes of the manuscript source files used for this selection. Source prose, unpublished manuscript files, figures, and paper PDFs are not copied into this repository.
+The manuscript bibliography keys and discussion sections are recorded in [featured.json](../data/featured.json). [curation.json](../data/curation.json) records original inventory dispositions and manuscript source fingerprints. [research-updates.json](../data/research-updates.json) records independent additions and a report fingerprint. The homepage taxonomy figure is user-provided; manuscript prose, source files, the supplied research report and paper PDFs are not copied into the repository.
 
 ## Files and Maintenance
 
 | File | Purpose |
 | :--- | :--- |
 | [data/featured.json](../data/featured.json) | Curated methods, current bibliography metadata, and manuscript correspondence. |
-| [data/methodological-references.json](../data/methodological-references.json) | The {len(related)} separately scoped references. |
+| [data/methodological-references.json](../data/methodological-references.json) | The {manuscript_counts['related']} manuscript-scoped examples; later additions live in research-updates.json. |
 | [data/supporting-references.json](../data/supporting-references.json) | Technical background, resource references, and related surveys. |
 | [data/resources.json](../data/resources.json) | Supporting resource roles, links, and source citation keys. |
 | [data/curation.json](../data/curation.json) | Topic definitions, source fingerprints, and inventory dispositions. |
 | [data/papers.json](../data/papers.json) | The unchanged 177-record historical inventory. |
 | [data/candidates.json](../data/candidates.json) | The unchanged seven-record boundary queue. |
-| [data/latest-update.json](../data/latest-update.json) | Added methods and metadata/classification changes in this update. |
+| [data/latest-update.json](../data/latest-update.json) | The previous manuscript refresh snapshot and its change list. |
+| [data/research-updates.json](../data/research-updates.json) | Independent research additions, publication/release checks and scoped exclusions. |
 
 To update the displayed guide, edit the relevant curated records and run:
 
@@ -341,11 +408,11 @@ python3 scripts/render_readme.py
 
 The renderer uses only the Python standard library. It renders the homepage and supplemental Markdown from the repository data; it does not automatically promote inventory records into the homepage.
 
-For a manuscript refresh, run `python3 scripts/sync_manuscript.py /path/to/manuscript`, review the updated records and scope policies in `data/curation.json`, then run the renderer. The sync reads the supplied manuscript directory and writes only repository metadata.
+For a manuscript refresh, run `python3 scripts/sync_manuscript.py /path/to/manuscript`, review the updated records and scope policies in `data/curation.json`, then run the renderer. The sync reads the supplied manuscript directory and writes only repository metadata. Independent additions remain in `data/research-updates.json` and are merged when rendering, with stable paper IDs used to avoid duplicating a paper that later enters the manuscript.
 ''')
     (docs / 'selection-notes.md').write_text('\n'.join(notes).strip() + '\n')
-    supporting_out = ['# 📘 Supporting Literature\n\nTechnical background, resource references, and surveys used in Chapter 3.\n\n[← Survey reading guide](../README.md)\n']
-    for category, title in [('technical-background', 'Technical Background'), ('resource-reference', 'Map and Asset References'), ('survey', 'Related Surveys')]:
+    supporting_out = ['# 📘 Supporting Literature\n\nTechnical background, resource references, surveys, and separately scoped evaluation/runtime extensions.\n\n[← Survey reading guide](../README.md)\n']
+    for category, title in [('technical-background', 'Technical Background'), ('resource-reference', 'Map and Asset References'), ('survey', 'Related Surveys'), ('evaluation-reference', 'Evaluation Design — Indoor Scope'), ('runtime-reference', 'Runtime Observation Refinement')]:
         supporting_out.append(f'\n## {title}\n')
         for p in supporting:
             if p['category'] == category:
@@ -359,9 +426,9 @@ For a manuscript refresh, run `python3 scripts/sync_manuscript.py /path/to/manus
 
 | Collection | Previous | Current |
 | :--- | ---: | ---: |
-| Homepage method families | {old_counts['homepage_methods']} | {len(featured)} |
-| Methodological examples | {old_counts['methodological_references']} | {len(related)} |
-| Supporting resources | {old_counts['resource_entries']} | {len(resources)} |
+| Homepage method families | {old_counts['homepage_methods']} | {update['current_counts']['homepage_methods']} |
+| Methodological examples | {old_counts['methodological_references']} | {update['current_counts']['methodological_references']} |
+| Supporting resources | {old_counts['resource_entries']} | {update['current_counts']['resource_entries']} |
 
 ## Publication and Scope Changes
 
@@ -379,7 +446,48 @@ For a manuscript refresh, run `python3 scripts/sync_manuscript.py /path/to/manus
         if added:
             update_out.append(f'\n### {topic["id"]} {topic["title"]}\n')
             update_out.extend(f'- [{p["title"]}](../README.md#paper-{p["citation_key"]})' for p in added)
-    (docs / 'updates.md').write_text('\n'.join(update_out).strip() + '\n')
+    recent_counts = Counter(p['destination'] for p in research['papers'])
+    recent_header = f'''# 🗓️ Research Update — {research['date']}
+
+[← Survey reading guide](../README.md) · [Paper-by-paper details](research-updates.md)
+
+- {recent_counts['homepage']} construction methods added: 15 core recent methods, three outdoor support methods, and two historical omissions.
+- Two evaluation studies added to the supporting resources.
+- Four scoped methodological references and two evaluation/runtime references added; these include WEDGE, already cited in the supplied manuscript.
+- WorldAgent's code remains pending; Code2Worlds-2 now links verified public source.
+- First-submission dates are kept separate from revisions, conference acceptance and repository addition dates.
+
+---
+
+'''
+    (docs / 'updates.md').write_text(recent_header + '\n'.join(update_out).strip() + '\n')
+    research_out = [f'''# 📑 Research Additions — {research['date']}
+
+[← Survey reading guide](../README.md)
+
+The supplied research report was used as a discovery list. Paper identities, dates and abstracts were checked against primary sources; linked implementations and release plans were inspected separately. No training, inference or end-to-end reproduction was performed. Metadata checks do not establish every reported experimental claim.
+
+The principal discovery window is 2026-08-31 through 2026-11-06 by first submission. Historical omissions, methodological scope extensions and updates to manuscript-cited papers are identified separately. These additions do not change the manuscript's citation snapshot.
+''']
+    for destination, heading in [('homepage', 'Construction Methods'), ('evaluation', 'Outdoor / Mixed-Scene Evaluation'), ('methodological-reference', 'Scoped Methodological References'), ('supporting-reference', 'Evaluation and Runtime Extensions')]:
+        research_out.append(f'\n## {heading}\n')
+        for p in research['papers']:
+            if p['destination'] != destination:
+                continue
+            current = current_papers[paper_id(p)]
+            research_out.append(f'\n### {p["name"]}\n\n' + entry(p))
+            first = p['first_submission'] or 'unverified (formal ICML 2026 proceedings confirmed)'
+            revision = f'{p["revision_checked"]} ({p["revision_date"]})' if p['revision_checked'] else 'formal proceedings'
+            research_out.append(f'First submission: **{first}** · Checked version: **{revision}** · Added: **{p["added_to_repo"]}**.\n')
+            if destination == 'homepage':
+                research_out.append(f'Placement: [topic {current["topic"]}](../README.md#paper-{current["citation_key"]}).\n')
+            research_out.append(f'{p["summary"]}\n\nPersistent output: {p["persistent_state"]}.\n\nScope: {p["evidence_scope"]}\n\nCode status: `{p["resource_status"]["code"]}` (checked {p["checked_at"]}).\n')
+    research_out.append('\n## Existing Record Updates\n')
+    research_out.extend(f'- **{p["citation_key"]}**: {p["note"]}' for p in research['metadata_updates'])
+    research_out.append('\n## Outside the Construction List\n')
+    research_out.extend(f'- [{p["title"]}]({p["paper_url"]}): {p["reason"]}' for p in research['excluded'])
+    research_out.append('\n[Structured records and primary-source links](../data/research-updates.json)\n')
+    (docs / 'research-updates.md').write_text('\n'.join(research_out).strip() + '\n')
     print(f'Rendered {len(featured)} selected methods, {len(related)} methodological references, {len(resources)} supporting resources, and all original inventory/candidate records.')
 
 
